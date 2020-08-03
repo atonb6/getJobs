@@ -1,3 +1,12 @@
+<<<<<<< HEAD
 node_modules
 bower_components
 vendor
+=======
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+>>>>>>> b830a9773de37b6ce605437bfb09af99e5c38a98
