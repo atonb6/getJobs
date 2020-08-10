@@ -8,13 +8,13 @@
 
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="icon-map">Planes Empresa</a>
+					<a class="nav-link" href="#">Planes Empresa</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="<?php echo $host_link ?>pages/contacto.php">Publicar empleo</a>
+					<a class="nav-link" href="#">Publicar empleo</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="<?php echo $host_link ?>pages/centro-de-recursos.php">Centro de recursos</a>
+					<a class="nav-link" href="#">Centro de recursos</a>
 				</li>
 			</ul>
 		</div>
