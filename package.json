@@ -1,11 +1,11 @@
 {
-    "title": "Legal Work",
-    "name": "legalwork",
-    "version": "5.1.8",
+    "title": "GetJobs",
+    "name": "getjobs",
+    "version": "1.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Legal Work Themplate",
+    "description": "Get Jobs Themplate",
     "keywords": [
         "css",
         "sass",
@@ -24,8 +24,10 @@
         "@fortawesome/fontawesome-free": "^5.12.0",
         "bootstrap": "^4.4.1",
         "concat": "^1.0.3",
+        "gulp-google-fonts": "^1.0.3",
         "gulp-order": "^1.2.0",
         "jquery": "^3.4.1",
+        "jquery-match-height": "^0.7.2",
         "jquery-migrate": "^1.4.1",
         "jquery.easing": "^1.4.1",
         "magnific-popup": "^1.1.0",

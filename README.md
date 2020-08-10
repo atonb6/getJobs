@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## GetJobs Front end - Philippe Paris
 
 ## Uso
@@ -21,7 +20,3 @@ Para agregar nuevos plugins, agregar desde el archivo gulpfile.js, allí agregar
 ## Copyright and License
 
 Copyright 2020 Consciencia Digital.
-=======
-# getJobs
-GetJobsFront
->>>>>>> b830a9773de37b6ce605437bfb09af99e5c38a98

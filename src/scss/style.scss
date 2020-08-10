@@ -1,16 +1,18 @@
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Import Helpers
+@import "helpers/mixins";
+@import "helpers/variables";
+
 // Import Base
 @import "base/fonts";
 @import "base/globals";
 
-// Import Helpers
-
-@import "helpers/mixins";
-@import "helpers/variables";
-
-// Import Bootstrap
-@import "bootstrap/scss/bootstrap";
-
 // Import Layouts
+
+@import "layout/footer";
+@import "layout/header";
 
 // Import Components
 

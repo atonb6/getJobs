@@ -25,8 +25,19 @@ var imgDest = "./dist/img";
 // Cargar package.json para banner
 const pkg = require("./package.json");
 
-// Contenido del Banner
-const banner = [
+// Contenido del Banner CSS
+const bannerCss = [
+  "@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;500;700&family=Material+Icons&family=Playfair+Display:wght@400;700&display=swap');",
+  "/*!\n",
+  " * GetJobs - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n",
+  " * Copyright 2020-" + new Date().getFullYear(),
+  " <%= pkg.author %>\n",
+  " */\n",
+  "\n"
+].join("");
+
+// Contenido del Banner JS
+const bannerJs = [
   "/*!\n",
   " * GetJobs - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n",
   " * Copyright 2020-" + new Date().getFullYear(),
@@ -46,14 +57,6 @@ function modules() {
   var bootstrap = gulp
     .src("./node_modules/bootstrap/dist/js/**/*")
     .pipe(gulp.dest("./src/lib/bootstrap"));
-  // Font Awesome CSS
-  var fontAwesomeCSS = gulp
-    .src("./node_modules/@fortawesome/fontawesome-free/css/**/*")
-    .pipe(gulp.dest("./src/lib/fontawesome-free/css"));
-  // Font Awesome Webfonts
-  var fontAwesomeWebfonts = gulp
-    .src("./node_modules/@fortawesome/fontawesome-free/webfonts/**/*")
-    .pipe(gulp.dest("./src/lib/fontawesome-free/webfonts"));
   // jQuery Easing
   var jqueryEasing = gulp
     .src("./node_modules/jquery.easing/*.js")
@@ -77,15 +80,19 @@ function modules() {
       "!./node_modules/jquery/dist/core.js"
     ])
     .pipe(gulp.dest("./src/lib/jquery"));
+  // jquery-match-height
+    var slick = gulp
+    .src("./node_modules/jquery-match-height/dist/jquery.matchHeight-min.js")
+    .pipe(gulp.dest("./src/lib/jquery-match-height"));
+
   return merge(
     bootstrap,
-    fontAwesomeCSS,
-    fontAwesomeWebfonts,
     jquery,
     jqueryEasing,
     magnificPopup,
     jmigrate,
-    slick
+    slick,
+    jquery-match-height
   );
 }
 
@@ -117,11 +124,11 @@ function css() {
       })
     )
     .pipe(
-      header(banner, {
+      header(bannerCss, {
         pkg: pkg
       })
     )
-    .pipe(order(["fontawesome-free/css/*.min.css", "magnific-popup/*.css"]))
+    .pipe(order(["magnific-popup/*.css"]))
     .pipe(concat("style.css"))
     .pipe(cleanCSS())
     .pipe(
@@ -159,7 +166,7 @@ function js() {
         suffix: ".min"
       })
     )
-    .pipe(header(banner, { pkg: pkg }))
+    .pipe(header(bannerJs, { pkg: pkg }))
     .pipe(gulp.dest("./dist/js"))
     .pipe(
       notify({
