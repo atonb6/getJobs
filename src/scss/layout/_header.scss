@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    nav {
+
+        .nav-item {
+
+            .nav-link {
+                font-size: 0.875rem;
+                text-align: right;
+                color: $white;
+            }
+        }
+    }
+}
