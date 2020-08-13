@@ -81,7 +81,7 @@ function modules() {
     ])
     .pipe(gulp.dest("./src/lib/jquery"));
   // jquery-match-height
-    var slick = gulp
+    var jquerymatchheight = gulp
     .src("./node_modules/jquery-match-height/dist/jquery.matchHeight-min.js")
     .pipe(gulp.dest("./src/lib/jquery-match-height"));
 
@@ -92,7 +92,7 @@ function modules() {
     magnificPopup,
     jmigrate,
     slick,
-    jquery-match-height
+    jquerymatchheight
   );
 }
 

@@ -8,13 +8,13 @@
 
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Planes Empresa</a>
+					<a class="nav-link mr-2" href="#">Planes Empresa</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Publicar empleo</a>
+					<a class="nav-link mr-2" href="#">Publicar empleo</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Centro de recursos</a>
+					<a class="nav-link btn__border" href="#">Ingresar</a>
 				</li>
 			</ul>
 		</div>

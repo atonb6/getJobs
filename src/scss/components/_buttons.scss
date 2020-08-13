@@ -1,0 +1,15 @@
+.btn{
+
+    &__border{
+        border-radius: 7px;
+        border: solid 1px #ffffff;
+    }
+
+    &__submit{
+        border-radius: 0 7px 7px 0;
+        background-color: #40ce74;
+        color: $white;
+        padding: 10px 25px;
+    }
+
+}
