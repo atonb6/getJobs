@@ -3,7 +3,7 @@
 		<form action="#">
 			<div class="row justify-content-center text-center mb-5">
 				<div class="col-md-10">
-					<h1 class="hero__title">Tu búsqueda de trabajo consolidada</h1>
+					<h1 class="hero__title">Tu Plataforma Colaborativa e Inclusiva de Búsqueda de trabajo</h1>
 				</div>
 			</div>
 			<div class="row justify-content-center">
