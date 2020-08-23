@@ -1,8 +1,11 @@
-.header {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 1;
+.header{
+
+    &.absolute{
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
 
     nav {
 
