@@ -33,12 +33,6 @@
     }
 
     form {
-        z-index: 1;
-        position: absolute;
-        top: 50%;
-/*         left: 50%; */
-        transform: translateY(-50%);
-
         input.input--select{
             border-radius: 7px 0 0 7px;
             width: 50%;

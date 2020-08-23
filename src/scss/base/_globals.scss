@@ -134,6 +134,13 @@ input {
     position: absolute;
 }
 
+.center-absolute{
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .black {
     color: $black;
 }
@@ -299,3 +306,4 @@ h4{
     position: absolute;
     };
 }
+
