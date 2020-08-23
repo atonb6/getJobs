@@ -282,3 +282,20 @@ h4{
 .new{
     color: #40ce74;
 }
+
+.maleta{
+    position: relative;
+    margin-right: 25px !important;
+
+    &:after{
+        content: "";
+    background-image: url(../img/maleta.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+    right: -15px;
+    top: 5px;
+    position: absolute;
+    };
+}

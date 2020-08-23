@@ -1,5 +1,5 @@
 .hero {
-    height: 50vh;
+    height: 80vh;
     overflow: hidden;
     width: 100%;
     background-size: cover;
@@ -9,13 +9,20 @@
     position: relative;
     // filter: grayscale(100%);
 
+    &__logo{
+        min-width: 150px;
+    }
+
     &:after {
         content: "";
-        background: rgb(141, 255, 183);
-        background: -moz-linear-gradient(90deg, rgba(141, 255, 183, 1) 0%, rgba(124, 202, 254, 0.4192051820728291) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(141, 255, 183, 1) 0%, rgba(124, 202, 254, 0.4192051820728291) 100%);
-        background: linear-gradient(90deg, rgba(141, 255, 183, 1) 0%, rgba(124, 202, 254, 0.4192051820728291) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8dffb7", endColorstr="#7ccafe", GradientType=1);
+        background: rgba(5,51,82,1);
+        background: -moz-linear-gradient(top, rgba(5,51,82,1) 0%, rgba(75,116,132,0.45) 32%, rgba(224,255,237,0.45) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,51,82,1)), color-stop(32%, rgba(75,116,132,0.45)), color-stop(100%, rgba(224,255,237,0.45)));
+        background: -webkit-linear-gradient(top, rgba(5,51,82,1) 0%, rgba(75,116,132,0.45) 32%, rgba(224,255,237,0.45) 100%);
+        background: -o-linear-gradient(top, rgba(5,51,82,1) 0%, rgba(75,116,132,0.45) 32%, rgba(224,255,237,0.45) 100%);
+        background: -ms-linear-gradient(top, rgba(5,51,82,1) 0%, rgba(75,116,132,0.45) 32%, rgba(224,255,237,0.45) 100%);
+        background: linear-gradient(to bottom, rgba(5,51,82,1) 0%, rgba(75,116,132,0.45) 32%, rgba(224,255,237,0.45) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053352', endColorstr='#e0ffed', GradientType=0 );
         position: absolute;
         left: 0;
         top: 0;
@@ -29,8 +36,8 @@
         z-index: 1;
         position: absolute;
         top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
+/*         left: 50%; */
+        transform: translateY(-50%);
 
         input.input--select{
             border-radius: 7px 0 0 7px;
