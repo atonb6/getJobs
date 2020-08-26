@@ -8,15 +8,27 @@
 		</picture>
 
 		<picture class="hero__slider__img">
-            <source media="(max-width: 549px)" srcset="./dist/img/herobg.jpeg">
-            <source media="(min-width: 550px)" srcset="./dist/img/herobg.jpeg">
-            <img class="hero__slider__img__img-base" src="./dist/img/herobg.jpeg" alt="Hero">
+            <source media="(max-width: 549px)" srcset="./dist/img/herob.jpg">
+            <source media="(min-width: 550px)" srcset="./dist/img/herob.jpg">
+            <img class="hero__slider__img__img-base" src="./dist/img/herob.jpg" alt="Hero">
 		</picture>
 
 		<picture class="hero__slider__img">
-            <source media="(max-width: 549px)" srcset="./dist/img/herobg.jpeg">
-            <source media="(min-width: 550px)" srcset="./dist/img/herobg.jpeg">
-            <img class="hero__slider__img__img-base" src="./dist/img/herobg.jpeg" alt="Hero">
+            <source media="(max-width: 549px)" srcset="./dist/img/heroc.jpg">
+            <source media="(min-width: 550px)" srcset="./dist/img/heroc.jpg">
+            <img class="hero__slider__img__img-base" src="./dist/img/heroc.jpg" alt="Hero">
+		</picture>
+
+		<picture class="hero__slider__img">
+            <source media="(max-width: 549px)" srcset="./dist/img/herod.jpg">
+            <source media="(min-width: 550px)" srcset="./dist/img/herod.jpg">
+            <img class="hero__slider__img__img-base" src="./dist/img/herod.jpg" alt="Hero">
+		</picture>
+
+		<picture class="hero__slider__img">
+            <source media="(max-width: 549px)" srcset="./dist/img/heroe.jpg">
+            <source media="(min-width: 550px)" srcset="./dist/img/heroe.jpg">
+            <img class="hero__slider__img__img-base" src="./dist/img/heroe.jpg" alt="Hero">
 		</picture>
 		
 	</div>
