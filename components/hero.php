@@ -37,7 +37,7 @@
 			<div class="col-md-8 absolute center-absolute hero__forms">
 			<form action="#">
 				<img class="hero__logo" src="./dist/img/logo.svg" alt="Logo">
-				<h1 class="hero__title">Tu Plataforma Colaborativa e Inclusiva de Busqueda de trabajo</h1>
+				<h1 class="hero__title">Tu Plataforma Colaborativa e Inclusiva de Búsqueda de trabajo</h1>
 				
 					<fieldset class="text-center mt-5">
 						<input class="input input--select" type="text" placeholder="Puesto, empresa o palabra clave">
