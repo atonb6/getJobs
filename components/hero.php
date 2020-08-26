@@ -1,7 +1,28 @@
 <section class="hero">
+	<div class="hero__slider">
+
+		<picture class="hero__slider__img">
+            <source media="(max-width: 549px)" srcset="./dist/img/heroa.jpg">
+            <source media="(min-width: 550px)" srcset="./dist/img/heroa.jpg">
+            <img class="hero__slider__img__img-base" src="./dist/img/heroa.jpg" alt="Hero">
+		</picture>
+
+		<picture class="hero__slider__img">
+            <source media="(max-width: 549px)" srcset="./dist/img/herobg.jpeg">
+            <source media="(min-width: 550px)" srcset="./dist/img/herobg.jpeg">
+            <img class="hero__slider__img__img-base" src="./dist/img/herobg.jpeg" alt="Hero">
+		</picture>
+
+		<picture class="hero__slider__img">
+            <source media="(max-width: 549px)" srcset="./dist/img/herobg.jpeg">
+            <source media="(min-width: 550px)" srcset="./dist/img/herobg.jpeg">
+            <img class="hero__slider__img__img-base" src="./dist/img/herobg.jpeg" alt="Hero">
+		</picture>
+		
+	</div>
 	<div class="container">
 		<div class="row justify-content-center text-center">
-			<div class="col-md-8 absolute center-absolute">
+			<div class="col-md-8 absolute center-absolute hero__forms">
 			<form action="#">
 				<img class="hero__logo" src="./dist/img/logo.svg" alt="Logo">
 				<h1 class="hero__title">Tu Plataforma Colaborativa e Inclusiva de Busqueda de trabajo</h1>
