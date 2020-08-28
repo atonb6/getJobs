@@ -14,8 +14,11 @@
   //Match Height
 $('.sameheight').matchHeight();
 
-
-
+  //Current
+  $('.dashboard__menu__list__item').click(function(){
+    $('.dashboard__menu__list__item').removeClass('current');
+    $(this).addClass('current');
+  });
 
 
 })(jQuery); // End of use strict
