@@ -1,0 +1,31 @@
+.personas-cards {
+  border-radius: 7px;
+  box-shadow: 0 4px 7px -2px rgba(0, 0, 0, 0.07);
+  border: solid 1px #f0f0f0;
+  background-color: $white;
+  padding: 10px 15px;
+
+  &__img {
+    border-radius: 7px;
+    border: solid 1px #e0e0e0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+
+  &__date,
+  &__icons {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #aaaaaa;
+  }
+
+  &__money {
+    font-size: 0.75rem;
+    color: #3c3c3c;
+  }
+
+  &__up{
+    border-radius:50%;
+  }
+}

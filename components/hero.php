@@ -35,7 +35,7 @@
 	<div class="container">
 		<div class="row justify-content-center text-center">
 			<div class="col-md-8 absolute center-absolute hero__forms">
-			<form action="#">
+			<form action="resultados.php">
 				<img class="hero__logo" src="./dist/img/logo.svg" alt="Logo">
 				<h1 class="hero__title">Tu Plataforma Colaborativa e Inclusiva de Búsqueda de trabajo</h1>
 				

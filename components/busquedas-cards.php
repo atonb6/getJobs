@@ -1,4 +1,4 @@
-<a href="#" class="mt-4 mb-4 busquedas-cards d-flex justify-content-between align-items-center">
+<a href="resultados-single.php" class="mt-4 mb-4 busquedas-cards d-flex justify-content-between align-items-center">
     <div class="d-flex align-items-center">
         <img class="busquedas-cards__img" src="http://placeimg.com/80/80" alt="logo trabajo">
         <div class="ml-3">

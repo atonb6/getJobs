@@ -156,6 +156,7 @@ function js() {
       "./src/lib/jquery-easing/jquery.easing.min.js",
       "./src/lib/magnific-popup/jquery.magnific-popup.min.js",
       "./src/lib/jquery-migrate/jquery-migrate.min.js",
+      "./src/lib/jquery-match-height/jquery.matchHeight-min.js",
       "./src/lib/slick/slick.min.js",
       "./src/js/script.js"
     ])

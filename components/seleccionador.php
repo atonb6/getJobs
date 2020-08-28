@@ -2,7 +2,7 @@
     <div class="container">
 
 
-        <form action="#">
+        <form action="resultados.php">
             <div class="row justify-content-center">
                 <div class="col-md-12">
                     <fieldset class="text-center">
