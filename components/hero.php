@@ -6,6 +6,7 @@
 			<source media="(min-width: 550px)" srcset="./dist/img/fbg.jpg">
 			<img class="hero__slider__img__img-base" src="./dist/img/fbg.jpg" alt="Hero">
 		</picture>
+		
 
 <!-- 		<picture class="hero__slider__img">
 			<source media="(max-width: 549px)" srcset="./dist/img/herob.jpg">
