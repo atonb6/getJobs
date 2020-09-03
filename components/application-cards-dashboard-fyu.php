@@ -1,4 +1,4 @@
-<a href="#" class="mt-4 mb-4 search-cards">
+<div class="mt-4 mb-4 search-cards">
 
     <div class="d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
@@ -54,9 +54,9 @@
     </div>
     <div class="d-flex justify-content-end mt-2">
         <div class="search-cards__date text-right">
-            <span class="new">Postulado
-            </span>
+           <a href="#" class="btn btn--skinny btn--blue mr-2">Postular</a>
+           <a href="#" class="btn btn--skinny btn--green">GF Express</a>
         </div>
     </div>
 
-</a>
+</div>

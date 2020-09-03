@@ -12,6 +12,10 @@
     padding: 15px 25px;
   }
 
+  &__logo {
+    max-width: 18px;
+  }
+
   &--green {
     background-color: #40ce74;
     color: $white;
@@ -39,7 +43,9 @@
     color: #aaaaaa;
   }
 
-  &__logo {
-    max-width: 18px;
+  &--skinny{
+    padding: 5px 20px;
   }
+
+
 }
