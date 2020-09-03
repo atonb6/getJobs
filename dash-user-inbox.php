@@ -9,7 +9,7 @@
             <?php include('components/dashboard-menu.php'); ?>
             </div>
             <div class="col-md-10">
-            <?php include('components/dashboard-mensajes.php'); ?>
+            <?php include('components/dashboard-message.php'); ?>
             </div>
         </div>
     </div>

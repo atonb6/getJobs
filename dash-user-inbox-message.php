@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-10">
             <?php include('components/back.php'); ?>
-            <?php include('components/mensajes.php'); ?>
+            <?php include('components/message.php'); ?>
             </div>
         </div>
     </div>

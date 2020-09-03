@@ -1,3 +1,9 @@
-.banner{
-    margin: 70px 0 70px 0 ;
+.banner {
+  margin: 70px 0 70px 0;
+
+  &__vert {
+    img {
+      max-height: 460px;
+    }
+  }
 }

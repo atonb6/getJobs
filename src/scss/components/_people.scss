@@ -1,6 +1,6 @@
 .people {
-  &__mensaje {
-    &:nth-child(even) {
+  &__message {
+    &:nth-child(odd) {
       display: flex;
       flex-direction: row-reverse;
       justify-content: flex-end;
@@ -8,6 +8,10 @@
       & > div {
         margin-left: 0;
       }
+    }
+
+    &--writting{
+        opacity: 0.4;
     }
   }
 }

@@ -1,4 +1,4 @@
-<a href="#" class="mt-4 mb-4 personas-cards personas-cards--inbox d-flex align-items-center justify-content-between">
+<a href="dash-user-inbox-message.php" class="mt-4 mb-4 personas-cards personas-cards--inbox d-flex align-items-center justify-content-between">
     <div class="d-flex align-items-center">
         <img class="personas-cards__img" src="http://placeimg.com/80/80" alt="persona">
         <div class="ml-3">

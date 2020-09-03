@@ -2,6 +2,6 @@
     <div class="d-flex align-items-center">
         <span class="material-icons">
             arrow_back_ios
-        </span><a href="#">Inbox</a>
+        </span><a href="dash-user-inbox.php">Inbox</a>
     </div>
 </section>
