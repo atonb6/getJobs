@@ -25,7 +25,13 @@
     color: #3c3c3c;
   }
 
-  &__up{
-    border-radius:50%;
+  &__up {
+    border-radius: 50%;
+  }
+
+  &--inbox{
+    h4{
+      margin-bottom: 0;
+    }
   }
 }

@@ -1,31 +1,45 @@
-.btn{
-    border-radius: 7px;
+.btn {
+  border-radius: 7px;
 
-    &__border{
-        border: solid 1px #ffffff;
-    }
+  &__border {
+    border: solid 1px #ffffff;
+  }
 
-    &__submit{
-        border-radius: 0 7px 7px 0;
-        background-color: #40ce74;
-        color: $white;
-        padding: 15px 25px;
-    }
+  &__submit {
+    border-radius: 0 7px 7px 0;
+    background-color: #40ce74;
+    color: $white;
+    padding: 15px 25px;
+  }
 
-    &--green{
-        background-color: #40ce74;
-        color: $white;
-        padding: 11px 20px;
-    }
+  &--green {
+    background-color: #40ce74;
+    color: $white;
+    padding: 11px 20px;
+  }
 
-    &--blue{
-        background-color:#1567a0;
-        color: $white;
-        padding: 11px 20px;
-    }
+  &--blue {
+    background-color: #1567a0;
+    color: $white;
+    padding: 11px 20px;
+  }
 
-    &--l-pad{
-        padding: 5px 20px;
-    }
+  &--l-pad {
+    padding: 5px 20px;
+  }
 
+  &--linkedin {
+    background-color: #0077b5;
+    color: $white;
+  }
+
+  &--google {
+    border: solid 1px #e0e0e0;
+    background-color: #ffffff;
+    color: #aaaaaa;
+  }
+
+  &__logo {
+    max-width: 18px;
+  }
 }

@@ -1,0 +1,29 @@
+.login {
+  &__card {
+    padding: 50px 100px;
+    transform: translateY(-130px);
+
+    &__title {
+      font-size: 33px;
+      text-align: center;
+      color: #212121;
+    }
+    &__subtitle {
+      font-size: 16px;
+      font-weight: 500;
+      color: #aaaaaa;
+      text-align: center;
+    }
+
+    &__fieldset {
+      input {
+        margin: 0 auto;
+        border-radius: 7px;
+        border: solid 1px #e0e0e0;
+        background-color: $white !important;
+        max-width: 270px;
+        max-height: 36px;
+      }
+    }
+  }
+}

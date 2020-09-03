@@ -28,7 +28,7 @@
                             <option value="value2">Región de Arica y Parinacota</option>
                             <option value="value2">Región de Arica y Parinacota</option>
                         </select>
-                        <button class="btn__submit" type="submit">Buscar</button>
+                        <button class="btn__submit" type="submit">Búsqueda Avanzada</button>
                     </fieldset>
                 </div>
             </div>

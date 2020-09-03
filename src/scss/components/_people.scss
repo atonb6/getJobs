@@ -1,0 +1,13 @@
+.people {
+  &__mensaje {
+    &:nth-child(even) {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+
+      & > div {
+        margin-left: 0;
+      }
+    }
+  }
+}

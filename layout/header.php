@@ -33,6 +33,9 @@
 				<li class="nav-item">
 					<a class="nav-link mr-2" href="#">Listados</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link mr-2" href="#">Grupo</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
