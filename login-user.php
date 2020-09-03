@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <form>
+                <form action="dash-user-inbox.php">
                     <div class="card login__card">
                         <h1 class="login__card__title">Inicia sesión</h1>
                         <h5 class="login__card__subtitle">Ingresa tus datos para continuar.</h5>
