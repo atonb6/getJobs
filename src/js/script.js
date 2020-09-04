@@ -20,5 +20,9 @@ $('.sameheight').matchHeight();
     $(this).addClass('current');
   });
 
+  $('.hero .select').click(function(){
+    $('.chevron').toggleClass('rotate');
+  });
+
 
 })(jQuery); // End of use strict

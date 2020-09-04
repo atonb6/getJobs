@@ -3,12 +3,43 @@
   height: 80vh;
   z-index: 0;
 
-  &__title{
+  &__title {
     font-size: 1.75rem;
   }
 
-  &__slider {
+  .search-icon {
+    &:after {
+      content: "";
+      background-image: url(../img/search-white.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px;
+      left: 6%;
+      top: 12px;
+      position: absolute;
+      display: block;
+      filter: invert(1);
+      filter: brightness(0.6);
+    }
+  }
 
+  .chevron {
+    position: absolute;
+    color: #9d9d9d;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 22%;
+    pointer-events: none;
+    transition: $trans;
+
+    &.rotate{
+      transition: $trans;
+      transform: translateY(-50%) rotate(180deg);
+    }
+  }
+
+  &__slider {
     &__img {
       overflow: hidden;
       min-height: 80vh;
@@ -90,6 +121,7 @@
       border-radius: 7px 0 0 7px;
       width: 50%;
       margin-right: -5px;
+      padding-left: 50px;
     }
 
     select.select--input {
