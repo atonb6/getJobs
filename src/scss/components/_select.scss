@@ -1,5 +1,16 @@
-/* .select{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgb(13,57,85);
-} */
+.select {
+  &--input {
+    width: 100%;
+  }
+
+  .chevron{
+    position: absolute;
+    color: #9d9d9d;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 22%;
+    pointer-events: none;
+    transition: all .3s ease 0s;
+  }
+
+}

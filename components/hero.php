@@ -42,6 +42,7 @@
 
 					<fieldset class="text-center mt-5 search-icon position-relative">
 						<input class="input input--select" type="text" placeholder="Puesto, empresa o palabra clave" results>
+						<span class="line"></span>
 						<select class="select select--input" name="search">
 							<option value="value1">En todo Chile</option>
 							<option value="value2">Visbiri</option>

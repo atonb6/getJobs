@@ -5,31 +5,55 @@
         <form action="results.php">
             <div class="row justify-content-center">
                 <div class="col-md-12">
-                    <fieldset class="text-center">
-                        <select class="select select--input" name="industria">
-                            <option value="value1">industria</option>
-                            <option value="value2">Alimentos</option>
-                            <option value="value2">Alimentos</option>
-                            <option value="value2">Alimentos</option>
-                        </select>
-                        <select class="select select--input" name="area">
-                            <option value="value1">Gerencia General</option>
-                            <option value="value1">Gerencia General</option>
-                            <option value="value1">Gerencia General</option>
-                        </select>
-                        <select class="select select--input" name="nivelcargo">
-                            <option value="value1">C-Level / Directivos</option>
-                            <option value="value2">C-Level / Directivos</option>
-                        </select>
-                        <select class="select select--input" name="region">
-                            <option value="value1">Región</option>
-                            <option value="value2">Región de Arica y Parinacota</option>
-                            <option value="value2">Región de Arica y Parinacota</option>
-                            <option value="value2">Región de Arica y Parinacota</option>
-                            <option value="value2">Región de Arica y Parinacota</option>
-                        </select>
-                        <button class="btn__submit" type="submit">Búsqueda Avanzada</button>
-                    </fieldset>
+                    <div class="row">
+                        <div class="col px-0 select__icon">
+                            <select class="select select--input" name="industria">
+                                <option value="value1">industria</option>
+                                <option value="value2">Alimentos</option>
+                                <option value="value2">Alimentos</option>
+                                <option value="value2">Alimentos</option>
+                            </select>
+                            <span class="material-icons chevron">
+								expand_more
+							</span>
+                        </div>
+
+                        <div class="col px-0 select__icon">
+                            <select class="select select--input" name="area">
+                                <option value="value1">Gerencia General</option>
+                                <option value="value1">Gerencia General</option>
+                                <option value="value1">Gerencia General</option>
+                            </select>
+                            <span class="material-icons chevron">
+								expand_more
+							</span>
+                        </div>
+                        <div class="col px-0 select__icon">
+                            <select class="select select--input" name="nivelcargo">
+                                <option value="value1">C-Level / Directivos</option>
+                                <option value="value2">C-Level / Directivos</option>
+                            </select>
+                            <span class="material-icons chevron">
+								expand_more
+							</span>
+                        </div>
+                        <div class="col px-0 select__icon">
+                            <select class="select select--input" name="region">
+                                <option value="value1">Región</option>
+                                <option value="value2">Región de Arica y Parinacota</option>
+                                <option value="value2">Región de Arica y Parinacota</option>
+                                <option value="value2">Región de Arica y Parinacota</option>
+                                <option value="value2">Región de Arica y Parinacota</option>
+                            </select>
+                            <span class="material-icons chevron">
+								expand_more
+							</span>
+                        </div>
+                        <div class="col px-0 select__icon">
+                            <button class="btn__submit" type="submit">Búsqueda Avanzada</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </form>

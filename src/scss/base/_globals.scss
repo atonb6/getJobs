@@ -64,13 +64,11 @@ hr {
       margin-bottom: 30px;
     }
 
-    &__space{
+    &__space {
       margin-top: 30px;
       margin-bottom: 30px;
     }
   }
-
-
 }
 
 img {
@@ -94,6 +92,7 @@ button,
 input {
   appearance: none;
   border: none;
+  background-color: white;
 
   &:hover {
     outline: none;
@@ -210,6 +209,23 @@ input {
 
 .navbar-blue {
   background-color: #1567a0;
+}
+
+.line {
+  background-color: #9e9e9e;
+  width: 2px;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icons-work {
+  margin-right: 5px;
+
+  &:last-child{
+    margin-right: 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -426,4 +442,14 @@ input[type="checkbox"] {
       }
     }
   }
+}
+
+/*--------------------------------------------------------------
+  # Navbar
+  --------------------------------------------------------------*/
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+  filter: invert(1) brightness(1);
 }

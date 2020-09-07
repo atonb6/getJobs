@@ -37,6 +37,10 @@
       transition: $trans;
       transform: translateY(-50%) rotate(180deg);
     }
+
+    @include media-breakpoint-down(lg){
+      right: 25%;
+    }
   }
 
   &__slider {
@@ -122,6 +126,11 @@
       width: 50%;
       margin-right: -5px;
       padding-left: 50px;
+
+      @include media-breakpoint-down(md){
+        border-radius: 7px;
+        width: 100%;
+      }
     }
 
     select.select--input {

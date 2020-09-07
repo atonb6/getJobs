@@ -19,26 +19,23 @@
                 </span>
             </div>
             <div class="search-cards__icons mt-2 mb-2">
-                <span class="material-icons">
+                <span class="material-icons icons-work">
                     computer
                 </span>
-                <span class="material-icons">
-                    computer
+                <span class="material-icons icons-work">
+                    pets
                 </span>
-                <span class="material-icons">
-                    computer
+                <span class="material-icons icons-work">
+                    directions_bike
                 </span>
-                <span class="material-icons">
-                    computer
+                <span class="material-icons icons-work">
+                    wifi
                 </span>
-                <span class="material-icons">
-                    computer
+                <span class="material-icons icons-work">
+                    fastfood
                 </span>
-                <span class="material-icons">
-                    computer
-                </span>
-                <span class="material-icons">
-                    computer
+                <span class="material-icons icons-work">
+                    work_outline
                 </span>
             </div>
             <div class="search-cards__money text-right">
