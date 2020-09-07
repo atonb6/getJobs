@@ -41,14 +41,20 @@
       color: white;
       background-color: #40ce74;
       border-radius: 0 0 0 15px;
+      transition: $trans;
+
+      &:hover {
+        transition: $trans;
+        color: yellow;
+      }
     }
   }
 
   &__info {
     margin-top: -50px;
 
-    li{
-        list-style: disc;
+    li {
+      list-style: disc;
     }
   }
 }

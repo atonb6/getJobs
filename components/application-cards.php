@@ -18,7 +18,7 @@
                 <span>hoy
                 </span>
             </div>
-            <div class="search-cards__icons mt-2 mb-2">
+            <div class="search-cards__icons mt-2 mb-2 text-right">
                 <span class="material-icons icons-work">
                     computer
                 </span>
@@ -50,8 +50,8 @@
 
     </div>
     <div class="d-flex justify-content-end mt-2">
-    <a href="#" class="btn btn--blue  btn--l-pad mr-3">Postular</a>
-    <a href="#" class="btn btn--green btn--l-pad">GJ Express</a>
+        <a href="#" class="btn btn--blue  btn--l-pad mr-3">Postular</a>
+        <a href="#" class="btn btn--green btn--l-pad d-flex align-items-center"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GJ Express</a>
     </div>
 
 </div>

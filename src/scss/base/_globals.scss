@@ -48,8 +48,17 @@ a {
   transition: $trans;
   display: inline-block;
 
+  &.search-cards{
+    transition: $trans;
+    &:hover{
+      box-shadow: -2px 2px 23px -11px rgba(21,103,160,1);
+      transition: $trans;
+    }
+  }
+
   &:hover {
     text-decoration: none;
+    color: $white;
   }
 
   &:focus {
@@ -223,8 +232,22 @@ input {
 .icons-work {
   margin-right: 5px;
 
-  &:last-child{
+  &:last-child {
     margin-right: 0;
+  }
+}
+
+.hand {
+  color: #1567a0;
+  font-size: 2rem;
+}
+
+.btn {
+  transition: $trans;
+  &:hover {
+    color: $white;
+    box-shadow: -2px 2px 23px -11px rgba(21,103,160,1);
+    transition: $trans;
   }
 }
 

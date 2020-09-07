@@ -16,6 +16,11 @@
                 text-align: right;
                 color: $white;
                 font-weight: 400;
+
+                &:hover{
+                    color: $white;
+                    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+                }
             }
         }
     }

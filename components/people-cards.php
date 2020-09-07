@@ -7,7 +7,10 @@
             <h4>Ciudad - Modalidad</h4>
         </div>
     </div>
-    <div>
-        <img class="ml-4 people-cards__up" src="http://placeimg.com/50/50" alt="up">
+    <div class="col text-center">
+        <span class="material-icons hand">
+            thumb_up
+        </span>
+        <label>999</label>
     </div>
 </article>

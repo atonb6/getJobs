@@ -16,10 +16,10 @@
             <span>hoy
             </span>
         </div>
-        <div class="search-cards__icons mt-2 mb-2">
+        <div class="search-cards__icons mt-2 mb-2 text-right">
             <span class="material-icons icons-work">
-                    computer
-                </span>
+                computer
+            </span>
             <span class="material-icons icons-work">
                 pets
             </span>

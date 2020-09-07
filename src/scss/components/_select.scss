@@ -1,5 +1,4 @@
 .select {
-
   &--input-filter {
     width: 90%;
     color: #38a2ec;
@@ -8,18 +7,23 @@
     border-radius: 7px;
   }
 
-  .chevron{
+  .chevron {
     position: absolute;
     color: #38a2ec;
     top: 50%;
     transform: translateY(-50%);
     right: 15%;
     pointer-events: none;
-    transition: all .3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
 
   .btn__submit {
     border-radius: 7px;
-  }
 
+    &:hover {
+      color: $white;
+      box-shadow: -2px 2px 23px -11px rgba(21, 103, 160, 1);
+      transition: $trans;
+    }
+  }
 }

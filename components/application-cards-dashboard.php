@@ -18,8 +18,8 @@
                 <span>hoy
                 </span>
             </div>
-            <div class="search-cards__icons mt-2 mb-2">
-            <<span class="material-icons icons-work">
+            <div class="search-cards__icons mt-2 mb-2 text-right">
+                <span class="material-icons icons-work">
                     computer
                 </span>
                 <span class="material-icons icons-work">
