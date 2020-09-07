@@ -18,6 +18,11 @@
     $(this).addClass("current");
   });
 
+  //Tags
+  $(".close").click(function () {
+    $(this).parent().remove();
+  });
+
 /*   $(".hero .select").click(function () {
     $(".chevron").toggleClass("rotate");
   }); */
