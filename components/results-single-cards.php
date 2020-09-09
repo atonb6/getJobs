@@ -20,7 +20,7 @@
                             <p>Sueldo ofrecido: $1.000.000 - $1.200.000</p>
 
                             <div class="d-flex">
-                                <a href="#" class="btn btn--blue mr-4">Postular a este empleo</a>
+                                <a href="postulate.php" class="btn btn--blue mr-4">Postular a este empleo</a>
                                 <a href="#" class="btn btn--green btn--l-pad d-flex align-items-center"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GJ Express</a>
                             </div>
                         </div>

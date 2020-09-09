@@ -20,7 +20,7 @@
 
                         <div class="col px-0 select__icon">
                             <select class="select select--input-filter" name="area">
-                                <option value="value1">Gerencia General</option>
+                                <option value="value1">Área</option>
                                 <option value="value1">Gerencia General</option>
                                 <option value="value1">Gerencia General</option>
                             </select>
@@ -30,7 +30,7 @@
                         </div>
                         <div class="col px-0 select__icon">
                             <select class="select select--input-filter" name="nivelcargo">
-                                <option value="value1">C-Level / Directivos</option>
+                                <option value="value1">Nivel de Cargo</option>
                                 <option value="value2">C-Level / Directivos</option>
                             </select>
                             <span class="material-icons chevron">

@@ -48,17 +48,17 @@ a {
   transition: $trans;
   display: inline-block;
 
-  &.search-cards{
+  &.search-cards {
     transition: $trans;
-    &:hover{
-      box-shadow: -2px 2px 23px -11px rgba(21,103,160,1);
+    &:hover {
+      box-shadow: -2px 2px 23px -11px rgba(21, 103, 160, 1);
       transition: $trans;
     }
   }
 
   &:hover {
     text-decoration: none;
-    color: $white;
+    color: #40ce74;
   }
 
   &:focus {
@@ -217,7 +217,7 @@ input {
 }
 
 .navbar-blue {
-  background-color: #1567a0;
+  background-color: $blue;
 }
 
 .line {
@@ -238,7 +238,7 @@ input {
 }
 
 .hand {
-  color: #1567a0;
+  color: $blue;
   font-size: 2rem;
 }
 
@@ -246,8 +246,57 @@ input {
   transition: $trans;
   &:hover {
     color: $white;
-    box-shadow: -2px 2px 23px -11px rgba(21,103,160,1);
+    box-shadow: -2px 2px 23px -11px rgba(21, 103, 160, 1);
     transition: $trans;
+  }
+}
+
+textarea {
+  border: none;
+}
+
+/*--------------------------------------------------------------
+  # input button file
+  --------------------------------------------------------------*/
+
+.custom-file-input {
+  color: $white;
+  height: unset;
+  opacity: 1;
+  background-color: $blue !important;
+  width: auto;
+
+  &::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  &::before {
+    content: "Sube tu CV";
+    color: black;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+
+  &:hover::before {
+    border-color: black;
+  }
+
+  &:active {
+    outline: 0;
+
+    &::before {
+      background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+    }
   }
 }
 
@@ -276,6 +325,16 @@ input {
   }
 }
 
+.bg-darkgray {
+  background-color: #bdbdbd;
+  color: $black;
+}
+
+.bg-mediumgray {
+  background-color: #dadada;
+  color: $black;
+}
+
 .bg-offset {
   position: relative;
 
@@ -299,6 +358,22 @@ input {
       left: auto;
       right: 100%;
     }
+  }
+}
+
+.rounded-circle {
+  &__data {
+    font-weight: bold;
+
+    &--blue {
+      color: $blue;
+    }
+  }
+
+  &__info {
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0;
   }
 }
 
@@ -437,8 +512,8 @@ input[type="checkbox"] {
     + {
       label {
         &:before {
-          background-color: #1567a0;
-          border-color: #1567a0;
+          background-color: $blue;
+          border-color: $blue;
           color: #fff;
         }
       }
