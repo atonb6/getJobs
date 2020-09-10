@@ -9,7 +9,7 @@
     </div>
 
     <div class="text-center">
-        <div class="mt-4 rounded-circle bg-mediumgray p-4 mr-3 ml-3">
+        <div class="mt-4 rounded-circle bg-mediumgray p-4 mr-3 ml-3 round-perfect">
             <span class="rounded-circle__data rounded-circle__data--blue">40%</span>
 
         </div>
@@ -18,7 +18,7 @@
 
 
     <div class="text-center">
-        <div class="mt-4 rounded-circle bg-mediumgray p-4 mr-3 ml-3">
+        <div class="mt-4 rounded-circle bg-mediumgray p-4 mr-3 ml-3 round-perfect">
             <span class="rounded-circle__data rounded-circle__data--blue">60%</span>
 
         </div>

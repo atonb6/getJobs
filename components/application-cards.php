@@ -50,7 +50,7 @@
 
     </div>
     <div class="d-flex justify-content-end mt-2">
-        <a href="#" class="btn btn--blue  btn--l-pad mr-3">Postular</a>
+        <a href="results-single.php" class="btn btn--blue  btn--l-pad mr-3">Postular</a>
         <a href="#" class="btn btn--green btn--l-pad d-flex align-items-center"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GJ Express</a>
     </div>
 

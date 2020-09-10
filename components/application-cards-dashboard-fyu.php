@@ -51,7 +51,7 @@
     </div>
     <div class="d-flex justify-content-end mt-2">
         <div class="search-cards__date text-right">
-            <a href="#" class="btn btn--skinny btn--blue mr-2">Postular</a>
+            <a href="results-single.php" class="btn btn--skinny btn--blue mr-2">Postular</a>
             <a href="#" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GF Express</a>
         </div>
     </div>
