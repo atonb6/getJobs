@@ -9,7 +9,7 @@
 
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-applications.php">Postulaciones (4)</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-profile.php">Mi Perfil</a></li>
-        <li class="dashboard__menu__list__item py-3"><a href="dash-user-gfexpress.php">GJ Express</a></li>
+        <li class="dashboard__menu__list__item py-3"><a href="dash-user-gjexpress">GJ Express</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-inbox.php">Inbox</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-contacts.php">Contactos</a></li>
 

@@ -41,6 +41,13 @@
   }
 
   &__profile {
+
+    &__label{
+      font-size: 1.125rem;
+      font-weight: bold;
+      color: #212121;
+    }
+
     input {
       border-radius: 7px;
       border: solid 1px #aaaaaa;
