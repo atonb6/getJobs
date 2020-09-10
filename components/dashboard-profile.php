@@ -59,32 +59,6 @@
                     </div>
                 </div>
 
-
-                <div class="row justify-content-between align-items-center mb-3">
-                    <div class="col-md-8">
-                        <label>Dirección</label></br>
-                        <input class="w-100" type="text" id="address" name="address" placeholder="Emiliano Cabrera Sandoval 831">
-
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
-                    </div>
-                </div>
-
-
-                <div class="row justify-content-between align-items-center mb-3">
-                    <div class="col-md-8">
-                        <label>Dirección</label></br>
-                        <input class="w-100" type="text" id="address" name="address" placeholder="Emiliano Cabrera Sandoval 831">
-
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
-                    </div>
-                </div>
-
-
-
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
                         <label>País</label></br>
@@ -123,6 +97,41 @@
                         <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
                     </div>
                 </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label>Comuna</label></br>
+                        <div class="position-relative">
+                            <select class="w-100" required>
+                                <option>Chile</option>
+                                <option>Venezuela</option>
+                                <option>Argentina</option>
+                            </select>
+                            <span class="material-icons chevron">
+                                expand_more
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label>Dirección</label></br>
+                        <input class="w-100" type="text" id="address" name="address" placeholder="Emiliano Cabrera Sandoval 462">
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
+
+
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
