@@ -99,6 +99,11 @@ p {
 select,
 button,
 input {
+
+  &[type="radio"]{
+    appearance: auto;
+  }
+
   appearance: none;
   border: none;
   background-color: white;
@@ -515,6 +520,7 @@ input[type="checkbox"] {
           background-color: $blue;
           border-color: $blue;
           color: #fff;
+          padding-left: 3px;
         }
       }
     }
