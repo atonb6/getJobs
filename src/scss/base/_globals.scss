@@ -271,6 +271,14 @@ textarea {
   background-color: $blue !important;
   width: auto;
 
+  
+  &.profilepicture{
+    &::before {
+      content: "Cambia tu foto de perfil";
+    }
+  }
+
+
   &::-webkit-file-upload-button {
     visibility: hidden;
   }
