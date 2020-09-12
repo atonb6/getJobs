@@ -1,5 +1,13 @@
 .dashboard {
   &__menu {
+    &__img {
+      transform: translateY(-25%);
+      max-width: 100px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 50%;
+    }
+
     background-color: #e0e0e0;
     &:after {
       content: "";
@@ -41,8 +49,7 @@
   }
 
   &__profile {
-
-    &__label{
+    &__label {
       font-size: 1.125rem;
       font-weight: bold;
       color: #212121;
