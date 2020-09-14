@@ -1,6 +1,10 @@
 (function ($) {
   "use strict"; // Start of use strict
 
+  $('[data-toggle="tooltip"]').tooltip({
+    container: 'body'
+ });
+
   $(".hero__slider").not(".slick-initialized").slick({
     arrows: false,
     fade: true,
