@@ -52,7 +52,25 @@
     <div class="d-flex justify-content-end mt-2">
         <div class="search-cards__date text-right">
             <a href="results-single.php" class="btn btn--skinny btn--blue mr-2">Postular</a>
-            <a href="#" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GF Express</a>
+            <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GJ Express</a>
+        </div>
+    </div>
+
+    <div class="gj-modal modal fade text-center" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header mx-auto">
+                   <img class="modal-header__icon" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">
+                </div>
+                <div class="modal-body">
+                    <p class="modal-body__p">
+                    Has postulado con éxito a este empleo. Los datos de tu perfil han sido enviados a la empresa.
+                    </p>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn--skinny btn--green border-white" data-dismiss="modal">Entendido</button>
+                </div>
+            </div>
         </div>
     </div>
 

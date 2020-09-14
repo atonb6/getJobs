@@ -99,8 +99,7 @@ p {
 select,
 button,
 input {
-
-  &[type="radio"]{
+  &[type="radio"] {
     appearance: auto;
   }
 
@@ -271,13 +270,11 @@ textarea {
   background-color: $blue !important;
   width: auto;
 
-  
-  &.profilepicture{
+  &.profilepicture {
     &::before {
       content: "Cambia tu foto de perfil";
     }
   }
-
 
   &::-webkit-file-upload-button {
     visibility: hidden;
@@ -439,10 +436,9 @@ input {
   color: #e72929;
 }
 
-.w-83{
+.w-83 {
   width: 83%;
 }
-
 
 .maleta {
   position: relative;
@@ -579,6 +575,25 @@ input[type="checkbox"] {
   filter: invert(1) brightness(1);
 }
 
-.round-perfect{
+.round-perfect {
   padding: 1.5rem 20px !important;
 }
+
+/*--------------------------------------------------------------
+  # Modal
+  --------------------------------------------------------------*/
+
+.gj-modal {
+
+  .modal-header{
+    &__icon{
+      width: 50px;
+    }
+  }
+  .modal-content {
+    color: $white;
+    background-color: $green;
+    padding: 20px 50px;
+  }
+}
+
