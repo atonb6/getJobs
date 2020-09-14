@@ -32,7 +32,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Nombres</label></br>
+                        <label class="dashboard__profile__label">Nombres<span class="end">*</span></label></br>
                         <input class="w-100" type="text" id="name" name="name" placeholder="Nombres" required>
                     </div>
                     <div class="col-md-4">
@@ -42,7 +42,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Apellidos</label></br>
+                        <label class="dashboard__profile__label">Apellidos<span class="end">*</span></label></br>
                         <input class="w-100" type="text" id="surname" name="surname" placeholder="Apellidos" required>
                     </div>
                     <div class="col-md-4">
@@ -52,7 +52,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Fecha de nacimiento</label></br>
+                        <label class="dashboard__profile__label">Fecha de nacimiento<span class="end">*</span></label></br>
                         <input class="w-100" type="date" id="date" name="date" required>
                     </div>
                     <div class="col-md-4">
@@ -63,7 +63,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Email</label></br>
+                        <label class="dashboard__profile__label">Email<span class="end">*</span></label></br>
                         <input class="w-100" type="text" id="email" name="email" placeholder="email@email.cl" required>
                     </div>
                     <div class="col-md-4">
@@ -73,7 +73,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">País</label></br>
+                        <label class="dashboard__profile__label">País<span class="end">*</span></label></br>
                         <div class="position-relative">
                             <select class="w-100" required>
                                 <option>Chile</option>
@@ -93,7 +93,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                            <label class="dashboard__profile__label">Ciudad</label></br>
+                            <label class="dashboard__profile__label">Ciudad</label><span class="end">*</span></br>
                             <div class="position-relative">
                             <select class="w-100" name="Ciudad" required>
                                 <option>Seleccione Ciudad</option>
@@ -112,7 +112,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Comuna</label></br>
+                        <label class="dashboard__profile__label">Comuna</label><span class="end">*</span></br>
                         <div class="position-relative">
                             <select class="w-100" required>
                                 <option>Chile</option>
@@ -133,7 +133,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Dirección</label></br>
+                        <label class="dashboard__profile__label">Dirección</label><span class="end">*</span></br>
                         <input class="w-100" type="text" id="address" name="address" placeholder="Emiliano Cabrera Sandoval 462">
 
                     </div>
@@ -158,7 +158,7 @@
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
 
-                        <label class="dashboard__profile__label">Teléfono de contacto</label></br>
+                        <label class="dashboard__profile__label">Teléfono de contacto<span class="end">*</span></label></br>
                         <input class="w-100" type="tel" id="phone" name="phone" placeholder="123456789">
                     </div>
                     <div class="col-md-4">
@@ -169,7 +169,7 @@
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
 
-                        <label class="dashboard__profile__label">Genero</label></br>
+                        <label class="dashboard__profile__label">Genero</label><span class="end">*</span></br>
                         <div class="d-flex align-items-center">
                             <input class="ml-2" type="radio" name="gender" id="male" value="male">
                             <label class="form-check-label ml-2" for="male">
@@ -188,7 +188,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Discapacidad</label>
+                        <label class="dashboard__profile__label">Discapacidad<span class="end">*</span></label>
                         <div class="d-flex">
                             <input type="checkbox" id="disclaimer-yes" name="disclaimer" value="disclaimer-yes"><label for="disclaimer-yes">Sí</label>
                             <input type="checkbox" id="disclaimer-no" name="disclaimer" value="disclaimer-no"><label for="disclaimer-no">No</label>
@@ -202,7 +202,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <labe class="dashboard__profile__label"l>Ciudad de residencia</label></br>
+                        <labe class="dashboard__profile__label"l>Ciudad de residencia<span class="end">*</span></label></br>
                         <input class="w-100" type="text" id="region" name="region" placeholder="Valparaíso">
                     </div>
                     <div class="col-md-4">
@@ -215,7 +215,7 @@
 
                 <div class="row justify-content-between align-items-center mb-5">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Carrera Técnica o Universitaria</label></br>
+                        <label class="dashboard__profile__label">Carrera Técnica o Universitaria<span class="end">*</span></label></br>
                         <input class="w-100" type="text" id="carrera" name="carrera" placeholder="Relaciones Públicas">
                     </div>
                     <div class="col-md-4">

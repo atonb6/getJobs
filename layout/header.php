@@ -33,7 +33,7 @@
 				<a class="nav-link mr-2 maleta" href="#">GetJobs Premium</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link mr-2" href="#">Ofertas</a>
+				<a class="nav-link mr-2" href="results.php">Ofertas</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link mr-2" href="#">Listados</a>
