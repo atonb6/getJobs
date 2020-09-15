@@ -28,7 +28,7 @@
 
                             </div>
                         </div>
-                        <span class="mt-4 text-center login__card__disclaimer-txt">¿Aún no tienes una cuenta? <a href="#">Regístrate aquí</a></span>
+                        <span class="mt-4 text-center login__card__disclaimer-txt">¿Aún no tienes una cuenta? <a href="login-new-user.php">Regístrate aquí</a></span>
                     </div>
                 </form>
             </div>

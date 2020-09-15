@@ -25,7 +25,7 @@
 				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Empresas</a>
 				<div class="dropdown-menu">
 					<a class="dropdown-item" href="login-new-enterprise.php">Nuevo Usuario</a>
-					<a class="dropdown-item" href="login-user.php">Ingresa a tu cuenta</a>
+					<a class="dropdown-item" href="login-enterprise.php">Ingresa a tu cuenta</a>
 				</div>
 			</li>
 
