@@ -1,0 +1,41 @@
+.choose {
+  &__bg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      opacity: 0.4;
+    }
+
+    &:before {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+
+    &__info {
+      text-align: center;
+      z-index: 5;
+
+      h2 {
+        font-size: 2.0625rem;
+        color: #ffffff;
+      }
+      h3 {
+        margin-top: 25px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+      }
+    }
+  }
+}

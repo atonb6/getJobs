@@ -24,13 +24,13 @@
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Empresas</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="login-new-user.php">Nuevo Usuario</a>
+					<a class="dropdown-item" href="login-new-enterprise.php">Nuevo Usuario</a>
 					<a class="dropdown-item" href="login-user.php">Ingresa a tu cuenta</a>
 				</div>
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link mr-2 maleta" href="#">GetJobs Premium</a>
+				<a class="nav-link mr-2 maleta" href="premium.php">GetJobs Premium</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link mr-2" href="results.php">Ofertas</a>

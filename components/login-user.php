@@ -12,8 +12,8 @@
                             <input type="email" placeholder="Email">
                             <input class="mt-3" type="password" placeholder="Password">
                             <button type="submit" class="btn btn--blue mx-auto mt-3 mb-3">Iniciar sesión</button>
-                            <input type="checkbox" id="disclaimer" name="disclaimer" value="disclaimer"><label for="disclaimer">Acepto los <a href="#">Términos y Condiciones </a> de GetJobs.</label>
-
+<!--                             <input type="checkbox" id="disclaimer" name="disclaimer" value="disclaimer"><label for="disclaimer">Acepto los <a href="#">Términos y Condiciones </a> de GetJobs.</label>
+ -->
                         </fieldset>
 
                         <hr>

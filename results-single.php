@@ -1,7 +1,13 @@
 <?php include('layout/head.php'); ?>
 <?php include('layout/header.php'); ?>
 
-<?php include('components/results-single-title.php'); ?>
+<?php 
+
+$title = "Oferta de empleo";
+
+include('components/results-single-title.php'); 
+
+?>
 
 <?php include('components/results-single-cards.php'); ?>
 

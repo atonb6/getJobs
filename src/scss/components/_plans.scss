@@ -1,0 +1,54 @@
+.plans {
+  &__card {
+    border-radius: 7px;
+    background-color: #ffffff;
+    &__header {
+      background-color: #40ce74;
+      &__circle {
+        border: solid 7px #40ce74;
+        border-radius: 50%;
+        width: 115px;
+        height: 115px;
+        transform: translateY(-50px);
+        background-color: $white;
+
+        h4 {
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 1.3125rem;
+          font-weight: bold;
+          color: #40ce74;
+        }
+      }
+
+      &__pay {
+        transform: translateY(-25px);
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+      }
+    }
+    &__body {
+      padding: 20px;
+
+      h2{
+        font-size: 1.3125rem;
+        font-weight: bold;
+        color: #40ce74;
+      }
+
+      ul li{
+        list-style: unset;
+        margin-left: 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2.19;
+        color: #3c3c3c;
+      }
+    }
+    &__footer {
+      padding: 20px;
+    }
+  }
+}
