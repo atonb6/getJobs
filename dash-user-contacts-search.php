@@ -1,7 +1,7 @@
 <?php include('layout/head.php'); ?>
-<?php include('layout/header.php'); ?>
-
-
+<?php $login = "user";
+include('layout/header.php'); 
+?>
 <section class="dashboard">
     <div class="container">
         <div class="row">
