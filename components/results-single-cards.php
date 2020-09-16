@@ -37,9 +37,48 @@
                     <a href="#" class="btn btn--green mt-2 w-50 d-flex align-items-center"><span class="material-icons mr-2">
                             reply
                         </span>Compartir a</a>
-                    <a href="#" class="btn btn--green mt-2 w-50 d-flex align-items-center"><span class="material-icons mr-2">
-                            share
-                        </span>Compartir en</a>
+                    <div>
+
+                        <div class="branch no-animation">
+                            <div class="node" id="facebook">
+                                <div class="fa fa-facebook share-alt-icon"></div>
+                            </div>
+                            <div class="stem"></div>
+                        </div>
+                        <div class="branch no-animation">
+                            <div class="node" id="linkedin">
+                                <div class="fa fa-linkedin share-alt-icon"></div>
+                            </div>
+                            <div class="stem"></div>
+                        </div>
+                        <!--                <div class="branch no-animation">
+                            <div class="node" id="google-plus">
+                                <div class="fa fa-google-plus share-alt-icon"></div>
+                            </div>
+                            <div class="stem"></div>
+                        </div> -->
+                        <!--                         <div class="branch no-animation">
+                            <div class="node" id="pinterest">
+                                <div class="fa fa-pinterest share-alt-icon"></div>
+                            </div>
+                            <div class="stem"></div>
+                        </div> -->
+                        <div class="branch no-animation">
+                            <div class="node" id="twitter">
+                                <div class="fa fa-twitter share-alt-icon"></div>
+                            </div>
+                            <div class="stem"></div>
+                        </div>
+
+                        <div class="btn btn--green mt-2 w-50 d-flex align-items-center share-alt">
+                            <span class="material-icons mr-2">
+                                share
+                            </span>Compartir en</div>
+
+                    </div>
+
+                    <div>
+                    </div>
                 </div>
             </div>
         </div>

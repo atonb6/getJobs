@@ -1,7 +1,14 @@
 <?php include('layout/head.php'); ?>
 <?php include('layout/header.php'); ?>
 
-<?php include('components/results-title.php'); ?>
+<?php 
+
+$title = "Título de Búsqueda";
+$subtitle = "Resultados de búsqueda";
+
+include('components/results-title.php'); 
+?>
+
 <?php include('components/select.php'); ?>
 <?php include('components/results-tags.php'); ?>
 

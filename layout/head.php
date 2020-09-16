@@ -28,6 +28,9 @@
 
   <title>GetJobs</title>
 
+  <!-- Extra - Font Awesome -->
+  <script src="https://kit.fontawesome.com/3b83993061.js" crossorigin="anonymous"></script>
+
   <!-- Theme CSS - Incluye todo -->
   <link href="dist/css/style.min.css" rel="stylesheet">
 

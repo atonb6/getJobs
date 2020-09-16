@@ -4,6 +4,7 @@
   border: solid 1px #f0f0f0;
   background-color: $white;
   padding: 10px 15px;
+  z-index: -1;
 
   &__img {
     border-radius: 7px;

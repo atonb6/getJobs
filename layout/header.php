@@ -36,10 +36,10 @@
 				<a class="nav-link mr-2" href="results.php">Ofertas</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link mr-2" href="#">Listados</a>
+				<a class="nav-link mr-2" href="lists.php">Listados</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link mr-2" href="#">Grupo</a>
+				<a class="nav-link mr-2" href="groups.php">Grupo</a>
 			</li>
 		</ul>
 	</div>
