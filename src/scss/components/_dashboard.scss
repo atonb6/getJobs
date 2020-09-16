@@ -77,6 +77,14 @@
       transform: translateY(-50%);
     }
 
+    textarea {
+      border-radius: 7px;
+      border: solid 1px #aaa;
+      background-color: #f9f9f9;
+      padding: 5px;
+      min-height: 150px;
+    }
+
     &__help {
       font-size: 0.8125rem;
       font-weight: 500;
@@ -84,4 +92,5 @@
       margin-bottom: 0;
     }
   }
+
 }

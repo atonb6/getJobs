@@ -5,13 +5,13 @@
 
             <h3>Foto de Perfil</h3>
             <div class="row justify-content-between align-items-center">
-                    <div class="col-md-8">
-                        <input type="file" class="custom-file-input profilepicture mb-3">  
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="dashboard__profile__help">La foto con la que te veran los demás usuarios y empresas</h6>
-                    </div>
+                <div class="col-md-8">
+                    <input type="file" class="custom-file-input profilepicture mb-3">
                 </div>
+                <div class="col-md-4">
+                    <h6 class="dashboard__profile__help">La foto con la que te veran los demás usuarios y empresas</h6>
+                </div>
+            </div>
 
 
             <form>
@@ -49,6 +49,17 @@
                         <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
                     </div>
                 </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Rut<span class="end">*</span></label></br>
+                        <input class="w-100" type="text" id="rut" name="rut" placeholder="Rut" required>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
@@ -93,8 +104,8 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                            <label class="dashboard__profile__label">Ciudad</label><span class="end">*</span></br>
-                            <div class="position-relative">
+                        <label class="dashboard__profile__label">Ciudad</label><span class="end">*</span></br>
+                        <div class="position-relative">
                             <select class="w-100" name="Ciudad" required>
                                 <option>Seleccione Ciudad</option>
                                 <option>Santiago</option>
@@ -202,18 +213,19 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <labe class="dashboard__profile__label"l>Ciudad de residencia<span class="end">*</span></label></br>
-                        <input class="w-100" type="text" id="region" name="region" placeholder="Valparaíso">
+                        <labe class="dashboard__profile__label" l>Ciudad de residencia<span class="end">*</span></label></br>
+                            <input class="w-100" type="text" id="region" name="region" placeholder="Valparaíso">
                     </div>
                     <div class="col-md-4">
                         <h6 class="dashboard__profile__help">Punto de contacto para enviarte notificaciones de avisos de empleo y de tus postulaciones.</h6>
                     </div>
                 </div>
 
-                <hr>
+                <hr class="mt-5 mb-5">
 
+                <h2 class="mb-4">Educación y experiencia</h2>
 
-                <div class="row justify-content-between align-items-center mb-5">
+                <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
                         <label class="dashboard__profile__label">Carrera Técnica o Universitaria<span class="end">*</span></label></br>
                         <input class="w-100" type="text" id="carrera" name="carrera" placeholder="Relaciones Públicas">
@@ -222,6 +234,111 @@
                         <h6 class="dashboard__profile__help">Institución donde se impartieron los estudios.</h6>
                     </div>
                 </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Nivel de educación</label></br>
+                        <div class="position-relative">
+                            <select class="w-100" required>
+                                <option>Seleccionar</option>
+                                <option>Básico</option>
+                                <option>Enseñanza media</option>
+                                <option>Técnico profesional</option>
+                                <option>Profesional incompleto</option>
+                                <option>Profesional completo</option>
+                                <option>Diplomado</option>
+                                <option>Magister</option>
+                                <option>Doctorado</option>
+                                <option>MBA</option>
+                            </select>
+                            <span class="material-icons chevron">
+                                expand_more
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Experiencia Laboral</label></br>
+                        <textarea class="w-100"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">Institución donde se impartieron los estudios.</h6>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Resumen Educación</label></br>
+                        <textarea class="w-100"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">Institución donde se impartieron los estudios.</h6>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Años de Experiencia</label></br>
+                        <div class="position-relative">
+                            <select class="w-100" required>
+                                <option>Junior (0 a 2 años)</option>
+                                <option>Semisenior (2 a 4)</option>
+                                <option>Senior(4 en adelante)</option>
+                            </select>
+                            <span class="material-icons chevron">
+                                expand_more
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
+                <hr class="mt-5 mb-5">
+
+                <h2 class="mb-4">Disponibilidad y Preferencias</h2>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Disponibilidad</label></br>
+                        <div class="position-relative">
+                            <select class="w-100" required>
+                                <option>Inmediata</option>
+                                <option>1 mes</option>
+                            </select>
+                            <span class="material-icons chevron">
+                                expand_more
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Pretensiones de renta</label><span class="end">*</span></br>
+                        <input class="w-100" type="number"  id="salary" name="salary" placeholder="600000">
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+                
+
 
                 <!--  <input type="submit" class="btn btn--blue"> -->
 

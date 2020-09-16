@@ -68,4 +68,5 @@ $('.share').on('click', function(e){
 	$(".float-circle").toggleClass("open");
 });
 
+
 })(jQuery); // End of use strict
