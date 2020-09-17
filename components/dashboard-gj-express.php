@@ -19,26 +19,43 @@
                 </hr>
 
                 <article class="results__info__block">
-                    <h2 class="mt-4">Preguntas</h2>
+                    <!-- <h2 class="mt-4">Preguntas</h2> -->
 
-                    <h3 class="mt-4 mb-2">¿En qué rubro de empresa se ha desempeñado? Comente con experiencia en empresas de servicio</h3>
+                    <h3 class="mt-4 mb-2">Experiencia laboral</h3>
+                    <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción de tus habilidades y capacidades laborales, así como de tus logros sobresalientes</h6>
+
 
                     <textarea name="" id="" cols="100%" rows="5"></textarea>
+                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
+                    
+                    <h3 class="mt-4 mb-2">Antecedentes de estudios</h3>
+                    <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción de tus estudios y capacidades que te capaciten para los cargos.</h6>
+
+
+                    <textarea name="" id="" cols="100%" rows="5"></textarea>
+                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
+
+
+                    <h3 class="mt-4 mb-2">¿Por qué deberíamos contratarte?</h3>
+                    <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción a una pregunta recurrente de los reclutadores.</h6>
+
+
+                    <textarea name="" id="" cols="100%" rows="5"></textarea>
+                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
 
                     
-                    <h3 class="mt-4 mb-2">¿En qué rubro de empresa se ha desempeñado? Comente con experiencia en empresas de servicio</h3>
+                    <h3 class="mt-4 mb-2">Cuéntanos de ti</h3>
+                    <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción que permitirá a los reclutantes conocerte mejor.</h6>
+
 
                     <textarea name="" id="" cols="100%" rows="5"></textarea>
+                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
 
-                    
-                    <h3 class="mt-4 mb-2">¿En qué rubro de empresa se ha desempeñado? Comente con experiencia en empresas de servicio</h3>
-
-                    <textarea name="" id="" cols="100%" rows="5"></textarea>
                 </article>
 
                 <!--  <input type="submit" class="btn btn--blue"> -->
 
-                <div class="row mb-5 justify-content-end mt-3">
+                <div class="row mb-5 justify-content-end mt-5">
                     <div class="col-md-4 text-right">
                         <button type="submit" class="btn btn--blue">Guardar los cambios</button>
                     </div>

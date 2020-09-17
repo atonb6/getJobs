@@ -330,19 +330,56 @@
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
                         <label class="dashboard__profile__label">Pretensiones de renta</label><span class="end">*</span></br>
-                        <input class="w-100" type="number"  id="salary" name="salary" placeholder="600000">
+                        <input class="w-100" type="number" id="salary" name="salary" placeholder="600000">
 
                     </div>
                     <div class="col-md-4">
                         <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
                     </div>
                 </div>
-                
+
+
+
+                <hr class="mt-5 mb-5">
+
+                <h2 class="mb-4">Privacidad</h2>
+
+
+                <div class="row justify-content-between mb-3">
+                    <div class="col-md-6">
+
+                        <label class="dashboard__profile__label">Compartir CV en Internet</label><span class="end">*</span></br>
+                        <div class="d-flex align-items-center">
+                            <input class="ml-2" type="radio" name="selection" id="yes" value="yes">
+                            <label class="form-check-label ml-2" for="yes">
+                                Sí
+                            </label>
+                            <input class="ml-2" type="radio" id="no" name="selection" value="no">
+                            <label class="form-check-label ml-2" for="no">No</label></br>
+                        </div>
+                        <h6 class="dashboard__profile__help mt-3">Seleccionando Sí, tu CV queda público en Internet.</h6>
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <label class="dashboard__profile__label">Datos Anónimos a Empleadores</label><span class="end">*</span></br>
+                        <div class="d-flex align-items-center">
+                            <input class="ml-2" type="radio" name="selection" id="yes" value="yes">
+                            <label class="form-check-label ml-2" for="yes">
+                                Si
+                            </label>
+                            <input class="ml-2" type="radio" id="no" name="selection" value="no">
+                            <label class="form-check-label ml-2" for="no">No</label></br>
+                        </div>
+                        <h6 class="dashboard__profile__help mt-3">Seleccionando Sí, datos de contacto serán mostrados solo si usted lo aprueba</h6>
+                    </div>
+
+                </div>
 
 
                 <!--  <input type="submit" class="btn btn--blue"> -->
 
-                <div class="row mb-5">
+                <div class="row mb-5 mt-5">
                     <div class="col-md-4 offset-md-5">
                         <button type="submit" class="btn btn--blue">Guardar los cambios</button>
                     </div>
