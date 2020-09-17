@@ -28,11 +28,11 @@
                         </div>
                         <div>
                             <div class="search-cards__date text-right">
-                                <span class="new">Nuevo
+                            <span class="transit">Menos de un mes
                                 </span>
                                 <span>-
                                 </span>
-                                <span>hoy
+                                <span>10/07/2020
                                 </span>
                             </div>
                             <div class="search-cards__icons mt-2 mb-2 text-right">
@@ -90,11 +90,11 @@
                         </div>
                         <div>
                             <div class="search-cards__date text-right">
-                                <span class="new">Nuevo
+                                <span class="end">Mas de un mes
                                 </span>
                                 <span>-
                                 </span>
-                                <span>hoy
+                                <span>10/07/2020
                                 </span>
                             </div>
                             <div class="search-cards__icons mt-2 mb-2 text-right">

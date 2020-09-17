@@ -27,6 +27,7 @@
                             </div>
                         </div>
                     </div>
+                    <a href="#" class="text-right small">Denunciar oferta de empleo</a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -57,12 +58,12 @@
                             </div>
                             <div class="stem"></div>
                         </div> -->
-                        <!--                         <div class="branch no-animation">
-                            <div class="node" id="pinterest">
-                                <div class="fa fa-pinterest share-alt-icon"></div>
+                        <div class="branch no-animation">
+                            <div class="node" id="whatsapp">
+                                <div class="fa fa-whatsapp share-alt-icon"></div>
                             </div>
                             <div class="stem"></div>
-                        </div> -->
+                        </div>
                         <div class="branch no-animation">
                             <div class="node" id="twitter">
                                 <div class="fa fa-twitter share-alt-icon"></div>

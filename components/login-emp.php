@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <form action="dash-enterprise-inbox.php">
+                <form action="dash-enterprise-home.php">
                     <div class="card login__card">
                         <h1 class="login__card__title">Inicia sesión</h1>
                         <h5 class="login__card__subtitle">Ingresa tus datos para continuar.</h5>
