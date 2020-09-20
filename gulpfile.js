@@ -84,6 +84,10 @@ function modules() {
     var jquerymatchheight = gulp
     .src("./node_modules/jquery-match-height/dist/jquery.matchHeight-min.js")
     .pipe(gulp.dest("./src/lib/jquery-match-height"));
+  //Datatables
+    var datatables = gulp
+    .src("./node_modules/datatables.net/js/jquery.dataTables.min.js")
+    .pipe(gulp.dest("./src/lib/datatables"));
 
   return merge(
     bootstrap,
@@ -92,7 +96,8 @@ function modules() {
     magnificPopup,
     jmigrate,
     slick,
-    jquerymatchheight
+    jquerymatchheight,
+    datatables
   );
 }
 
@@ -158,6 +163,7 @@ function js() {
       "./src/lib/jquery-migrate/jquery-migrate.min.js",
       "./src/lib/jquery-match-height/jquery.matchHeight-min.js",
       "./src/lib/slick/slick.min.js",
+      "./src/lib/datatables/jquery.dataTables.min.js",
       "./src/js/script.js"
     ])
     .pipe(concat("main.js"))

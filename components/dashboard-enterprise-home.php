@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div class="card dashboard__enterprise__home__card__footer">
-                    <a class="d-flex align-items-center justify-content-center" href="dashboard-enterprise-publications.php">Ver detalles<span class="ml-3 material-icons">
+                    <a class="d-flex align-items-center justify-content-center" href="dash-enterprise-published">Ver detalles<span class="ml-3 material-icons">
                             forward
                         </span></a>
                 </div>
@@ -51,9 +51,9 @@
     <div class="row">
         <div class="col-md-12">
             <a href="#" class="btn btn--blue w-100">Publicar Oferta</a>
-            <div class="dashboard__profile">
+<!--             <div class="dashboard__profile">
                 <input type="url" class="w-100">
-            </div>
+            </div> -->
 
         </div>
     </div>

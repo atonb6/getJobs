@@ -68,5 +68,20 @@ $('.share').on('click', function(e){
 	$(".float-circle").toggleClass("open");
 });
 
+//Datatables Init
+
+$(document).ready(function() {
+  $('#dashboard__enterprise__published__table').DataTable( {
+      "language": {
+          "lengthMenu": "Mostrar _MENU_ registros por página",
+          "zeroRecords": "No existe nada - disculpa",
+          "info": "Mostrando página _PAGE_ de _PAGES_",
+          "infoEmpty": "No existen registros",
+          "infoFiltered": "(filtrado por _MAX_ del registro)",
+          "search": "Buscar"
+      }
+  } );
+} );
+
 
 })(jQuery); // End of use strict
