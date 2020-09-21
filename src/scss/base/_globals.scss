@@ -565,6 +565,15 @@ input[type="checkbox"] {
   }
 }
 
+
+table.dataTable td.select-checkbox:before{
+  display: none;
+}
+
+table.dataTable tr.selected td.select-checkbox:after{
+  display: none;
+}
+
 /*--------------------------------------------------------------
   # Navbar
   --------------------------------------------------------------*/
@@ -597,3 +606,8 @@ input[type="checkbox"] {
   }
 }
 
+/*--------------------------------------------------------------
+  # Table
+  --------------------------------------------------------------*/
+  tr:nth-child(even) {background: rgb(233, 233, 233) !important}
+  tr:nth-child(odd) {background: #FFF !important}

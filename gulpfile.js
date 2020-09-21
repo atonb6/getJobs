@@ -24,6 +24,7 @@ var imgDest = "./dist/img";
 
 // Cargar package.json para banner
 const pkg = require("./package.json");
+const { data } = require("jquery");
 
 // Contenido del Banner CSS
 const bannerCss = [
@@ -33,7 +34,7 @@ const bannerCss = [
   " * Copyright 2020-" + new Date().getFullYear(),
   " <%= pkg.author %>\n",
   " */\n",
-  "\n"
+  "\n",
 ].join("");
 
 // Contenido del Banner JS
@@ -43,7 +44,7 @@ const bannerJs = [
   " * Copyright 2020-" + new Date().getFullYear(),
   " <%= pkg.author %>\n",
   " */\n",
-  "\n"
+  "\n",
 ].join("");
 
 // Limpiar Librería
@@ -77,17 +78,37 @@ function modules() {
   var jquery = gulp
     .src([
       "./node_modules/jquery/dist/*",
-      "!./node_modules/jquery/dist/core.js"
+      "!./node_modules/jquery/dist/core.js",
     ])
     .pipe(gulp.dest("./src/lib/jquery"));
   // jquery-match-height
-    var jquerymatchheight = gulp
+  var jquerymatchheight = gulp
     .src("./node_modules/jquery-match-height/dist/jquery.matchHeight-min.js")
     .pipe(gulp.dest("./src/lib/jquery-match-height"));
   //Datatables
-    var datatables = gulp
+  var datatables = gulp
     .src("./node_modules/datatables.net/js/jquery.dataTables.min.js")
     .pipe(gulp.dest("./src/lib/datatables"));
+  //Datatables-Buttons
+  var datatables_buttons = gulp
+    .src("./node_modules/datatables.net-buttons/js/dataTables.buttons.min.js")
+    .pipe(gulp.dest("./src/lib/datatables-buttons"));
+  //Datatables-Select
+  var datatables_select = gulp
+    .src("./node_modules/datatables.net-select/js/dataTables.select.min.js")
+    .pipe(gulp.dest("./src/lib/datatables-select"));
+  //Datatables-Fixed
+  var datatables_fixed = gulp
+    .src(
+      "./node_modules/datatables.net-fixedcolumns/js/dataTables.fixedColumns.min.js"
+    )
+    .pipe(gulp.dest("./src/lib/datatables-fixed"));
+  //Datatables-Responsive
+  var datatables_responsive = gulp
+    .src(
+      "./node_modules/datatables.net-responsive/js/dataTables.responsive.min.js"
+    )
+    .pipe(gulp.dest("./src/lib/datatables-responsive"));
 
   return merge(
     bootstrap,
@@ -97,7 +118,11 @@ function modules() {
     jmigrate,
     slick,
     jquerymatchheight,
-    datatables
+    datatables,
+    datatables_buttons,
+    datatables_fixed,
+    datatables_responsive,
+    datatables_select
   );
 }
 
@@ -119,18 +144,18 @@ function css() {
     .pipe(
       sass({
         outputStyle: "expanded",
-        includePaths: "./node_modules"
+        includePaths: "./node_modules",
       })
     )
     .on("error", sass.logError)
     .pipe(
       autoprefixer({
-        cascade: false
+        cascade: false,
       })
     )
     .pipe(
       header(bannerCss, {
-        pkg: pkg
+        pkg: pkg,
       })
     )
     .pipe(order(["magnific-popup/*.css"]))
@@ -138,7 +163,7 @@ function css() {
     .pipe(cleanCSS())
     .pipe(
       rename({
-        suffix: ".min"
+        suffix: ".min",
       })
     )
     .pipe(cleanCSS())
@@ -147,7 +172,7 @@ function css() {
       notify({
         title: "Sass OK",
         message: "Yeah! Tarea de Sass completada con éxito 👌",
-        onLast: true
+        onLast: true,
       })
     );
 }
@@ -164,13 +189,17 @@ function js() {
       "./src/lib/jquery-match-height/jquery.matchHeight-min.js",
       "./src/lib/slick/slick.min.js",
       "./src/lib/datatables/jquery.dataTables.min.js",
-      "./src/js/script.js"
+      "./src/lib/datatables-buttons/dataTables.buttons.min.js",
+      "./src/lib/datatables-fixed/dataTables.fixedColumns.min.js",
+      "./src/lib/datatables-responsive/dataTables.responsive.min.js",
+      "./src/lib/datatables-select/dataTables.select.min.js",
+      "./src/js/script.js",
     ])
     .pipe(concat("main.js"))
     .pipe(uglify({ output: { comments: "all" } }))
     .pipe(
       rename({
-        suffix: ".min"
+        suffix: ".min",
       })
     )
     .pipe(header(bannerJs, { pkg: pkg }))
@@ -179,7 +208,7 @@ function js() {
       notify({
         title: "Js OK",
         message: "Yeah! Tarea de Js completada con éxito 👌",
-        onLast: true
+        onLast: true,
       })
     );
 }

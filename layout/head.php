@@ -32,6 +32,7 @@
   <script src="https://kit.fontawesome.com/3b83993061.js" crossorigin="anonymous"></script>
   <!-- Extra - Data Tables -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.0/css/select.dataTables.min.css">
   <!--script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script> -->
   <!-- Theme CSS - Incluye todo -->
   <link href="dist/css/style.min.css" rel="stylesheet">

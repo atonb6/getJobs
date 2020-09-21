@@ -1,5 +1,7 @@
 <?php include('layout/head.php'); ?>
 <?php include('layout/header.php'); ?>
+
+
 <section class="dashboard">
     <div class="container">
         <div class="row">
@@ -7,7 +9,7 @@
             <?php include('components/dashboard-menu-enterprise.php'); ?>
             </div>
             <div class="col-md-10">
-            <?php include('components/dashboard-enterprise-home.php'); ?>
+            <?php include('components/dashboard-enterprise-detail-offer.php'); ?>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
-<article class="dashboard__enterprise__home">
-    <h1 class="dashboard__profile__title mt-3 black">Título</h1>
+<article class="dashboard__enterprise__home mt-4">
+<?php include('components/breadcrumb.php') ?>
+    <h1 class="dashboard__profile__title black">Título</h1>
     <div class="row">
         <div class="col-md-3">
             <div class="mt-4 mb-4 card dashboard__enterprise__home__card bg-green sameheight dashboard__enterprise__home__card--ofer">

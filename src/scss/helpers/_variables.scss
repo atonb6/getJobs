@@ -5,6 +5,7 @@ $darkgray: #53565a;
 $blue: #1567a0;
 $purple: #8854b7;
 $red: #ce4f4f;
+$yellow: #a89700;
 
 .bg-green {
   background-color: $green;
@@ -24,6 +25,13 @@ $red: #ce4f4f;
 }
 .bg-red {
   background-color: $red;
+}
+
+.red{
+  color: $red;
+}
+.black{
+  color: $black !important;
 }
 
 // transitions
