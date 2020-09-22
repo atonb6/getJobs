@@ -44,6 +44,12 @@
         &:last-of-type {
           margin-top: 150px !important;
         }
+
+        &--enterprise{
+          &:last-child{
+            margin-bottom: 150px;
+          }
+        }
       }
     }
   }

@@ -6,7 +6,7 @@
     <form>
         <hr>
 
-        <div class="row justify-content-between align-items-center mb-3">
+        <div class="row justify-content-between mb-3">
             <div class="col-md-6">
                 <label class="dashboard__profile__label mt-2">Título<span class="end">*</span></label></br>
                 <input class="w-100" type="text" id="title" name="title" placeholder="Título de la oferta" required>
@@ -34,6 +34,29 @@
 
                 <label class="dashboard__profile__label mt-2">Salario</label></br>
                 <input class="w-100" type="text" id="salary" name="salary" placeholder="$600.000">
+                <input class="mt-2" type="checkbox" id="public" name="public" value="public"><label for="public">¿Desea hacer público el salario?</label>
+
+
+                <label class="dashboard__profile__label mt-2">Rango salarial*</br>
+                    <div class="position-relative">
+                        <select class="w-100 mt-2" required>
+                            <option>[min-max]</option>
+                            <option>0-$350.000</option>
+                            <option>$350.000 - $500.000</option>
+                            <option>$500.000 - $700.000</option>
+                            <option>$700.000 - $1.000.000</option>
+                            <option>$1.000.000 - $1.500.000</option>
+                            <option>$1.200.000 - $2.000.000</option>
+                            <option>$2.000.000 - $3.000.000</option>
+                            <option>$3.000.000 - $5.000.000</option>
+                            <option>Más de $5.000.000</option>
+                        </select>
+                        <span class="material-icons chevron">
+                            expand_more
+                        </span>
+                    </div>
+                    <h6>Recuerde que los usuarios Premium tienen acceso a saber si se encuentran dentro del rango salarial, pero no a saber la renta ofrecida.</h6>
+
 
             </div>
         </div>
@@ -135,8 +158,11 @@
                 <div class="position-relative">
                     <select class="w-100" required>
                         <option>[Elegir]</option>
-                        <option>Venezuela</option>
-                        <option>Argentina</option>
+                        <option>Full-time</option>
+                        <option>Part-time</option>
+                        <option>Part-time & Full-time</option>
+                        <option>Freelance</option>
+                        <option>Consultor</option>
                     </select>
                     <span class="material-icons chevron">
                         expand_more
@@ -209,10 +235,89 @@
         <div class="row mt-3">
             <div class="col-md-12">
                 <input class="mt-2" type="checkbox" id="add" name="add" value="add"><label for="add">¿Desea agregar mas preguntas?</label>
-                <input class="mt-2" type="checkbox" id="add2" name="add2" value="add2"><label for="add2">¿Desea agregar mas beneficios?</label>
-                <span class="mt-2">Define los beneficios que tu empresa da a los trabajadores</span>
             </div>
         </div>
+        <h2 class="mb-4 mt-3">Preguntas Opcionales</h2>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <label class="dashboard__profile__label">Pregunta 1</label></br>
+                <textarea class="w-100" placeholder="Ingresa tu pregunta"></textarea>
+                <label class="dashboard__profile__label mt-3">Pregunta 2</label></br>
+                <textarea class="w-100" placeholder="Ingresa tu pregunta"></textarea>
+            </div>
+            <div class="col-md-6">
+                <label class="dashboard__profile__label">Pregunta 3</label></br>
+                <textarea class="w-100" placeholder="Ingresa tu pregunta"></textarea>
+                <label class="dashboard__profile__label mt-3">Pregunta 4</label></br>
+                <textarea class="w-100" placeholder="Ingresa tu pregunta"></textarea>
+            </div>
+        </div>
+
+        <hr class="mt-5 mb-3">
+
+
+
+
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <input class="mt-2" type="checkbox" id="add2" name="add2" value="add2"><label for="add2">¿Desea agregar mas beneficios?</label>
+                <span class="mt-2 mb-2">Define los beneficios que tu empresa da a los trabajadores</span>
+            </div>
+        </div>
+
+        <div class="row mt-3 justify-content-center text-center">
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        computer
+                    </span>
+                </div>
+                <p>La empresa entrega equipo de trabajo</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        pets
+                    </span>
+                </div>
+                <p>Se puede ir con mascotas</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        directions_bike
+                    </span>
+                </div>
+                <p>Estacionamiento de bicicletas</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        wifi
+                    </span>
+                </div>
+                <p>Wifi de alta velocidad y libre</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        fastfood
+                    </span>
+                </div>
+                <p>Snacks y café grátis</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Trabajo Remoto</p>
+            </div>
+        </div>
+
+
 
         <div class="row mt-3">
             <div class="col-md-12">
@@ -226,9 +331,13 @@
 
         <!--  <input type="submit" class="btn btn--blue"> -->
 
-        <div class="row mb-5 mt-5">
-            <div class="col-md-4 offset-md-5">
-                <button type="submit" class="btn btn--blue">Guardar los cambios</button>
+        <div class="row justify-content-between mb-5 mt-5">
+            <div class="col-md-6 text-center">
+            <button type="reset" class="btn btn--border-blue">Cancelar Publicación</button>
+            </div>
+            <div class="col-md-6 text-center">
+            
+            <button type="submit" class="btn btn--blue">Finalizar y publicar oferta</button>
             </div>
         </div>
 
@@ -237,5 +346,5 @@
     <?php include('components/banner.php'); ?>
     </div>
 
-    
+
 </article>

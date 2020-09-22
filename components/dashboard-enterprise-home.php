@@ -58,6 +58,7 @@
 
         </div>
     </div>
-    </div>
     <?php include('components/banner.php'); ?>
+    </div>
+    
 </article>

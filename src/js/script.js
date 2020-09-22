@@ -119,4 +119,13 @@
 /*   $("#dashboard__enterprise__published__table__tbl").on("click",".select_all", function (e) {
         table.rows().select();
   }); */
+
+  //Benefits
+  $(".btn.btn--benefits").on("click", function (e) {
+    e.preventDefault();
+
+    $(this).toggleClass('checked');
+  });
+
+
 })(jQuery); // End of use strict
