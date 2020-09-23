@@ -9,6 +9,7 @@
     }
 
     background-color: #e0e0e0;
+
     &:after {
       content: "";
       transform: translateX(-100%);
@@ -45,8 +46,8 @@
           margin-top: 150px !important;
         }
 
-        &--enterprise{
-          &:last-child{
+        &--enterprise {
+          &:last-child {
             margin-bottom: 150px;
           }
         }
@@ -104,9 +105,11 @@
   }
 
   &__enterprise {
+
     &__home {
       &__card {
         position: relative;
+
         &--ofer {
           &:after {
             content: "";
@@ -219,6 +222,7 @@
           h5 {
             margin-bottom: 0;
           }
+
           a {
             color: $black;
             font-size: 0.8rem;
@@ -235,9 +239,11 @@
           h3 {
             font-size: 0.8rem;
           }
+
           .material-icons {
             font-size: 0.9rem;
           }
+
           img {
             max-width: 60px;
             margin: 0 auto;
@@ -256,6 +262,7 @@
             font-weight: 600;
             color: #1567a0;
           }
+
           h3 {
             font-size: 0.8rem;
             color: #1567a0;
@@ -273,6 +280,7 @@
       &__data {
         padding: 15px;
         background-color: $white;
+
         img {
           max-width: 200px;
           object-fit: cover;
@@ -283,6 +291,7 @@
             &:first-of-type {
               border-top: 1px solid rgb(206, 203, 203);
             }
+
             border-bottom: 1px solid rgb(206, 203, 203);
             padding-top: 15px;
             padding-bottom: 15px;
@@ -295,6 +304,7 @@
           color: #1567a0;
         }
       }
+
       &__number {
         font-size: 1rem;
         font-weight: 400;
@@ -327,6 +337,7 @@
           transform: translateX(15%);
           width: 200px;
         }
+
         .dashboard__enterprise__detail__data {
           background-color: transparent;
           padding: 0;
@@ -341,17 +352,21 @@
             color: $green;
           }
         }
+
         .dashboard__enterprise__detail__list__item {
           &__img {
             width: 50px;
             height: 50px;
             object-fit: cover;
           }
+
           padding: 15px;
           align-items: center;
+
           &:nth-child(even) {
             background-color: $white;
           }
+
           &:nth-child(odd) {
             background-color: #e4e3e3;
           }
@@ -375,7 +390,7 @@
           padding: 5px;
         }
 
-        textarea{
+        textarea {
           border-radius: 7px;
           border: solid 1px #aaa;
           background-color: #f9f9f9;
@@ -390,6 +405,12 @@
           top: 50%;
           transform: translateY(-50%);
         }
+      }
+    }
+
+    &__search {
+      .chevron {
+        right: 10%;
       }
     }
   }

@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="card dashboard__enterprise__home__card__footer">
-                    <a class="d-flex align-items-center justify-content-center" href="dash-enterprise-published">Ver detalles<span class="ml-3 material-icons">
+                    <a class="d-flex align-items-center justify-content-center" href="dash-enterprise-published.php">Ver detalles<span class="ml-3 material-icons">
                             forward
                         </span></a>
                 </div>
