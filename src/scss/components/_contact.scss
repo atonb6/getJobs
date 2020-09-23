@@ -1,0 +1,17 @@
+.contact {
+    right: 10px;
+    bottom: 10px;
+
+    a {
+        background-color: $blue;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+
+        &:hover {
+            color: #fff;
+            box-shadow: -2px 2px 23px -11px $blue;
+            transition: all .3s ease 0s;
+        }
+    }
+}

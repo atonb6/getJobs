@@ -1,3 +1,4 @@
+<?php include('components/contact.php') ?>
 <div class="offset-down">
     <img class="mt-2 mb-2 dashboard__menu__img" src="http://placeimg.com/400/400" alt="Foto de Perfil">
     <ul class="dashboard__menu__list">

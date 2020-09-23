@@ -15,57 +15,57 @@
     </form>
 
     <div class="row mt-3">
-    <div class="col-md-12">
-        <div class="row">
-            <div class="col select__icon">
-                <!-- <label>Sexo</label> -->
-                <select class="select select--input-filter w-100" name="industria">
-                    <option value="value1">Industria</option>
-                    <option value="value2">Alimentos</option>
-                    <option value="value2">Alimentos</option>
-                    <option value="value2">Alimentos</option>
-                </select>
-                <span class="material-icons chevron">
-                    expand_more
-                </span>
-            </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col select__icon">
+                    <!-- <label>Sexo</label> -->
+                    <select class="select select--input-filter w-100" name="industria">
+                        <option value="value1">Industria</option>
+                        <option value="value2">Alimentos</option>
+                        <option value="value2">Alimentos</option>
+                        <option value="value2">Alimentos</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
 
-            <div class="col select__icon">
-                <!-- <label>Experiencia</label> -->
-                <select class="select select--input-filter w-100" name="area">
-                    <option value="value1">Área</option>
-                    <option value="value1">Gerencia General</option>
-                    <option value="value1">Gerencia General</option>
-                </select>
-                <span class="material-icons chevron">
-                    expand_more
-                </span>
-            </div>
-            <div class="col select__icon">
-                <!-- <label>Estudios</label> -->
-                <select class="select select--input-filter w-100" name="nivelcargo">
-                    <option value="value1">Nivel de Cargo</option>
-                    <option value="value2">C-Level / Directivos</option>
-                </select>
-                <span class="material-icons chevron">
-                    expand_more
-                </span>
-            </div>
-            <div class="col select__icon">
-                <!-- <label>Ciudad</label> -->
-                <select class="select select--input-filter w-100" name="region">
-                    <option value="value1">Región</option>
-                    <option value="value2">Región de Arica y Parinacota</option>
-                    <option value="value2">Región de Arica y Parinacota</option>
-                    <option value="value2">Región de Arica y Parinacota</option>
-                    <option value="value2">Región de Arica y Parinacota</option>
-                </select>
-                <span class="material-icons chevron">
-                    expand_more
-                </span>
+                <div class="col select__icon">
+                    <!-- <label>Experiencia</label> -->
+                    <select class="select select--input-filter w-100" name="area">
+                        <option value="value1">Área</option>
+                        <option value="value1">Gerencia General</option>
+                        <option value="value1">Gerencia General</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
+                <div class="col select__icon">
+                    <!-- <label>Estudios</label> -->
+                    <select class="select select--input-filter w-100" name="nivelcargo">
+                        <option value="value1">Nivel de Cargo</option>
+                        <option value="value2">C-Level / Directivos</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
+                <div class="col select__icon">
+                    <!-- <label>Ciudad</label> -->
+                    <select class="select select--input-filter w-100" name="region">
+                        <option value="value1">Región</option>
+                        <option value="value2">Región de Arica y Parinacota</option>
+                        <option value="value2">Región de Arica y Parinacota</option>
+                        <option value="value2">Región de Arica y Parinacota</option>
+                        <option value="value2">Región de Arica y Parinacota</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="row mt-3">
@@ -121,9 +121,5 @@
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-
-<?php include('components/banner.php'); ?>
+    <?php include('components/banner.php'); ?>
 </div>
