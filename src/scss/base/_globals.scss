@@ -606,6 +606,32 @@ table.dataTable tr.selected td.select-checkbox:after{
   }
 }
 
+#modal-recomend{
+
+  .modal-body{
+    max-height: 50vh;
+    overflow: auto;
+    .people-cards{
+      margin: 0;
+      margin-bottom: 0 !important;
+      margin-top: 15px !important;
+    }
+  }
+
+}
+
+.list-modal{
+
+  .modal-dialog{
+    max-width: 80%;
+  }
+  .modal-content {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 50px;
+  }
+}
+
 /*--------------------------------------------------------------
   # Table
   --------------------------------------------------------------*/

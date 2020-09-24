@@ -1,4 +1,4 @@
-<section class="search pt-2">
+<section class="search pt-2 mt-5">
     <h1 class="h2">Titulo</h1>
     <form action="">
         <div class="row mt-3 align-items-center">

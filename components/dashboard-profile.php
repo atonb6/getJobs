@@ -144,7 +144,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Dirección</label><span class="end">*</span></br>
+                        <label class="dashboard__profile__label">Dirección</label></br>
                         <input class="w-100" type="text" id="address" name="address" placeholder="Emiliano Cabrera Sandoval 462">
 
                     </div>
@@ -180,7 +180,7 @@
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
 
-                        <label class="dashboard__profile__label">Genero</label><span class="end">*</span></br>
+                        <label class="dashboard__profile__label">Género</label><span class="end">*</span></br>
                         <div class="d-flex align-items-center">
                             <input class="ml-2" type="radio" name="gender" id="male" value="male">
                             <label class="form-check-label ml-2" for="male">
@@ -190,6 +190,8 @@
                             <label class="form-check-label ml-2" for="female">Mujer</label></br>
                             <input class="ml-2" type="radio" id="other" name="gender" value="other">
                             <label class="form-check-label ml-2" for="other">Otro</label>
+                            <input class="ml-2" type="radio" id="hide" name="gender" value="hide">
+                            <label class="form-check-label ml-2" for="hide">Prefiero no decir</label>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -199,7 +201,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Discapacidad<span class="end">*</span></label>
+                        <label class="dashboard__profile__label">Perfil asociado a la Inclusión Laboral <a href="#">(Ley 21.015)</a><span class="end">*</span></label>
                         <div class="d-flex">
                             <input type="checkbox" id="disclaimer-yes" name="disclaimer" value="disclaimer-yes"><label for="disclaimer-yes">Sí</label>
                             <input type="checkbox" id="disclaimer-no" name="disclaimer" value="disclaimer-no"><label for="disclaimer-no">No</label>
@@ -211,19 +213,38 @@
                 </div>
 
 
-                <div class="row justify-content-between align-items-center mb-3">
-                    <div class="col-md-8">
-                        <labe class="dashboard__profile__label" l>Ciudad de residencia<span class="end">*</span></label></br>
-                            <input class="w-100" type="text" id="region" name="region" placeholder="Valparaíso">
-                    </div>
-                    <div class="col-md-4">
-                        <h6 class="dashboard__profile__help">Punto de contacto para enviarte notificaciones de avisos de empleo y de tus postulaciones.</h6>
-                    </div>
-                </div>
-
                 <hr class="mt-5 mb-5">
 
                 <h2 class="mb-4">Educación y experiencia</h2>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Universidad o Institución<span class="end">*</span></label></br>
+                        <div class="position-relative">
+                            <select class="w-100" required>
+                                <option>Seleccionar</option>
+                                <option>Otro</option>
+                            </select>
+                            <span class="material-icons chevron">
+                                expand_more
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Si seleccionó otro, cuál.<span class="end">*</span></label></br>
+                        <input class="w-100" type="text" id="other" name="other" placeholder="Relaciones Públicas">
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">Institución donde se impartieron los estudios.</h6>
+                    </div>
+                </div>
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
@@ -237,7 +258,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Nivel de educación</label></br>
+                        <label class="dashboard__profile__label">Nivel Educacional</label></br>
                         <div class="position-relative">
                             <select class="w-100" required>
                                 <option>Seleccionar</option>
@@ -275,7 +296,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Resumen Educación</label></br>
+                        <label class="dashboard__profile__label">Otros Cursos o Certificaciones</label></br>
                         <textarea class="w-100"></textarea>
                     </div>
                     <div class="col-md-4">
@@ -288,9 +309,12 @@
                         <label class="dashboard__profile__label">Años de Experiencia</label></br>
                         <div class="position-relative">
                             <select class="w-100" required>
-                                <option>Junior (0 a 2 años)</option>
-                                <option>Semisenior (2 a 4)</option>
-                                <option>Senior(4 en adelante)</option>
+                                <option>0-2 años</option>
+                                <option>2-4 años</option>
+                                <option>4-6 años</option>
+                                <option>6-8 años</option>
+                                <option>8-10 años</option>
+                                <option>10 o +</option>
                             </select>
                             <span class="material-icons chevron">
                                 expand_more

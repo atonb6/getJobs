@@ -1,5 +1,13 @@
 <article>
     <?php include('components/breadcrumb.php'); ?>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="black dashboard__profile__title">Postulaciones</h1>
+        </div>
+    </div>
+
+
     <div class="row">
         <?php for ($i = 1; $i <= 6; $i++) : ?>
             <div class="col-md-6">

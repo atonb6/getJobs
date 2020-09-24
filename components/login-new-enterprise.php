@@ -11,16 +11,16 @@
 
                             <div class="row text-left">
                                 <div class="col-md-6">
-                                    <input class="mt-3" type="text" placeholder="Nombre Empresa">
-                                    <input class="mt-3" type="text" placeholder="Rut Empresa">
-                                    <input class="mt-3" type="email" placeholder="Email">
-                                    <input class="mt-3" type="email" placeholder="confirmar Email">
+                                    <input class="mt-3" type="text" placeholder="Nombre Empresa"  required>
+                                    <input class="mt-3" type="text" placeholder="Rut Empresa"  required>
+                                    <input class="mt-3" type="email" placeholder="Email"  required>
+                                    <input class="mt-3" type="email" placeholder="confirmar Email"  required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input class="mt-3" type="text" placeholder="Giro">
-                                    <input class="mt-3" type="password" placeholder="Password">
-                                    <input class="mt-3" type="password" placeholder="Confirmar Password">
-                                    <input class="mt-3" type="number" placeholder="Número telefónico">
+                                    <input class="mt-3" type="text" placeholder="Giro"  required>
+                                    <input class="mt-3" type="password" placeholder="Password"  required>
+                                    <input class="mt-3" type="password" placeholder="Confirmar Password"  required> 
+                                    <input class="mt-3" type="number" placeholder="Número telefónico"  required>
                                 </div>
                             </div>
 

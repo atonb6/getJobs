@@ -2,7 +2,7 @@
 
     <div class="col-md-8 offset-md-2">
         <p class="card message__response">Mensaje Escrito por el contacto</p>
-        <label class="d-flex justify-content-end message__label">23:59 hrs</label>
+        <label class="d-flex justify-content-end message__label">23:59 hrs - leído</label>
     </div>
     <div class="col-md-2 text-center">
 

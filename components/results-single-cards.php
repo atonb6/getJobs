@@ -21,7 +21,7 @@
 
                             <div class="d-flex justify-content-end mt-2">
                                 <div class="search-cards__date text-right">
-                                    <a href="results-single.php" class="btn btn--skinny btn--blue mr-2">Postular</a>
+                                    <a href="postulate.php" class="btn btn--skinny btn--blue mr-2">Postular</a>
                                     <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GF Express</a>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@
             </div>
             <div class="col-md-4">
                 <div class="d-flex flex-column">
-                    <a href="#" class="btn btn--green mt-4 w-50 d-flex align-items-center"><span class="material-icons mr-2">
+                    <a href="#" data-toggle="modal" data-target="#modal-recomend" class="btn btn--green mt-4 w-50 d-flex align-items-center"><span class="material-icons mr-2">
                             send
                         </span>Recomendar</a>
                     <a href="#" class="btn btn--green mt-2 w-50 d-flex align-items-center"><span class="material-icons mr-2">
@@ -98,6 +98,25 @@
                 </div>
                 <div class="modal-footer mx-auto">
                     <button type="button" class="btn--skinny btn--green border-white" data-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gj-modal modal fade text-center" id="modal-recomend" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="mt-2">
+                   <h2 class="white">Recomendar a </h2><br/>
+                   <input class="search__input mr-3 w-100" type="text" placeholder="Buscar contactos...">
+                </div>
+                <div class="modal-body">
+                    <?php for($i=0;$i<=10;$i++): ?>
+                    <a href="#"><?php include('components/people-cards.php') ?></a>
+                    <?php endfor; ?>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn--skinny btn--green border-white" data-dismiss="modal">Enviar</button>
                 </div>
             </div>
         </div>

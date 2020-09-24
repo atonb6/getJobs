@@ -1,13 +1,12 @@
 <section class="results-cards">
+<?php include('components/breadcrumb-filter.php') ?>
     <div class="container">
         <div class="row">
             <div class="col-md-10">
                 <div class="row">
                     <?php for ($i = 1; $i <= 16; $i++) : ?>
-                        <div class="col-md-6">
-
-                            <?php include('application-cards-lists.php') ?>
-
+                        <div class="col-md-4">
+                            <?php include('application-cards-lists.php') ?>   
                         </div>
                     <?php endfor ?>
                 </div>
@@ -20,4 +19,5 @@
             </div>
         </div>
     </div>
+
 </section>

@@ -1,6 +1,7 @@
 <?php include('layout/head.php'); ?>
-<?php include('layout/header.php'); ?>
-
+<?php $login = "user";
+include('layout/header.php'); 
+?>
 
 <section class="dashboard">
     <div class="container">
@@ -9,7 +10,8 @@
             <?php include('components/dashboard-menu-enterprise.php'); ?>
             </div>
             <div class="col-md-10">
-            <?php include('components/dashboard-enterprise-message.php'); ?>
+            <?php include('components/back.php'); ?>
+            <?php include('components/message.php'); ?>
             </div>
         </div>
     </div>

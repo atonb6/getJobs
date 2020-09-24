@@ -1,17 +1,14 @@
 <article>
 <?php include('components/breadcrumb.php'); ?>
-
-<div class="row">
-        <div class="col-md-12">
-            <h1 class="black dashboard__profile__title">Ofertas Recomendadas</h1>
-        </div>
-    </div>
-
+<?php 
+$title = "Grupos de interés";
+$placeholder = "Buscar Grupos...";
+include('components/search-contacts.php'); ?>
 
 <div class="row">
     <?php for ($i = 1; $i <= 10; $i++) : ?>
         <div class="col-md-6">
-            <?php include('components/application-cards-dashboard-fyu.php') ?>
+        <?php include('application-cards-groups-premium.php') ?>
         </div>
     <?php endfor ?>
 </div>

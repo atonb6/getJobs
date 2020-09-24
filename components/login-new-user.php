@@ -11,16 +11,17 @@
 
                             <div class="row text-left">
                                 <div class="col-md-6">
-                                    <input class="mt-3" type="text" placeholder="Nombre">
-                                    <input class="mt-3" type="date" placeholder="Fecha de Nacimiento">
-                                    <input class="mt-3" type="email" placeholder="Email">
-                                    <input class="mt-3" type="email" placeholder="confirmar Email">
+                                    <input class="mt-3" type="text" placeholder="Nombre" required>
+                                    <input class="mt-3" type="date" placeholder="Fecha de Nacimiento"  required>
+                                    <input class="mt-3" type="email" placeholder="Email"  required>
+                                    <input class="mt-3" type="email" placeholder="confirmar Email"  required>
+                                    <input class="mt-3" type="text" placeholder="Rut"  required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input class="mt-3" type="text" placeholder="Apellido">
-                                    <input class="mt-3" type="password" placeholder="Password">
-                                    <input class="mt-3" type="password" placeholder="Confirmar Password">
-                                    <input class="mt-3" type="number" placeholder="Número telefónico">
+                                    <input class="mt-3" type="text" placeholder="Apellido"  required>
+                                    <input class="mt-3" type="password" placeholder="Password"  required>
+                                    <input class="mt-3" type="password" placeholder="Confirmar Password"  required>
+                                    <input class="mt-3" type="number" placeholder="Número telefónico"  required>
                                 </div>
                             </div>
 

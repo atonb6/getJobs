@@ -1,5 +1,5 @@
 <article class="dashboard__enterprise__home mt-4">
-<?php include('components/breadcrumb.php') ?>
+    <?php include('components/breadcrumb.php') ?>
     <h1 class="dashboard__profile__title black">Título</h1>
     <div class="row">
         <div class="col-md-3">
@@ -51,14 +51,36 @@
 
     <div class="row">
         <div class="col-md-12">
-            <a href="#" class="btn btn--blue w-100">Publicar Oferta</a>
-<!--             <div class="dashboard__profile">
+            <a href="http://localhost/getJobs/dash-enterprise-publish-offer.php" class="btn btn--blue w-100">Publicar Oferta</a>
+            <!--             <div class="dashboard__profile">
                 <input type="url" class="w-100">
             </div> -->
 
         </div>
     </div>
+
+    <form action="#">
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h3>Modificar o agregar cuentas de Reclutadores</h3>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-6 dashboard__enterprise__publish__offer">
+                <input class="w-100 mt-2" type="email" id="email" name="email" placeholder="uno@empresa.cl">
+                <input class="w-100 mt-2" type="email" id="email2" name="email" placeholder="dos@empresa.cl">
+            </div>
+            <div class="col-md-6 dashboard__enterprise__publish__offer">
+                <input class="w-100 mt-2" type="email" id="email3" name="email" placeholder="tres@empresa.cl">
+                <input class="w-100 mt-2" type="email" id="email4" name="email" placeholder="cuatro@empresa.cl">
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn--blue mt-3">Actualizar</button>
+            </div>
+        </div>
+    </form>
     <?php include('components/banner.php'); ?>
-    </div>
-    
 </article>
