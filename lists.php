@@ -11,7 +11,6 @@ include('components/results-title.php');
 <?php include('components/select-lists.php'); ?>
 <?php include('components/results-tags.php'); ?>
 
-<?php include('components/breadcrumb-filter.php'); ?>
 <?php include('components/results-cards-lists.php'); ?>
 
 <?php include('layout/footer.php'); ?>
