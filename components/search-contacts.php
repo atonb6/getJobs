@@ -1,4 +1,4 @@
-<section class="search pt-2">
+<section class="search">
     <h1 class="black dashboard__profile__title"><?php echo $title ?></h1>
     <form action="">
         <div class="row mt-3 align-items-center">

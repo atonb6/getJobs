@@ -1,5 +1,5 @@
 <section class="search pt-2 mt-5">
-    <h1 class="h2">Titulo</h1>
+    <h1 class="black dashboard__profile__title">Inbox</h1>
     <form action="">
         <div class="row mt-3 align-items-center">
             <div class="col-md-8">

@@ -14,9 +14,8 @@
                         <div class="position-relative dashboard__profile">
                             <label class="mr-2" for="select">Ordenar Por</label>
                             <select class="select select--input pr-5" name="answers">
-                                <option>Por antiguedad</option>
-                                <option>Más nuevo</option>
-                                <option>Más antiguo</option>
+                                <option>Fecha</option>
+                                <option>Destacados</option>
                             </select>
                             <span class="material-icons chevron">
                                 expand_more

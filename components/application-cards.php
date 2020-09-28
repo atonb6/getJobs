@@ -5,7 +5,9 @@
             <img class="search-cards__img" src="http://placeimg.com/80/80" alt="logo trabajo">
             <div class="ml-3">
                 <h4><strong>Nombre empresa</strong></h4>
-                <h3 class="mt-2 mb-2"><strong>Título de cargo</strong></h3>
+                <h3 class="mt-2 mb-2"><strong>Título de cargo</strong> <span class="yellow material-icons">
+                        grade
+                    </span></h3>
                 <h4>Ciudad - Modalidad</h4>
             </div>
         </div>
@@ -60,11 +62,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header mx-auto">
-                   <img class="modal-header__icon" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">
+                    <img class="modal-header__icon" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">
                 </div>
                 <div class="modal-body">
                     <p>
-                    Has postulado con éxito a este empleo. Los datos de tu perfil han sido enviados a la empresa.
+                        Has postulado con éxito a este empleo. Los datos de tu perfil han sido enviados a la empresa.
                     </p>
                 </div>
                 <div class="modal-footer mx-auto">

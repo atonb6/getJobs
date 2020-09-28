@@ -43,7 +43,7 @@
                     <li class="d-flex justify-content-between dashboard__enterprise__detail__list__item">URL Publicación:<div><a class="mr-3" href="https://www.getjobs.cl/trabajo/12312">https://www.getjobs.cl/trabajo/12312</a><a class="btn btn--blue" href="#">Ver oferta publicada</a></div>
                     </li>
                     <li class="d-flex justify-content-between dashboard__enterprise__detail__list__item">N° de visitas:<strong>1433</strong></li>
-                    <li class="d-flex justify-content-between dashboard__enterprise__detail__list__item">Postulaciones:<a href="#">Ver 112 Postulantes</a></li>
+                    <li class="d-flex justify-content-between dashboard__enterprise__detail__list__item">Postulaciones:<a href="#">Ver 112 Candidatos</a></li>
                     <li class="d-flex justify-content-between dashboard__enterprise__detail__list__item">Total de Días
                         <div class="position-relative">
                             <select>

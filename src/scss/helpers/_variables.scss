@@ -5,7 +5,7 @@ $darkgray: #53565a;
 $blue: #1567a0;
 $purple: #8854b7;
 $red: #ce4f4f;
-$yellow: #a89700;
+$yellow: #eedf57;
 
 .bg-green {
   background-color: $green;
@@ -36,6 +36,10 @@ $yellow: #a89700;
 
 .blue{
   color: $blue !important;
+}
+
+.yellow{
+  color: $yellow !important;
 }
 
 // transitions

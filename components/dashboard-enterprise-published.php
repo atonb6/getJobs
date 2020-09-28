@@ -35,7 +35,7 @@
                         </span> Activar</a>
                     <a href="#" class="d-flex align-items-center ml-2"><span class="material-icons mr-2">
                             delete
-                        </span> Borrar</a>
+                        </span> Eliminar</a>
                     <ul class="ml-2">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mostrar</a>
@@ -81,14 +81,14 @@
                                     <h3 class="d-flex align-items-center"><strong>Vistas: </strong>1433 <span class="material-icons ml-1">
                                             visibility
                                         </span></h3>
-                                    <h3 class="d-flex align-items-center"><strong>Postulantes: </strong>112<span class="material-icons ml-1">
+                                    <h3 class="d-flex align-items-center"><strong>Candidatos: </strong>112<span class="material-icons ml-1">
                                             account_circle
                                         </span></h3>
                                 </td>
                                 <td>
-                                    <a href="dash-enterprise-applicants.php" class="btn btn--blue">Ver Postulantes</a>
-                                    <a href="dash-enterprise-detail-offer.php" class="btn btn--green">Ver Detalle</a>
-                                    <a href="#" class="btn btn--yellow">Destacar Oferta</a>
+                                    <a href="dash-enterprise-applicants.php" class="btn btn--blue btn--round">Ver Candidatos</a>
+                                    <a href="dash-enterprise-detail-offer.php" class="btn btn--green btn--round">Ver Detalle</a>
+                                    <a href="#" class="btn btn--yellow black btn--round">Destacar Oferta</a>
 
                                 </td>
                             </tr>
@@ -106,14 +106,14 @@
                                     <h3 class="d-flex align-items-center"><strong>Vistas: </strong>1433 <span class="material-icons ml-1">
                                             visibility
                                         </span></h3>
-                                    <h3 class="d-flex align-items-center"><strong>Postulantes: </strong>112<span class="material-icons ml-1">
+                                    <h3 class="d-flex align-items-center"><strong>Candidatos: </strong>112<span class="material-icons ml-1">
                                             account_circle
                                         </span></h3>
                                 </td>
                                 <td>
-                                    <a href="dash-enterprise-applicants.php" class="btn btn--blue">Ver Postulantes</a>
-                                    <a href="dash-enterprise-detail-offer.php" class="btn btn--green">Ver Detalle</a>
-                                    <a id="featureoffer" href="#" class="btn btn--yellow">Destacar Oferta</a>
+                                    <a href="dash-enterprise-applicants.php" class="btn btn--blue btn--round">Ver Candidatos</a>
+                                    <a href="dash-enterprise-detail-offer.php" class="btn btn--green btn--round">Ver Detalle</a>
+                                    <a id="featureoffer" href="#" class="btn btn--yellow black btn--round">Destacar Oferta</a>
 
                                 </td>
                             </tr>

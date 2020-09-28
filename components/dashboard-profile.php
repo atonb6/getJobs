@@ -353,7 +353,7 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
-                        <label class="dashboard__profile__label">Pretensiones de renta</label><span class="end">*</span></br>
+                        <label class="dashboard__profile__label">Pretensiones de Renta Líquida</label><span class="end">*</span></br>
                         <input class="w-100" type="number" id="salary" name="salary" placeholder="600000">
 
                     </div>

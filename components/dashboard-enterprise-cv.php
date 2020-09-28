@@ -1,13 +1,13 @@
 <article class="dashboard__enterprise__cv mt-4">
     <?php include('components/breadcrumb.php') ?>
-    <h1 class="dashboard__profile__title mt-3 black ">Postulante a: (título de cargo) <span class="dashboard__enterprise__cv__number">#125645</span></h1>
+    <h1 class="dashboard__profile__title mt-3 black ">Candidato a: (título de cargo) <span class="dashboard__enterprise__cv__number">#125645</span></h1>
     <div class="row">
         <div class="col-md-12">
             <div class="dashboard__enterprise__cv__btns d-flex justify-content-between mb-5 mt-3">
-                <a class="btn btn--blue" href="#">Ya no me interesa, Quitar CV</a>
-                <a class="btn btn--blue" href="#">Enviar Mensaje al postulante</a>
+                <a class="btn btn--blue" href="#">No cumple requisitos. Descartar</a>
+                <a class="btn btn--blue" href="#">Enviar Mensaje al candidato</a>
                 <a class="btn btn--blue" href="#">Comentarios (0)</a>
-                <a class="btn btn--blue" href="dash-enterprise-detail-offer.php">Más detalles</a>
+                <a class="btn btn--blue" href="dash-enterprise-detail-offer.php">Ver Perfil</a>
             </div>
         </div>
     </div>
@@ -21,10 +21,12 @@
                             <div class="d-flex">
                                 <ul>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle btn btn--green btn--skinny" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Personas</a>
+                                        <a class="nav-link dropdown-toggle btn btn--green btn--skinny" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acción</a>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Opción 1</a>
-                                            <a class="dropdown-item" href="#">Opción 2</a>
+                                            <a class="dropdown-item" href="#">Preseleccionar</a>
+                                            <a class="dropdown-item" href="#">Seleccionar</a>
+                                            <a class="dropdown-item" href="#">No Seleccionar</a>
+                                            <a class="dropdown-item" href="#">Pendiente</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -60,7 +62,7 @@
                                 </span>
                             </a>
                         </div>
-                        <p class="mt-3">Mostrando postulante <strong>1</strong> de <strong>10</strong></p>
+                        <p class="mt-3">Mostrando candidato <strong>1</strong> de <strong>10</strong></p>
                         <div class="embbed mt-5">
                             <embed src="https://drive.google.com/viewerng/
 viewer?embedded=true&url=http://example.com/the.pdf" width="auto" height="375">

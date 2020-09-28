@@ -5,7 +5,7 @@
             <span class="rounded-circle__data">152</span>
 
         </div>
-        <p class="rounded-circle__info">Total postulantes</p>
+        <p class="rounded-circle__info">Total candidatos</p>
     </div>
 
     <div class="text-center">

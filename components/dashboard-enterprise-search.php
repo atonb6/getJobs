@@ -76,7 +76,7 @@
                         <tr>
                             <th></th>
                             <th></th>
-                            <th>Postulante</th>
+                            <th>Candidato</th>
 
                             <th>Categoría</th>
                             <th>Categorizar</th>
@@ -92,7 +92,7 @@
                                     </span></a></td>
                             <td>
                                 <h3 class="">
-                                    <stron>Nombre de postulante</stron>
+                                    <stron>Nombre de candidato</stron>
                                 </h3>
                                 <h4 class="d-flex align-items-center">Edad: 55 años</h4>
                                 <a href="mailto:correo@gmail.com" class="d-flex align-items-center">correo@gmail.com</a>

@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="mt-4 mb-4 card dashboard__enterprise__home__card bg-purple sameheight dashboard__enterprise__home__card--vis">
+            <div class="mt-4 mb-4 card dashboard__enterprise__home__card bg-darkgray sameheight dashboard__enterprise__home__card--vis">
                 <div class="d-flex align-items-center dashboard__enterprise__home__card__body">
                     <div>
                         <h2 class="white">Visitas</h2>
@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-md-12">
             <a href="http://localhost/getJobs/dash-enterprise-publish-offer.php" class="btn btn--blue w-100">Publicar Oferta</a>
             <!--             <div class="dashboard__profile">
@@ -67,12 +67,16 @@
         </div>
         <div class="row mt-2">
             <div class="col-md-6 dashboard__enterprise__publish__offer">
-                <input class="w-100 mt-2" type="email" id="email" name="email" placeholder="uno@empresa.cl">
-                <input class="w-100 mt-2" type="email" id="email2" name="email" placeholder="dos@empresa.cl">
+                <label class="mt-2">uno@empresa.cl</label>
+                <input class="w-100" type="email" id="email" name="email" placeholder="uno@empresa.cl">
+                <label class="mt-2">dos@empresa.cl</label>
+                <input class="w-100" type="email" id="email2" name="email" placeholder="dos@empresa.cl">
             </div>
             <div class="col-md-6 dashboard__enterprise__publish__offer">
-                <input class="w-100 mt-2" type="email" id="email3" name="email" placeholder="tres@empresa.cl">
-                <input class="w-100 mt-2" type="email" id="email4" name="email" placeholder="cuatro@empresa.cl">
+                <label class="mt-2">tres@empresa.cl</label>
+                <input class="w-100" type="email" id="email3" name="email" placeholder="tres@empresa.cl">
+                <label class="mt-2">cuatro@empresa.cl</label>
+                <input class="w-100" type="email" id="email4" name="email" placeholder="cuatro@empresa.cl">
             </div>
         </div>
 

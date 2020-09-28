@@ -1,6 +1,8 @@
 <div class="offset-down">
     <img class="mt-2 mb-2 dashboard__menu__img" src="http://placeimg.com/400/400" alt="Foto de Perfil">
-    <ul class="dashboard__menu__list">
+    <ul class="dashboard__menu__list"> 
+        
+        <li class="dashboard__menu__list__item py-3"><a href="dash-user-home.php">Mi Perfil</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-saved.php">Avisos Guardados</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-fyu.php">Ofertas Recomendadas</a></li>
 
@@ -9,7 +11,7 @@
         <!--Premium-->
 
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-applications.php">Postulaciones (4)</a></li>
-        <li class="dashboard__menu__list__item py-3"><a href="dash-user-profile.php">Mi Perfil</a></li>
+       
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-gjexpress">GJ Express</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-inbox.php">Inbox</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-user-contacts.php">Contactos</a></li>

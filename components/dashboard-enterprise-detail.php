@@ -1,6 +1,6 @@
 <article class="dashboard__enterprise__detail mt-4">
     <?php include('components/breadcrumb.php') ?>
-    <h1 class="dashboard__profile__title mt-3 black mb-3">Carta Postulante | (Nombre)</h1>
+    <h1 class="dashboard__profile__title mt-3 black mb-3">Carta Candidato | (Nombre)</h1>
     <div class="row mt-4">
         <div class="col-md-6">
             <div class="dashboard__enterprise__detail__data">

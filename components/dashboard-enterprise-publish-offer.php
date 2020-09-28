@@ -20,6 +20,11 @@
                 <label class="dashboard__profile__label mt-2">Duración de trabajo</label></br>
                 <input class="w-100" type="text" id="duration" name="duration" placeholder="Plazo fijo, indefinido, Por Proyecto">
 
+                <div class="mt-3">
+                    <input type="checkbox" id="gjexp" name="gjexp" value="gjexp"><label for="gjexp">¿Desea que pueda postular con GetJob Express?<span data-toggle="tooltip" data-placement="top" title="" data-original-title="Permite al interesado hacer una postulación rápida con preguntas básicas" class="material-icons">
+                            help
+                        </span></label>
+                </div>
             </div>
             <div class="col-md-6">
 
@@ -34,8 +39,9 @@
 
                 <label class="dashboard__profile__label mt-2">Salario</label></br>
                 <input class="w-100" type="text" id="salary" name="salary" placeholder="$600.000">
-                <input class="mt-2" type="checkbox" id="public" name="public" value="public"><label for="public">¿Desea hacer público el salario?</label>
-
+                <div class="mt-3">
+                <input type="checkbox" id="public" name="public" value="public"><label for="public">¿Desea hacer público el salario?</label>
+                </div>
 
                 <label class="dashboard__profile__label mt-2">Rango salarial*</br>
                     <div class="position-relative">
@@ -234,7 +240,7 @@
 
         <div class="row mt-3">
             <div class="col-md-12">
-                <input class="mt-2" type="checkbox" id="add" name="add" value="add"><label for="add">¿Desea agregar mas preguntas?</label>
+                <input class="mt-2" type="checkbox" id="add" name="add" value="add"><label for="add">¿Desea agregar más preguntas?</label>
             </div>
         </div>
         <h2 class="mb-4 mt-3">Preguntas Opcionales</h2>
@@ -261,7 +267,7 @@
 
         <div class="row mt-3">
             <div class="col-md-12">
-                <input class="mt-2" type="checkbox" id="add2" name="add2" value="add2"><label for="add2">¿Desea agregar mas beneficios?</label>
+                <input class="mt-2" type="checkbox" id="add2" name="add2" value="add2"><label for="add2">¿Desea agregar más beneficios?</label>
                 <span class="mt-2 mb-2">Define los beneficios que tu empresa da a los trabajadores</span>
             </div>
         </div>
@@ -313,7 +319,111 @@
                         work_outline
                     </span>
                 </div>
-                <p>Trabajo Remoto</p>
+                <p>Trabajo 100% Remoto</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Trabajo Remoto Opcional</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Uniforme</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Casino</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Mutual de Seguridad</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Caja de compensación</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Seguro de salud</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Bus de acercamiento</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Seguro de vida</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Vestimenta informal</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Vacaciones Extra</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Horario Flexible</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Seguro dental</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons icons-work">
+                        work_outline
+                    </span>
+                </div>
+                <p>Día de cumpleaños libre</p>
             </div>
         </div>
 
@@ -333,11 +443,11 @@
 
         <div class="row justify-content-between mb-5 mt-5">
             <div class="col-md-6 text-center">
-            <button type="reset" class="btn btn--border-blue">Cancelar Publicación</button>
+                <button type="reset" class="btn btn--border-blue">Cancelar Publicación</button>
             </div>
             <div class="col-md-6 text-center">
-            
-            <button type="submit" class="btn btn--blue">Finalizar y publicar oferta</button>
+
+                <button type="submit" class="btn btn--blue">Finalizar y publicar oferta</button>
             </div>
         </div>
 
