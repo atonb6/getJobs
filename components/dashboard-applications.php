@@ -44,22 +44,22 @@
                                 </span>
                             </div>
                             <div class="search-cards__icons mt-2 mb-2 text-right">
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     computer
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     pets
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     directions_bike
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     wifi
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     fastfood
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     work_outline
                                 </span>
                             </div>
@@ -106,22 +106,22 @@
                                 </span>
                             </div>
                             <div class="search-cards__icons mt-2 mb-2 text-right">
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     computer
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     pets
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     directions_bike
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     wifi
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     fastfood
                                 </span>
-                                <span class="material-icons icons-work">
+                                <span class="material-icons icons-work font-20">
                                     work_outline
                                 </span>
                             </div>

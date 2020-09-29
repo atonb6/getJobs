@@ -17,7 +17,7 @@
                     </div>
                 </div>
 
-                <span class="material-icons">
+                <span class="material-icons font-40">
                     message
                 </span>
             </a>

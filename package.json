@@ -5,7 +5,7 @@
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "Get Jobs Themplate",
+    "description": "GetJobs Themplate",
     "keywords": [
         "css",
         "sass",

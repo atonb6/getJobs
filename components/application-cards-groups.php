@@ -38,11 +38,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header mx-auto">
-                    <img class="modal-header__icon w-100" src="./dist/img/logo.svg" alt="Get Jobs Express">
+                    <img class="modal-header__icon w-100" src="./dist/img/logo.svg" alt="GetJobs Express">
                 </div>
                 <div class="modal-body">
                     <p class="modal-body__p">
-                        Para poder unirte a los grupos debes ser parte de Get Jobs Premium.
+                        Para poder unirte a los grupos debes ser parte de GetJobs Premium.
                     </p>
                 </div>
                 <div class="modal-footer mx-auto">

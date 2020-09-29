@@ -565,12 +565,11 @@ input[type="checkbox"] {
   }
 }
 
-
-table.dataTable td.select-checkbox:before{
+table.dataTable td.select-checkbox:before {
   display: none;
 }
 
-table.dataTable tr.selected td.select-checkbox:after{
+table.dataTable tr.selected td.select-checkbox:after {
   display: none;
 }
 
@@ -593,9 +592,8 @@ table.dataTable tr.selected td.select-checkbox:after{
   --------------------------------------------------------------*/
 
 .gj-modal {
-
-  .modal-header{
-    &__icon{
+  .modal-header {
+    &__icon {
       width: 50px;
     }
   }
@@ -606,23 +604,20 @@ table.dataTable tr.selected td.select-checkbox:after{
   }
 }
 
-#modal-recomend{
-
-  .modal-body{
+#modal-recomend {
+  .modal-body {
     max-height: 50vh;
     overflow: auto;
-    .people-cards{
+    .people-cards {
       margin: 0;
       margin-bottom: 0 !important;
       margin-top: 15px !important;
     }
   }
-
 }
 
-.list-modal{
-
-  .modal-dialog{
+.list-modal {
+  .modal-dialog {
     max-width: 80%;
   }
   .modal-content {
@@ -635,5 +630,9 @@ table.dataTable tr.selected td.select-checkbox:after{
 /*--------------------------------------------------------------
   # Table
   --------------------------------------------------------------*/
-  tr:nth-child(even) {background: rgb(233, 233, 233) !important}
-  tr:nth-child(odd) {background: #FFF !important}
+tr:nth-child(even) {
+  background: rgb(233, 233, 233) !important;
+}
+tr:nth-child(odd) {
+  background: #fff !important;
+}

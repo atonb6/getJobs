@@ -1,7 +1,7 @@
 <article class="dashboard__profile mt-5">
     <div class="row">
         <div class="col-md-10">
-            <h1 class="black dashboard__profile__title">Get jobs Express</h1>
+            <h1 class="black dashboard__profile__title">Getjobs Express</h1>
             <form>
                 <h3>Currículum Vitae</h3>
 
@@ -21,35 +21,19 @@
                 <article class="results__info__block">
                     <!-- <h2 class="mt-4">Preguntas</h2> -->
 
-                    <h3 class="mt-4 mb-2">Experiencia laboral</h3>
+                    <h3 class="mt-4 mb-2">Carta de presentación</h3>
                     <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción de tus habilidades y capacidades laborales, así como de tus logros sobresalientes</h6>
 
 
-                    <textarea name="" id="" cols="100%" rows="5"></textarea>
-                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
+                    <textarea name="" id="" cols="100%" rows="5" maxlength="1000"></textarea>
+                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 1000 caracteres.</h6>
                     
-                    <h3 class="mt-4 mb-2">Antecedentes de estudios</h3>
-                    <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción de tus estudios y capacidades que te capaciten para los cargos.</h6>
+                    <h3 class="mt-4 mb-2">¿Cual piensas seria tu aporte que generaría valor a la empresa?</h3>
+                    <h6 class="dashboard__profile__help mt-3 mb-3">Cuentanos que podrías aportar dentro de tus capacidades, forma de trabajo o experiencia.</h6>
 
 
-                    <textarea name="" id="" cols="100%" rows="5"></textarea>
-                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
-
-
-                    <h3 class="mt-4 mb-2">¿Por qué deberíamos contratarte?</h3>
-                    <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción a una pregunta recurrente de los reclutadores.</h6>
-
-
-                    <textarea name="" id="" cols="100%" rows="5"></textarea>
-                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
-
-                    
-                    <h3 class="mt-4 mb-2">Cuéntanos de ti</h3>
-                    <h6 class="dashboard__profile__help mt-3 mb-3">Pequeña descripción que permitirá a los reclutantes conocerte mejor.</h6>
-
-
-                    <textarea name="" id="" cols="100%" rows="5"></textarea>
-                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 300 caracteres.</h6>
+                    <textarea name="" id="" cols="100%" rows="5" maxlength="1000"></textarea>
+                    <h6 class="dashboard__profile__help text-right mb-3">Hasta 1000 caracteres.</h6>
 
                 </article>
 

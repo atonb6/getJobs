@@ -22,8 +22,33 @@
 						</span>Usuario</a>
 				</li>
 
+				<li class="nav-item position-relative">
+					<a class="nav-link alert-notification dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="material-icons">
+					notification_important
+					</span></a>
+					<div class="dropdown-menu alert-menu">
+						<a class="dropdown-item d-flex align-items-center mb-2" href="dash-user-home.php">
+							<img class="notification__img" src="http://placeimg.com/80/80" alt="notificación usuario">
+							<div>
+								<h4><strong>Persona Nombre</strong></h4>
+								<h5>Desea Agregarte como contacto</h5>
+								<h6>Hace 2 Horas</h6>
+							</div>	
+						</a>
+
+						<a class="dropdown-item d-flex align-items-center mb-2" href="dash-user-inbox-message.php">
+							<img class="notification__img" src="http://placeimg.com/80/80" alt="notificación usuario">
+							<div>
+								<h4><strong>Persona Nombre</strong></h4>
+								<h5>Usuario te ha enviado un mensaje</h5>
+								<h6>Hace 2 Horas</h6>
+							</div>	
+						</a>
+					</div>
+				</li>
+
 			<?php else : ?>
-				<li class="nav-item dropdown">
+				<li class="nav-item dropdown-toggle">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Personas</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="login-new-user.php">Nuevo Usuario</a>

@@ -19,22 +19,22 @@
                 </span>
             </div>
             <div class="search-cards__icons mt-2 mb-2 text-right">
-                <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Entrega de Equipo">
+                <span class="material-icons icons-work font-20" data-toggle="tooltip" data-placement="top" title="Entrega de Equipo">
                     computer
                 </span>
-                <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Puedes llevar a tu mascota">
+                <span class="material-icons icons-work  font-20" data-toggle="tooltip" data-placement="top" title="Puedes llevar a tu mascota">
                     pets
                 </span>
-                <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Estacionamiento de bicicletas">
+                <span class="material-icons icons-work  font-20" data-toggle="tooltip" data-placement="top" title="Estacionamiento de bicicletas">
                     directions_bike
                 </span>
-                <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="wifi de alta velocidad">
+                <span class="material-icons icons-work  font-20" data-toggle="tooltip" data-placement="top" title="wifi de alta velocidad">
                     wifi
                 </span>
-                <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Snacks">
+                <span class="material-icons icons-work  font-20" data-toggle="tooltip" data-placement="top" title="Snacks">
                     fastfood
                 </span>
-                <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Trabajo remoto">
+                <span class="material-icons icons-work  font-20" data-toggle="tooltip" data-placement="top" title="Trabajo remoto">
                     work_outline
                 </span>
             </div>
@@ -52,7 +52,7 @@
     <div class="d-flex justify-content-end mt-2">
         <div class="search-cards__date text-right">
             <a href="postulate.php" class="btn btn--skinny btn--blue mr-2">Postular</a>
-            <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GJ Express</a>
+            <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="GetJobs Express">GJ Express</a>
         </div>
     </div>
 
@@ -60,7 +60,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header mx-auto">
-                   <img class="modal-header__icon" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">
+                   <img class="modal-header__icon" src="./dist/img/gjexpress.svg" alt="GetJobs Express">
                 </div>
                 <div class="modal-body">
                     <p class="modal-body__p">

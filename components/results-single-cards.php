@@ -22,7 +22,7 @@
                             <div class="d-flex justify-content-end mt-2">
                                 <div class="search-cards__date text-right">
                                     <a href="postulate.php" class="btn btn--skinny btn--blue mr-2">Postular</a>
-                                    <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">GF Express</a>
+                                    <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="GetJobs Express">GF Express</a>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header mx-auto">
-                    <img class="modal-header__icon" src="./dist/img/gjexpress.svg" alt="Get Jobs Express">
+                    <img class="modal-header__icon" src="./dist/img/gjexpress.svg" alt="GetJobs Express">
                 </div>
                 <div class="modal-body">
                     <p>

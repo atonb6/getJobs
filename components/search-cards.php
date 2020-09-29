@@ -17,22 +17,22 @@
             </span>
         </div>
         <div class="search-cards__icons mt-2 mb-2 text-right">
-            <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Entrega de Equipo">
+            <span class="material-icons icons-work font-20" data-toggle="tooltip" data-placement="top" title="Entrega de Equipo">
                 computer
             </span>
-            <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Puedes llevar a tu mascota">
+            <span class="material-icons icons-work font-20" data-toggle="tooltip" data-placement="top" title="Puedes llevar a tu mascota">
                 pets
             </span>
-            <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Estacionamiento de bicicletas">
+            <span class="material-icons icons-work font-20" data-toggle="tooltip" data-placement="top" title="Estacionamiento de bicicletas">
                 directions_bike
             </span>
-            <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="wifi de alta velocidad">
+            <span class="material-icons icons-work font-20" data-toggle="tooltip" data-placement="top" title="wifi de alta velocidad">
                 wifi
             </span>
-            <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Snacks">
+            <span class="material-icons icons-work font-20" data-toggle="tooltip" data-placement="top" title="Snacks">
                 fastfood
             </span>
-            <span class="material-icons icons-work" data-toggle="tooltip" data-placement="top" title="Trabajo remoto">
+            <span class="material-icons icons-work font-20" data-toggle="tooltip" data-placement="top" title="Trabajo remoto">
                 work_outline
             </span>
         </div>

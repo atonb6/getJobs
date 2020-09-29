@@ -6,7 +6,7 @@
     <form action="">
         <div class="row mt-3 align-items-center">
             <div class="col-md-10">
-                <input class="search__input mr-3 w-100" type="text" placeholder="Buscar mensajes...">
+                <input class="search__input mr-3 w-100" type="text" placeholder="Buscar personas...">
             </div>
             <div class="col-md-2">
                 <button type="submit" class="btn btn--blue  w-100">Buscar</button>
@@ -67,6 +67,61 @@
             </div>
         </div>
     </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col select__icon">
+                    <!-- <label>Sexo</label> -->
+                    <select class="select select--input-filter w-100" name="sexo">
+                        <option value="value1">Sexo</option>
+                        <option value="value2">Masculino</option>
+                        <option value="value2">Femenino</option>
+                        <option value="value2">Otro</option>
+                        <option value="value2">Prefiero no decirlo</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
+
+                <div class="col select__icon">
+                    <!-- <label>Experiencia</label> -->
+                    <select class="select select--input-filter w-100" name="exp">
+                        <option value="value1">Experiencia</option>
+                        <option value="value1">0 - 2 años</option>
+                        <option value="value1">2 - 10 años</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
+                <div class="col select__icon">
+                    <!-- <label>Estudios</label> -->
+                    <select class="select select--input-filter w-100" name="estudios">
+                        <option value="value1">Estudios</option>
+                        <option value="value2">Postgrado</option>
+                        <option value="value2">Universitarios</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
+                <div class="col select__icon">
+                    <!-- <label>Ciudad</label> -->
+                    <select class="select select--input-filter w-100" name="ciudad">
+                        <option value="value1">Ciudad</option>
+                        <option value="value2">Santiago</option>
+                        <option value="value2">Valparaíso</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="row mt-3">
         <div class="col-md-12">

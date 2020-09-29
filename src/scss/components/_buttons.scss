@@ -82,10 +82,19 @@
       .material-icons{
         color: $blue;
       };
+
+      img{
+        transition: $trans;
+        filter: invert(45%) sepia(84%) saturate(1926%) hue-rotate(161deg) brightness(70%) contrast(101%);
+      }
     }
 
     &.checked{
       color: $green;
+
+      img{
+        filter: invert(53%) sepia(129%) saturate(1925%) hue-rotate(105deg) brightness(107%) contrast(86%);
+      }
     }
   }
 

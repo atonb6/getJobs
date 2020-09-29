@@ -3,18 +3,28 @@
         <div class="col-md-10">
             <h1 class="black dashboard__profile__title">Mi Perfil</h1>
 
-            <h3>Foto de Perfil</h3>
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-8">
-                    <input type="file" class="custom-file-input profilepicture mb-3">
-                </div>
-                <div class="col-md-4">
-                    <h6 class="dashboard__profile__help">La foto con la que te veran los demás usuarios y empresas</h6>
-                </div>
-            </div>
-
-
             <form>
+
+                <h3>Foto de Perfil</h3>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-8">
+                        <input type="file" class="custom-file-input profilepicture mb-3">
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">La foto con la que te veran los demás usuarios y empresas</h6>
+                    </div>
+                </div>
+
+                <h3>Foto de Fondo</h3>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-8">
+                        <input type="file" class="custom-file-input profilepicture mb-3">
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">La foto de fondo de tu perfil</h6>
+                    </div>
+                </div>
+
                 <h3>Currículum Vitae</h3>
 
                 <div class="row justify-content-between align-items-center">

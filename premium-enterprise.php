@@ -1,7 +1,7 @@
 <?php include('layout/head.php'); ?>
 <?php include('layout/header.php'); ?>
 <?php 
-$title="Get Jobs Premium Empresa"; 
+$title="GetJobs Premium Empresa"; 
 include('components/results-single-title.php'); 
 ?>
 <?php include('components/login-user.php'); ?>

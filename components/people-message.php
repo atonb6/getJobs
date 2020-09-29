@@ -6,6 +6,6 @@
     </div>
     <div class="col-md-2 text-center">
 
-        <img src="http://placeimg.com/30/30" alt="persona">
+        <a href="dash-user-home.php"><img src="http://placeimg.com/30/30" alt="persona"></a>
     </div>
 </div>
