@@ -108,15 +108,14 @@
     order: [[1, "asc"]],
   });
 
-/*   $("#dashboard__enterprise__published__table__tbl").on( 'click', '#removetable', function () {
+  /*   $("#dashboard__enterprise__published__table__tbl").on( 'click', '#removetable', function () {
     table
         .row( $(this).parents('tr') )
         .remove()
         .draw();
 } ); */
 
-
-/*   $("#dashboard__enterprise__published__table__tbl").on("click",".select_all", function (e) {
+  /*   $("#dashboard__enterprise__published__table__tbl").on("click",".select_all", function (e) {
         table.rows().select();
   }); */
 
@@ -124,8 +123,22 @@
   $(".btn.btn--benefits").on("click", function (e) {
     e.preventDefault();
 
-    $(this).toggleClass('checked');
+    $(this).toggleClass("checked");
   });
 
+  //mobile Menu home change
+  var page = window.location.pathname;
 
+  console.log(page);
+  if ( page == '/' || page == '/index.php' || page == '/getJobs/index.php'){
+    $(".navbar-toggler-icon").on("click", function (e) {
+      e.preventDefault();
+      $(".header").toggleClass("open");
+    });
+  } else {
+    $(".navbar-toggler-icon").on("click", function (e) {
+      e.preventDefault();
+      $(".header").toggleClass("open-intern");
+    });
+  }
 })(jQuery); // End of use strict

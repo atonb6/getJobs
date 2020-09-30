@@ -1,8 +1,68 @@
 .header {
+  transition: $trans;
   &.absolute {
     left: 0;
     right: 0;
     z-index: 1;
+  }
+
+  &.open {
+    transition: $trans;
+    position: relative;
+    background-color: $white;
+    color: #053352;
+
+    .navbar-brand {
+      transition: $trans;
+      filter: invert(75%) sepia(27%) saturate(2600%) hue-rotate(173deg)
+        brightness(97%) contrast(99%);
+    }
+
+    .navbar-toggler-icon {
+      transition: $trans;
+      filter: invert(75%) sepia(27%) saturate(1000%) hue-rotate(-40deg)
+        brightness(115%) contrast(99%);
+    }
+
+    nav .nav-item .nav-link {
+      color: #053352 !important;
+      transition: $trans;
+      font-weight: 600;
+      text-align: center;
+
+      &.maleta {
+        margin-right: 0px !important;
+        &:after {
+          display: none;
+          /*           filter: invert(75%) sepia(27%) saturate(2600%) hue-rotate(173deg)
+            brightness(40%) contrast(99%);
+          right: -25px; */
+        }
+      }
+
+      &:hover {
+        text-shadow: 0 0 0 #fff0, 0 0 0 #fff0;
+      }
+    }
+  }
+
+  &.open-intern {
+    nav .nav-item .nav-link {
+        font-weight: 600;
+      text-align: center;
+
+      &.maleta {
+        margin-right: 0px !important;
+        &:after {
+          display: none;
+        }
+      }
+
+      &:hover {
+        text-shadow: 0 0 0 #fff0, 0 0 0 #fff0;
+      }
+      
+    }
   }
 
   nav {

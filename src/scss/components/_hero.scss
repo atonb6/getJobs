@@ -16,18 +16,28 @@
       width: 30px;
       height: 30px;
       left: 6%;
-      top: 12px;
+      top: 25px;
       position: absolute;
       display: block;
       filter: invert(1);
       filter: brightness(0.6);
+
+      
+      @include media-breakpoint-down(lg){
+        left: 4%;
+      }
+
+      @include media-breakpoint-down(md){
+        left: 2%;
+        top: 15px;
+      }
     }
   }
 
   .chevron {
     position: absolute;
     color: #9d9d9d;
-    top: 50%;
+    top: calc( 50% + 9px );
     transform: translateY(-50%);
     right: 22%;
     pointer-events: none;
@@ -40,6 +50,11 @@
 
     @include media-breakpoint-down(lg){
       right: 25%;
+    }
+
+    @include media-breakpoint-down(md){
+      right: 55%;
+      top: 80%;
     }
   }
 
@@ -130,6 +145,7 @@
       @include media-breakpoint-down(md){
         border-radius: 7px;
         width: 100%;
+        margin-right: 0;
       }
     }
 
@@ -137,6 +153,16 @@
       width: 25%;
       margin-left: -5px;
       margin-right: -5px;
+
+      @include media-breakpoint-down(md){
+        width: 50%;
+      }
+    }
+
+    .btn__submit{
+      @include media-breakpoint-down(md){
+        width: 50%;
+      }
     }
   }
 }

@@ -229,8 +229,12 @@ input {
   width: 2px;
   height: 80%;
   position: absolute;
-  top: 50%;
+  top: calc( 50% + 9px );
   transform: translateY(-50%);
+
+  @include media-breakpoint-down(md){
+    display: none;
+  }
 }
 
 .icons-work {

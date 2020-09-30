@@ -43,14 +43,14 @@
 					<fieldset class="text-center mt-5 search-icon position-relative">
 						<input class="input input--select" type="text" placeholder="Puesto, empresa o palabra clave" results>
 						<span class="line"></span>
-						<select class="select select--input" name="search">
+						<select class="select select--input mt-md-3" name="search">
 							<option value="value1">En todo Chile</option>
 							<option value="value2">Visbiri</option>
 						</select>
 						<span class="material-icons chevron">
 								expand_more
 							</span>
-						<button class="btn__submit" type="submit">Buscar trabajo</button>
+						<button class="btn__submit mt-md-3" type="submit">Buscar trabajo</button>
 					</fieldset>
 				</form>
 			</div>

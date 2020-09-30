@@ -48,7 +48,7 @@
 				</li>
 
 			<?php else : ?>
-				<li class="nav-item dropdown-toggle">
+				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Personas</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="login-new-user.php">Nuevo Usuario</a>

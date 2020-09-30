@@ -5,6 +5,11 @@
     border: 1px solid #38a2ec;
     background-color: #f5f5f5;
     border-radius: 7px;
+
+    @include media-breakpoint-down(md){
+      width: 90%;
+    }
+    
   }
 
   .chevron {
@@ -19,6 +24,11 @@
 
   .btn__submit {
     border-radius: 7px;
+
+    @include media-breakpoint-down(md){
+      margin-top: 20px;
+      width: 100%;
+    }
 
     &:hover {
       color: $white;
