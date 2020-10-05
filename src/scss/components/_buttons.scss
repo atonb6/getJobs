@@ -68,6 +68,7 @@
   }
 
   &--benefits{
+    transition: $trans;
     border: 1px solid $grey;
     padding: 15px;
     .material-icons{
@@ -79,8 +80,10 @@
     }
 
     &:hover{
+      
       .material-icons{
         color: $blue;
+        transition: $trans;
       };
 
       img{
