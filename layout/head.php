@@ -41,8 +41,11 @@
 
 <body>
 
+<?php echo basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']); ?>
 
-  <?php if (basename($_SERVER['SCRIPT_NAME']) == 'index.php' || basename($_SERVER['SCRIPT_NAME']) == "https://www.philippeparis.net/getJobs/") : ?>
+<?php echo basename($_SERVER['SCRIPT_NAME']); ?>
+
+  <?php if (basename($_SERVER['SCRIPT_NAME']) == 'index.php' or basename($_SERVER['SCRIPT_NAME']) == "getJobs" ) : ?>
 
     <header class="header absolute">
       <nav id="details-nav" class="navbar navbar-expand-lg navbar-light">
