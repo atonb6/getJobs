@@ -42,7 +42,7 @@
 <body>
 
 
-  <?php if (basename($_SERVER['SCRIPT_NAME']) == 'index.php' || basename($_SERVER['SCRIPT_NAME']) == "/") : ?>
+  <?php if (basename($_SERVER['SCRIPT_NAME']) == 'index.php' || basename($_SERVER['SCRIPT_NAME']) == "https://www.philippeparis.net/getJobs/") : ?>
 
     <header class="header absolute">
       <nav id="details-nav" class="navbar navbar-expand-lg navbar-light">
