@@ -37,13 +37,13 @@
                 <label class="dashboard__profile__label mt-2">Inicio de contratación</label></br>
                 <input class="w-100" type="text" id="contract" name="contract" placeholder="Inmediato, Una semana, Un mes">
 
-                <label class="dashboard__profile__label mt-2">Salario Bruto</label><span class="end">*</span></br>
+                <label class="dashboard__profile__label mt-2">Salario Bruto<span class="end">*</span></label></br>
                 <input class="w-100" type="text" id="salary" name="salary" placeholder="$600.000">
                 <div class="mt-3">
                     <input type="checkbox" id="public" name="public" value="public"><label for="public">¿Desea hacer público el salario?</label>
                 </div>
 
-                <label class="dashboard__profile__label mt-2">Rango salarial Líquido</label><span class="end">*</span></br>
+                <label class="dashboard__profile__label mt-2">Rango salarial Líquido<span class="end">*</span></label></br>
                     <div class="position-relative">
                         <select class="w-100 mt-2" required>
                             <option>[min-max]</option>
