@@ -88,7 +88,7 @@
                                     account_circle
                                 </span></h3>
                             <h3><strong>Sueldo Promedio Candidatos: </strong>$600.000</h3>
-                            <h3><strong>Cantida de preguntas: </strong>0</h3>
+                            <h3><strong>Cantidad de preguntas: </strong>0</h3>
 
                             <label class="dashboard__profile__label mt-3">Ordenar Por</label></br>
                                 <div class="position-relative">
