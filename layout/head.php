@@ -42,7 +42,7 @@
 <body>
 
 
-  <?php if (basename($_SERVER['SCRIPT_NAME']) == 'index.php') : ?>
+  <?php if (basename($_SERVER['SCRIPT_NAME']) == 'index.php' || basename($_SERVER['SCRIPT_NAME']) == " ") : ?>
 
     <header class="header absolute">
       <nav id="details-nav" class="navbar navbar-expand-lg navbar-light">
