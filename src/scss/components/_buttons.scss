@@ -43,11 +43,16 @@
   }
 
   &--linkedin {
+    width: 100%;
     background-color: #0077b5;
     color: $white;
+    @include media-breakpoint-down(sm){
+      margin-top: 15px;
+    }
   }
 
   &--google {
+    width: 100%;
     border: solid 1px #e0e0e0;
     background-color: #ffffff;
     color: #aaaaaa;

@@ -1,7 +1,7 @@
 <section class="login login--new">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-lg-8">
                 <form action="dash-user-home.php">
                     <div class="card login__card">
                         <h1 class="login__card__title">Crear Usuario</h1>

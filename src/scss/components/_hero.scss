@@ -22,6 +22,9 @@
       filter: invert(1);
       filter: brightness(0.6);
 
+      @include media-breakpoint-down(xl){
+        left: 7%;
+      }
       
       @include media-breakpoint-down(lg){
         left: 4%;

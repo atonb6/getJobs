@@ -508,12 +508,14 @@ ul.breadcrumb {
 input[type="checkbox"] {
   + {
     label {
-      display: block;
       margin: 0.2em;
       display: flex;
       align-items: center;
       cursor: pointer;
       padding: 0.2em;
+      @include media-breakpoint-down(sm){
+        display: block;
+      }
       &:before {
         content: "\2714";
         border: 0.1em solid #000;
