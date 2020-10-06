@@ -41,11 +41,19 @@
 
 <body>
 
-<?php echo basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']); ?>
+<?php //$basenameString = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']); 
+//$basenameString = preg_replace('/\s+/', '', $basenameString);
+//echo $basenameString;
+?>
 
-<?php echo basename($_SERVER['SCRIPT_NAME']); ?>
+<?php $basenameNormal = basename($_SERVER['SCRIPT_NAME']); 
+//$basenameNormal = preg_replace('/\s+/', '', $basenameNormal);
+//echo $basenameNormal
+?>
 
-  <?php if (basename($_SERVER['SCRIPT_NAME']) == 'index.php' or basename($_SERVER['SCRIPT_NAME']) == "getJobs" ) : ?>
+
+
+  <?php if ($basenameNormal == 'index.php') : ?>
 
     <header class="header absolute">
       <nav id="details-nav" class="navbar navbar-expand-lg navbar-light">
