@@ -21,7 +21,7 @@
                 <input class="w-100" type="text" id="duration" name="duration" placeholder="Plazo fijo, indefinido, Por Proyecto">
 
                 <div class="mt-3">
-                    <input type="checkbox" id="gjexp" name="gjexp" value="gjexp"><label for="gjexp">¿Desea que pueda postular con GetJob Express?<span data-toggle="tooltip" data-placement="top" title="" data-original-title="Permite al interesado hacer una postulación rápida con preguntas básicas" class="material-icons">
+                    <input type="checkbox" id="gjexp" name="gjexp" value="gjexp"><label for="gjexp">¿Desea que pueda postular con GetJobs Express?<span data-toggle="tooltip" data-placement="top" title="" data-original-title="Permite al interesado hacer una postulación rápida con preguntas básicas" class="material-icons">
                             help
                         </span></label>
                 </div>
