@@ -12,10 +12,9 @@
 
 
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		<ul class="navbar-nav ml-auto ">
-
+		
 			<?php if (isset($login)) : ?>
-
+			<ul class="navbar-nav ml-auto logged">
 				<li class="nav-item">
 					<a class="nav-link mr-2 maleta d-flex align-items-center" href="dash-user-profile.php"><span class="mr-2 material-icons">
 							account_circle
@@ -48,6 +47,7 @@
 				</li>
 
 			<?php else : ?>
+			<ul class="navbar-nav ml-auto ">
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Personas</a>
 					<div class="dropdown-menu">

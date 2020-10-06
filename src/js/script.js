@@ -141,4 +141,13 @@
       $(".header").toggleClass("open-intern");
     });
   }
+
+  //Menu arrow
+
+  $(".menu-arrow").on("click", function(e){
+    e.preventDefault();
+    $(".move").toggleClass('move-in');
+    $(".menu-arrow .material-icons").toggleClass('rotate');
+
+  })
 })(jQuery); // End of use strict
