@@ -80,7 +80,7 @@
                                 </span>
                                 <span class="material-icons icon-SeguroVida font-20" data-toggle="tooltip" data-placement="top" title="Seguro de vida"></span>
                                 <span class="material-icons icon-Vestimenta font-20" data-toggle="tooltip" data-placement="top" title="Vestimenta informal"></span>
-                                <span class="material-icons icon-CajaCompensacion font-20" data-toggle="tooltip" data-placement="top" title="Caja de compensación"></span>
+                                <span class="material-icons icon-CajaCompensacion font-20" data-toggle="tooltip" data-placement="top" title="Caja de Compensación"></span>
                                 <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Vacaciones extra">
                                     beach_access
                                 </span>
@@ -91,7 +91,7 @@
                                 <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día libre por tu cumpleaños">
                                     cake
                                 </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día administrativo">
+                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Días administrativos">
                                     event
                                 </span>
                                 <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Capacitaciones">
@@ -178,7 +178,7 @@
                                 </span>
                                 <span class="material-icons icon-SeguroVida font-20" data-toggle="tooltip" data-placement="top" title="Seguro de vida"></span>
                                 <span class="material-icons icon-Vestimenta font-20" data-toggle="tooltip" data-placement="top" title="Vestimenta informal"></span>
-                                <span class="material-icons icon-CajaCompensacion font-20" data-toggle="tooltip" data-placement="top" title="Caja de compensación"></span>
+                                <span class="material-icons icon-CajaCompensacion font-20" data-toggle="tooltip" data-placement="top" title="Caja de Compensación"></span>
                                 <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Vacaciones extra">
                                     beach_access
                                 </span>
@@ -189,6 +189,9 @@
                                 <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día libre por tu cumpleaños">
                                     cake
                                 </span>
+                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Estacionamiento">
+                    directions_car
+                </span>
                             </div>
                             <div class="search-cards__money text-lg-right">
                                 <span>$1.000.000

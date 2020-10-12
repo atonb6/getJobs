@@ -28,6 +28,11 @@
         </div>
         <div class="row align-items-center profile-home__information">
             <div class="col-md-12">
+
+                <h2 class="profile-home__work">Sobre mí</h2>
+                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat autem quod dolorem tenetur adipisci corporis natus sit aspernatur! Veniam culpa consequatur, minus similique corrupti molestiae sunt magni laborum labore aliquam.
+                </p>
+
                 <h2 class="profile-home__work">Educación</h2>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat autem quod dolorem tenetur adipisci corporis natus sit aspernatur! Veniam culpa consequatur, minus similique corrupti molestiae sunt magni laborum labore aliquam.
                 </p>
@@ -35,6 +40,7 @@
                 <h2 class="profile-home__work">Experiencia</h2>
                 <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat autem quod dolorem tenetur adipisci corporis natus sit aspernatur! Veniam culpa consequatur, minus similique corrupti molestiae sunt magni laborum labore aliquam.
                 </p>
+                
             </div>
     </section>
 

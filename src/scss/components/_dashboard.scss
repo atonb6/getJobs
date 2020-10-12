@@ -80,6 +80,10 @@
   }
 
   &__profile {
+
+    &__radio{
+      width: auto !important;
+    }
     &__label {
       font-size: 1.125rem;
       font-weight: bold;

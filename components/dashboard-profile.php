@@ -192,23 +192,23 @@
 
                         <label class="dashboard__profile__label">Género</label><span class="end">*</span></br>
                         
-                        <div class="d-flex">
-                        <div class="ml-2">
-                            <input type="radio" name="gender" id="male" value="male">
+                        <div class="d-flex justify-content-between">
+                        <div>
+                            <input class="dashboard__profile__radio" type="radio" name="gender" id="male" value="male">
                             <label class="form-check-label ml-2" for="male">Hombre</label>
                         </div>
-                        <div class="ml-2">
-                        <input class="ml-2" type="radio" id="female" name="gender" value="female">
+                        <div>
+                        <input class="dashboard__profile__radio" type="radio" id="female" name="gender" value="female">
                             <label class="form-check-label ml-2" for="female">Mujer</label></br>
                         </div>
 
-                        <div class="ml-2">
-                        <input class="ml-2" type="radio" id="other" name="gender" value="other">
+                        <div>
+                        <input class="dashboard__profile__radio" type="radio" id="other" name="gender" value="other">
                             <label class="form-check-label ml-2" for="other">Otro</label>
                         </div>
 
-                        <div class="ml-2">
-                        <input class="ml-2" type="radio" id="hide" name="gender" value="hide">
+                        <div>
+                        <input class="dashboard__profile__radio" type="radio" id="hide" name="gender" value="hide">
                             <label class="form-check-label ml-2" for="hide">Prefiero no decir</label>
                         </div>
 
@@ -339,6 +339,16 @@
 
                 <div class="row justify-content-between align-items-center mb-3">
                     <div class="col-md-8">
+                        <label class="dashboard__profile__label">Sobre tí</label></br>
+                        <textarea class="w-100"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">Escribe un breve resumen sobre tí.</h6>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
                         <label class="dashboard__profile__label">Años de Experiencia</label></br>
                         <div class="position-relative">
                             <select class="w-100" required>
@@ -407,11 +417,11 @@
 
                         <label class="dashboard__profile__label">Compartir CV en Internet</label><span class="end">*</span></br>
                         <div class="d-flex align-items-center">
-                            <input class="ml-2" type="radio" name="selection" id="yes" value="yes">
+                            <input class="ml-2 dashboard__profile__radio" type="radio" name="selection" id="yes" value="yes">
                             <label class="form-check-label ml-2" for="yes">
                                 Sí
                             </label>
-                            <input class="ml-2" type="radio" id="no" name="selection" value="no">
+                            <input class="ml-2 dashboard__profile__radio" type="radio" id="no" name="selection" value="no">
                             <label class="form-check-label ml-2" for="no">No</label></br>
                         </div>
                         <h6 class="dashboard__profile__help mt-3">Seleccionando Sí, tu CV queda público en Internet.</h6>
@@ -421,11 +431,11 @@
 
                         <label class="dashboard__profile__label">Datos Anónimos a Empleadores</label><span class="end">*</span></br>
                         <div class="d-flex align-items-center">
-                            <input class="ml-2" type="radio" name="selection" id="yes" value="yes">
+                            <input class="ml-2 dashboard__profile__radio" type="radio" name="selection" id="yes" value="yes">
                             <label class="form-check-label ml-2" for="yes">
                                 Si
                             </label>
-                            <input class="ml-2" type="radio" id="no" name="selection" value="no">
+                            <input class="ml-2 dashboard__profile__radio" type="radio" id="no" name="selection" value="no">
                             <label class="form-check-label ml-2" for="no">No</label></br>
                         </div>
                         <h6 class="dashboard__profile__help mt-3">Seleccionando Sí, datos de contacto serán mostrados solo si usted lo aprueba</h6>

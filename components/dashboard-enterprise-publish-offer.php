@@ -354,7 +354,7 @@
             <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icon-CajaCompensacion"></span> </div>
-                <p>Caja de compensación</p>
+                <p>Caja de Compensación</p>
             </div>
             <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
@@ -417,7 +417,7 @@
                         event
                     </span>
                 </div>
-                <p>Día administrativo</p>
+                <p>Días administrativos</p>
             </div>
             <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
@@ -427,9 +427,15 @@
                 </div>
                 <p>Capacitaciones</p>
             </div>
+            <div class="col-md-4 col-sm-3 col-6">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons">
+                    directions_car
+                    </span>
+                </div>
+                <p>Estacionamiento</p>
+            </div>
         </div>
-
-
 
         <div class="row mt-3">
             <div class="col-md-12">
