@@ -140,7 +140,7 @@
                     <tbody>
                         <?php for ($i = 1; $i <= 4; $i++) : ?>
                         <tr>
-                            <td><img src="http://placeimg.com/600/600" alt="profile__picture"></td>
+                            <td><img src="https://placeimg.com/600/600" alt="profile__picture"></td>
                             <td class="text-center"><a class="btn btn--blue" href="dash-enterprise-cv.php">Ver<span
                                         class="ml-3 material-icons ml-1">
                                         visibility

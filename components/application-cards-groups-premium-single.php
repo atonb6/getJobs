@@ -11,7 +11,7 @@
             <div class="mt-4 mb-4 card groups__card">
 
                 <div class="d-flex align-items-center groups__card__header">
-                    <img class="people-cards__img" src="http://placeimg.com/80/80" alt="persona">
+                    <img class="people-cards__img" src="https://placeimg.com/80/80" alt="persona">
                     <div class="ml-3">
                         <h4><strong>Empresa en la que trabaja</strong></h4>
                         <h3 class="mt-2 mb-2"><strong>Nombre</strong></h3>
@@ -33,7 +33,7 @@
                                 <li>Tres</li>
                             </ul>
                         </div>
-                        <img class="w-50" src="http://placeimg.com/1200/1200" alt="logo trabajo">
+                        <img class="w-50" src="https://placeimg.com/1200/1200" alt="logo trabajo">
                     </div>
                     <p class="text-center mt-3">Interesados enviar cv con espectativas de renta a test@usuarios.cl</p>
                 </div>
@@ -66,7 +66,7 @@
             <div class="mt-4 mb-4 card groups__card groups__card--simple">
 
                 <div class="d-flex align-items-center groups__card__header">
-                    <img class="people-cards__img" src="http://placeimg.com/80/80" alt="persona">
+                    <img class="people-cards__img" src="https://placeimg.com/80/80" alt="persona">
                     <div class="ml-3">
                         <h4><strong>Empresa en la que trabaja</strong></h4>
                         <h3 class="mt-2 mb-2"><strong>Nombre</strong></h3>

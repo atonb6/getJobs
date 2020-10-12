@@ -6,6 +6,6 @@
     </div>
     <div class="col-md-2 text-center">
 
-        <img src="http://placeimg.com/30/30" alt="persona">
+        <img src="https://placeimg.com/30/30" alt="persona">
     </div>
 </div>

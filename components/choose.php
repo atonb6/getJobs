@@ -24,7 +24,7 @@
                 <h3>Social proof nombre empresa.</h3>
             </div>
 
-            <img class="mx-auto" src="http://placeimg.com/1440/400" alt="Office">
+            <img class="mx-auto" src="https://placeimg.com/1440/400" alt="Office">
         </div>
     </div>
 

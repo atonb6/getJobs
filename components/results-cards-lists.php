@@ -14,7 +14,7 @@
 
             <div class="col-md-2 mt-4">
                 <a class="banner__vert" href="#">
-                    <img src="http://placeimg.com/120/800" alt="banner">
+                    <img src="https://placeimg.com/120/800" alt="banner">
                 </a>
             </div>
         </div>

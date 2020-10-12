@@ -17,7 +17,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="d-flex justify-content-between">
-                            <img src="http://placeimg.com/600/600" alt="Foto de perfil">
+                            <img src="https://placeimg.com/600/600" alt="Foto de perfil">
                             <div class="d-flex">
                                 <ul>
                                     <li class="nav-item dropdown">

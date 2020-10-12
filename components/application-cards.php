@@ -2,7 +2,7 @@
 
     <div class="d-lg-flex justify-content-between align-items-center">
         <div class="col-lg-6 col-12 px-lg-0 d-flex align-items-center">
-            <img class="search-cards__img" src="http://placeimg.com/80/80" alt="logo trabajo">
+            <img class="search-cards__img" src="https://placeimg.com/80/80" alt="logo trabajo">
             <div class="ml-3">
                 <h4><strong>Nombre empresa</strong></h4>
                 <h3 class="mt-2 mb-2"><strong>Título de cargo</strong> <span class="yellow material-icons">

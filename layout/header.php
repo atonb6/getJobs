@@ -27,7 +27,7 @@
 					</span></a>
 					<div class="dropdown-menu alert-menu">
 						<a class="dropdown-item d-flex align-items-center mb-2" href="dash-user-home.php">
-							<img class="notification__img" src="http://placeimg.com/80/80" alt="notificación usuario">
+							<img class="notification__img" src="https://placeimg.com/80/80" alt="notificación usuario">
 							<div>
 								<h4><strong>Persona Nombre</strong></h4>
 								<h5>Desea Agregarte como contacto</h5>
@@ -36,7 +36,7 @@
 						</a>
 
 						<a class="dropdown-item d-flex align-items-center mb-2" href="dash-user-inbox-message.php">
-							<img class="notification__img" src="http://placeimg.com/80/80" alt="notificación usuario">
+							<img class="notification__img" src="https://placeimg.com/80/80" alt="notificación usuario">
 							<div>
 								<h4><strong>Persona Nombre</strong></h4>
 								<h5>Usuario te ha enviado un mensaje</h5>

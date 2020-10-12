@@ -1,7 +1,7 @@
 <a href="#" data-toggle="modal" data-target="#modal" class="w-100 mt-4 mb-4 search-cards">
     <div class="d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
-            <img class="search-cards__img" src="http://placeimg.com/80/80" alt="logo trabajo">
+            <img class="search-cards__img" src="https://placeimg.com/80/80" alt="logo trabajo">
             <div class="ml-3">
                 <h4><strong>Listado</strong></h4>
                 <h3 class="mt-2 mb-2"><strong>N°12</strong></h3>

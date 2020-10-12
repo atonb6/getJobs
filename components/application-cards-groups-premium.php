@@ -2,7 +2,7 @@
 
     <div class="d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
-            <img class="search-cards__img" src="http://placeimg.com/80/80" alt="logo trabajo">
+            <img class="search-cards__img" src="https://placeimg.com/80/80" alt="logo trabajo">
             <div class="ml-3">
                 <h3 class="mt-2 mb-2"><strong>Ventas</strong></h3>
                 <h4>Santiago - Chile</h4>
