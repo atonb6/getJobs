@@ -5,10 +5,17 @@
     position: relative;
     width: 100%;
 
+    @include media-breakpoint-down(sm){
+      height: 250px;
+    }
+
     img {
       object-fit: cover;
       width: 100%;
       opacity: 0.4;
+      @include media-breakpoint-down(sm){
+        height: 250px;
+      }
     }
 
     &:before {
@@ -35,6 +42,16 @@
         font-size: 1rem;
         font-weight: 500;
         color: #ffffff;
+      }
+
+      @include media-breakpoint-down(sm){
+      
+        h2{
+          font-size: 1.5rem;
+        }
+        h3{
+          font-size: 1rem;
+        }
       }
     }
   }

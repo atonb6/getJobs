@@ -1,8 +1,8 @@
-<section class="plans pb-5">
+<section class="plans">
     <div class="container">
         <div class="row">
             <?php for ($i = 1; $i <= 3; $i++) : ?>
-                <div class="col-md-4">
+                <div class="col-lg-4 mt-5 mb-5 ">
                     <div class="card plans__card">
                         <div class="plans__card__header text-center">
                             <div class="plans__card__header__circle mx-auto position-relative">

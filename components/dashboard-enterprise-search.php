@@ -17,7 +17,7 @@
     <div class="row mt-3">
         <div class="col-md-12">
             <div class="row">
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Sexo</label> -->
                     <select class="select select--input-filter w-100" name="industria">
                         <option value="value1">Industria</option>
@@ -30,7 +30,7 @@
                     </span>
                 </div>
 
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Experiencia</label> -->
                     <select class="select select--input-filter w-100" name="area">
                         <option value="value1">Área</option>
@@ -41,7 +41,7 @@
                         expand_more
                     </span>
                 </div>
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Estudios</label> -->
                     <select class="select select--input-filter w-100" name="nivelcargo">
                         <option value="value1">Nivel de Cargo</option>
@@ -51,7 +51,7 @@
                         expand_more
                     </span>
                 </div>
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Ciudad</label> -->
                     <select class="select select--input-filter w-100" name="region">
                         <option value="value1">Región</option>
@@ -71,7 +71,7 @@
     <div class="row mt-3">
         <div class="col-md-12">
             <div class="row">
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Sexo</label> -->
                     <select class="select select--input-filter w-100" name="sexo">
                         <option value="value1">Sexo</option>
@@ -85,7 +85,7 @@
                     </span>
                 </div>
 
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Experiencia</label> -->
                     <select class="select select--input-filter w-100" name="exp">
                         <option value="value1">Experiencia</option>
@@ -96,7 +96,7 @@
                         expand_more
                     </span>
                 </div>
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Estudios</label> -->
                     <select class="select select--input-filter w-100" name="estudios">
                         <option value="value1">Estudios</option>
@@ -107,7 +107,7 @@
                         expand_more
                     </span>
                 </div>
-                <div class="col select__icon">
+                <div class="col-lg-3 col-md-6 col-sm-12 select__icon">
                     <!-- <label>Ciudad</label> -->
                     <select class="select select--input-filter w-100" name="ciudad">
                         <option value="value1">Ciudad</option>

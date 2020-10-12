@@ -1,4 +1,9 @@
 .dashboard {
+
+  table.dataTable {
+    width: 100% !important;
+  }
+
   &__menu {
 
     @include media-breakpoint-down(sm){
@@ -261,6 +266,10 @@
           display: flex;
           align-items: center;
 
+          @include media-breakpoint-down(sm){
+            display: block;
+          }
+
           h5 {
             margin-bottom: 0;
           }
@@ -454,11 +463,17 @@
       .chevron {
         right: 10%;
       }
+
+      .select{
+          @include media-breakpoint-down(md){
+            margin-top: 15px;
+          }
+      }
     }
 
     &__plan {
       .plans {
-        margin-top: 90px;
+        margin-top: 40px;
       }
     }
   }

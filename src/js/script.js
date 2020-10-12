@@ -77,6 +77,7 @@
   //Datatables Init
 
   var table = $("#dashboard__enterprise__published__table__tbl").DataTable({
+    responsive: true,
     language: {
       lengthMenu: "Mostrar _MENU_ registros por página",
       zeroRecords: "No existe nada - disculpa",

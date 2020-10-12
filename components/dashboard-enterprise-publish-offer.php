@@ -273,7 +273,7 @@
         </div>
 
         <div class="row mt-3 justify-content-center text-center">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icons-work">
                         computer
@@ -281,7 +281,7 @@
                 </div>
                 <p>La empresa entrega equipo de trabajo</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icons-work">
                         pets
@@ -289,7 +289,7 @@
                 </div>
                 <p>Se puede ir con mascotas</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icons-work">
                         directions_bike
@@ -297,7 +297,7 @@
                 </div>
                 <p>Estacionamiento de bicicletas</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icons-work">
                         wifi
@@ -305,7 +305,7 @@
                 </div>
                 <p>Wifi de alta velocidad y libre</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icons-work">
                         fastfood
@@ -313,7 +313,7 @@
                 </div>
                 <p>Snacks y café grátis</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icons-work">
                         public
@@ -321,7 +321,7 @@
                 </div>
                 <p>Trabajo 100% Remoto</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icons-work">
                         work_outline
@@ -329,13 +329,13 @@
                 </div>
                 <p>Trabajo Remoto Opcional</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icon-Uniforme"></span>
                 </div>
                 <p>Uniforme</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         local_dining
@@ -343,7 +343,7 @@
                 </div>
                 <p>Casino</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         local_hospital
@@ -351,12 +351,12 @@
                 </div>
                 <p>Mutual de Seguridad</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icon-CajaCompensacion"></span> </div>
                 <p>Caja de compensación</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         healing
@@ -364,7 +364,7 @@
                 </div>
                 <p>Seguro de salud</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         directions_bus
@@ -372,17 +372,17 @@
                 </div>
                 <p>Bus de acercamiento</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icon-SeguroVida"></span> </div>
                 <p>Seguro de vida</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icon-Vestimenta"></span> </div>
                 <p>Vestimenta informal</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         beach_access
@@ -390,7 +390,7 @@
                 </div>
                 <p>Vacaciones Extra</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         watch
@@ -398,12 +398,12 @@
                 </div>
                 <p>Horario Flexible</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons icon-Dentista"></span> </div>
                 <p>Seguro dental</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         cake
@@ -411,7 +411,7 @@
                 </div>
                 <p>Día de cumpleaños libre</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         event
@@ -419,7 +419,7 @@
                 </div>
                 <p>Día administrativo</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3 col-6">
                 <div class="btn btn--benefits mb-2">
                     <span class="material-icons">
                         school

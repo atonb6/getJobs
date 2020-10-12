@@ -484,6 +484,12 @@ input {
   width: 83%;
 }
 
+.w-md-100{
+  @include media-breakpoint-down(md){
+    width: 100%;
+  }
+}
+
 .maleta {
   position: relative;
   margin-right: 25px !important;
