@@ -9,7 +9,7 @@
             <li><a href="#">Políticas de privacidad</a></li>
             <li><a href="#">Términos y condiciones</a></li>
             <li><a href="#">Mapa del sitio</a></li>
-            <li><a href="mailto:contacto@getjobs.cl">Contactanos</a></li>
+            <li><a href="mailto:contacto@getjobs.cl">Contáctanos</a></li>
           </ul>
         </div>
       </div>
