@@ -156,4 +156,28 @@
     $(".menu-arrow .material-icons").toggleClass('rotate');
 
   })
+
+
+  //Menu Fixed
+
+$(window).scroll(function () {
+    if($("#menu").hasClass('open')){
+    }else{
+        if ($(window).width() < 992) {
+            if ($(window).scrollTop() >= 49) {
+              $('.header').addClass('header--fixed');
+            } else {
+              $('.header').removeClass('header--fixed');;
+            }
+          } else {
+            if ($(window).scrollTop() >= 300) {
+              $('.header').addClass('header--fixed');
+            } else {
+              $('.header').removeClass('header--fixed');
+            }
+          }
+    }
+    });
+
+
 })(jQuery); // End of use strict
