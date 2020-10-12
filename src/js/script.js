@@ -1,6 +1,12 @@
 (function ($) {
   "use strict"; // Start of use strict
 
+  //LOADER
+
+  $(window).on('load', function(){
+    $('.loader').fadeOut("slow");
+  });
+
   $('[data-toggle="tooltip"]').tooltip({
     container: "body",
   });

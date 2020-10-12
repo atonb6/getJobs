@@ -52,14 +52,17 @@
 ?>
 
 
-
+<div class="loader">
+<img src="./dist/img/logo-blue.svg"/>
+<div class="loader__fill"></div>
+</div>
   <?php if ($basenameNormal == 'index.php') : ?>
 
     <header class="header absolute">
       <nav id="details-nav" class="navbar navbar-expand-lg navbar-light">
 
       <?php else : ?>
-        <header class="header">
+        <header class="header ">
           <nav id="details-nav" class="navbar navbar-expand-lg navbar-light navbar-blue">
 
           <?php endif ?>
