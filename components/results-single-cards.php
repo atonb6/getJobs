@@ -22,7 +22,7 @@
                             <div class="d-flex justify-content-end mt-2">
                                 <div class="search-cards__date text-right">
                                     <a href="postulate.php" class="btn btn--skinny btn--blue mr-2">Postular</a>
-                                    <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="GetJobs Express">GF Express</a>
+                                    <a href="#" data-toggle="modal" data-target="#modal" class="btn btn--skinny btn--green"><img class="gjexpress__icon mr-2" src="./dist/img/gjexpress.svg" alt="GetJobs Express">GJ Express</a>
                                 </div>
                             </div>
                         </div>
