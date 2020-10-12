@@ -91,6 +91,7 @@
       border: solid 1px #aaaaaa;
       background-color: #f9f9f9;
       padding: 5px;
+      width: 100%;
     }
 
     select {
@@ -483,5 +484,11 @@
       margin-top: 40px;
     }
     
+  }
+
+  .search__input{
+    @include media-breakpoint-down(md){
+      margin-bottom: 15px;
+    }
   }
 }

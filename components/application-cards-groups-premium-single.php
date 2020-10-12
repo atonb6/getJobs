@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-lg-7">
             <div class="mt-4 mb-4 card groups__card">
 
                 <div class="d-flex align-items-center groups__card__header">
@@ -45,15 +45,15 @@
                                         comment
                                     </span></a>
                     </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-2">Recomendar</a>
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-2">Compartir a:</a>
+                    <div class="d-flex align-items-center groups__card__footer__btns">
+                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Recomendar</a>
+                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Compartir a:</a>
                         <a href="postulate.php" class="btn btn--skinny btn--green">Postular</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5">
             <?php for ($i = 1; $i <= 5; $i++) : ?>
                 <?php include('components/people-cards.php') ?>
             <?php endfor ?>
@@ -62,7 +62,7 @@
 
     <hr>
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-lg-7">
             <div class="mt-4 mb-4 card groups__card groups__card--simple">
 
                 <div class="d-flex align-items-center groups__card__header">
@@ -85,15 +85,15 @@
                                         comment
                                     </span></a>
                     </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-2">Recomendar</a>
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-2">Compartir a:</a>
+                    <div class="d-flex align-items-center groups__card__footer__btns">
+                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Recomendar</a>
+                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Compartir a:</a>
                         <a href="postulate.php" class="btn btn--skinny btn--green">Postular</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5">
             <?php for ($i = 1; $i <= 5; $i++) : ?>
                 <?php include('components/people-cards.php') ?>
             <?php endfor ?>

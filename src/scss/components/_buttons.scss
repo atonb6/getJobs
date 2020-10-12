@@ -36,9 +36,7 @@
     background-color: $blue;
     color: $white;
     padding: 8px;
-    @include media-breakpoint-down(lg){
-      margin-top: 10px;
-    }
+
     @include media-breakpoint-down(md){
       width: 100%;
     }
