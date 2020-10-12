@@ -1,5 +1,5 @@
 <?php include('layout/head.php'); ?>
-<?php $login = "user";
+<?php $login = "enterprise";
 include('layout/header.php'); 
 ?>
 <article class="d-sm-block d-md-none">

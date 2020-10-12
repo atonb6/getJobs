@@ -66,6 +66,12 @@
                 <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día libre por tu cumpleaños">
                     cake
                 </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día administrativo">
+                    event
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Capacitaciones">
+                    school
+                </span>
             </div>
             <div class="search-cards__money text-lg-right">
                 <span>$1.000.000

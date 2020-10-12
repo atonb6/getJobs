@@ -13,8 +13,18 @@
 
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		
-			<?php if (isset($login)) : ?>
-			<ul class="navbar-nav ml-auto logged">
+	<?php if(isset($login)) : ?>
+			<?php if($login == "user"): ?>
+				<ul class="navbar-nav ml-auto logged">
+				<li class="nav-item">
+					<a class="nav-link mr-2" href="index.php">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link mr-2" href="results-user.php">Buscar Ofertas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link mr-2" href="lists-user.php">Listados</a>
+				</li>
 				<li class="nav-item">
 					<a class="nav-link mr-2 maleta d-flex align-items-center" href="dash-user-profile.php"><span class="mr-2 material-icons">
 							account_circle
@@ -46,7 +56,47 @@
 					</div>
 				</li>
 
-			<?php else : ?>
+		
+			<?php elseif ($login == "enterprise"): ?>
+
+				<ul class="navbar-nav ml-auto logged">
+				<li class="nav-item">
+					<a class="nav-link mr-2" href="index.php">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link mr-2 maleta d-flex align-items-center" href="dash-user-profile.php"><span class="mr-2 material-icons">
+							account_circle
+						</span>Empresa</a>
+				</li>
+
+				<li class="nav-item position-relative">
+					<a class="nav-link alert-notification dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="material-icons">
+					notification_important
+					</span></a>
+					<div class="dropdown-menu alert-menu">
+						<a class="dropdown-item d-flex align-items-center mb-2" href="dash-user-home.php">
+							<img class="notification__img" src="https://placeimg.com/80/80" alt="notificación usuario">
+							<div>
+								<h4><strong>Persona Nombre</strong></h4>
+								<h5>Postuló a oferta</h5>
+								<h6>Hace 2 Horas</h6>
+							</div>	
+						</a>
+
+						<a class="dropdown-item d-flex align-items-center mb-2" href="dash-user-inbox-message.php">
+							<img class="notification__img" src="https://placeimg.com/80/80" alt="notificación usuario">
+							<div>
+								<h4><strong>Persona Nombre</strong></h4>
+								<h5>Postuló a oferta</h5>
+								<h6>Hace 2 Horas</h6>
+							</div>	
+						</a>
+					</div>
+				</li>
+
+			
+			<?php endif ?>
+	<?php else: ?>		
 			<ul class="navbar-nav ml-auto ">
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Personas</a>
@@ -78,9 +128,7 @@
 					<a class="nav-link mr-2" href="groups.php">Grupo</a>
 				</li>
 
-			<?php endif ?>
-
-
+	<?php endif ?>
 		</ul>
 	</div>
 

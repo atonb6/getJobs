@@ -8,7 +8,7 @@
                 <h3>Foto de Perfil</h3>
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-8">
-                        <input type="file" class="custom-file-input profilepicture mb-3">
+                        <input type="file" class="d-flex custom-file-input profilepicture mb-3">
                     </div>
                     <div class="col-md-4">
                         <h6 class="dashboard__profile__help">La foto con la que te veran los demás usuarios y empresas</h6>
@@ -18,7 +18,7 @@
                 <h3>Foto de Fondo</h3>
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-8">
-                        <input type="file" class="custom-file-input profilepicture mb-3">
+                        <input type="file" class="d-flex custom-file-input profilepicture mb-3">
                     </div>
                     <div class="col-md-4">
                         <h6 class="dashboard__profile__help">La foto de fondo de tu perfil</h6>
@@ -29,7 +29,7 @@
 
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-8">
-                        <input type="file" class="custom-file-input mb-3">
+                        <input type="file" class="d-flex custom-file-input mb-3">
                         <a href="#">Descarga tu Currículum</a>
                     </div>
 
@@ -187,23 +187,36 @@
                     </div>
                 </div>
 
-                <div class="row justify-content-between align-items-center mb-3">
+                <div class="row align-items-center mb-3">
                     <div class="col-md-8">
 
                         <label class="dashboard__profile__label">Género</label><span class="end">*</span></br>
-                        <div class="d-flex align-items-center">
-                            <input class="ml-2" type="radio" name="gender" id="male" value="male">
-                            <label class="form-check-label ml-2" for="male">
-                                Hombre
-                            </label>
-                            <input class="ml-2" type="radio" id="female" name="gender" value="female">
+                        
+                        <div class="d-flex">
+                        <div class="ml-2">
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label class="form-check-label ml-2" for="male">Hombre</label>
+                        </div>
+                        <div class="ml-2">
+                        <input class="ml-2" type="radio" id="female" name="gender" value="female">
                             <label class="form-check-label ml-2" for="female">Mujer</label></br>
-                            <input class="ml-2" type="radio" id="other" name="gender" value="other">
+                        </div>
+
+                        <div class="ml-2">
+                        <input class="ml-2" type="radio" id="other" name="gender" value="other">
                             <label class="form-check-label ml-2" for="other">Otro</label>
-                            <input class="ml-2" type="radio" id="hide" name="gender" value="hide">
+                        </div>
+
+                        <div class="ml-2">
+                        <input class="ml-2" type="radio" id="hide" name="gender" value="hide">
                             <label class="form-check-label ml-2" for="hide">Prefiero no decir</label>
                         </div>
+
+                        </div>
+
                     </div>
+
+
                     <div class="col-md-4">
                         <h6 class="dashboard__profile__help"></h6>
                     </div>
@@ -290,6 +303,16 @@
                     </div>
                     <div class="col-md-4">
                         <h6 class="dashboard__profile__help">El nombre que verán las empresas al ver tu solicitud de empleo de GetJobs.</h6>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center mb-3">
+                    <div class="col-md-8">
+                        <label class="dashboard__profile__label">Educación</label></br>
+                        <textarea class="w-100"></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="dashboard__profile__help">Breve Resumen educativo.</h6>
                     </div>
                 </div>
 

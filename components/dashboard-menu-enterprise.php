@@ -3,6 +3,7 @@
     <img class="mt-2 mb-2 dashboard__menu__img" src="https://placeimg.com/400/400" alt="Foto de Perfil">
     <ul class="dashboard__menu__list">
         <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-home.php">Inicio</a></li>
+        <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-profile.php">Perfil</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-publish-offer.php">Publicar Oferta</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-published.php">Oferta Publicadas</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-saved.php">Mis Cv's Guardados</a></li>

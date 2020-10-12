@@ -21,54 +21,60 @@
                 </span>
             </div>
             <div class="search-cards__icons mt-2 mb-2 text-lg-right">
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="La empresa entrega equipo de trabajo">
-                                    computer
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Se puede ir con mascotas">
-                                    pets
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Estacionamiento de bicicletas">
-                                    directions_bike
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Wifi de alta velocidad y libre">
-                                    wifi
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Snacks y café grátis">
-                                    fastfood
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Trabajo remoto opcional">
-                                    work_outline
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Trabajo 100% remoto">
-                                    public
-                                </span>
-                                <span class="material-icons icon-Uniforme font-20" data-toggle="tooltip" data-placement="top" title="Se exige uniforme"></span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Casino">
-                                    local_dining
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Mutual de Seguridad">
-                                    local_hospital
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Seguro de Salud">
-                                    healing
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Bus de acercamiento">
-                                    directions_bus
-                                </span>
-                                <span class="material-icons icon-SeguroVida font-20" data-toggle="tooltip" data-placement="top" title="Seguro de vida"></span>
-                                <span class="material-icons icon-Vestimenta font-20" data-toggle="tooltip" data-placement="top" title="Vestimenta informal"></span>
-                                <span class="material-icons icon-CajaCompensacion font-20" data-toggle="tooltip" data-placement="top" title="Caja de compensación"></span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Vacaciones extra">
-                                    beach_access
-                                </span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Horario Flexible">
-                                    watch
-                                </span>
-                                <span class="material-icons icon-Dentista font-20" data-toggle="tooltip" data-placement="top" title="Seguro dental"></span>
-                                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día libre por tu cumpleaños">
-                                    cake
-                                </span>
-                            </div>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="La empresa entrega equipo de trabajo">
+                    computer
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Se puede ir con mascotas">
+                    pets
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Estacionamiento de bicicletas">
+                    directions_bike
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Wifi de alta velocidad y libre">
+                    wifi
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Snacks y café grátis">
+                    fastfood
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Trabajo remoto opcional">
+                    work_outline
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Trabajo 100% remoto">
+                    public
+                </span>
+                <span class="material-icons icon-Uniforme font-20" data-toggle="tooltip" data-placement="top" title="Se exige uniforme"></span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Casino">
+                    local_dining
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Mutual de Seguridad">
+                    local_hospital
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Seguro de Salud">
+                    healing
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Bus de acercamiento">
+                    directions_bus
+                </span>
+                <span class="material-icons icon-SeguroVida font-20" data-toggle="tooltip" data-placement="top" title="Seguro de vida"></span>
+                <span class="material-icons icon-Vestimenta font-20" data-toggle="tooltip" data-placement="top" title="Vestimenta informal"></span>
+                <span class="material-icons icon-CajaCompensacion font-20" data-toggle="tooltip" data-placement="top" title="Caja de compensación"></span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Vacaciones extra">
+                    beach_access
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Horario Flexible">
+                    watch
+                </span>
+                <span class="material-icons icon-Dentista font-20" data-toggle="tooltip" data-placement="top" title="Seguro dental"></span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día libre por tu cumpleaños">
+                    cake
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Día administrativo">
+                    event
+                </span>
+                <span class="material-icons font-20" data-toggle="tooltip" data-placement="top" title="Capacitaciones">
+                    school
+                </span>
+            </div>
             <div class="search-cards__money text-lg-right">
                 <span>$1.000.000
                 </span>

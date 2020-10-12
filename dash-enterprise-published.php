@@ -1,5 +1,6 @@
-<?php include('layout/head.php'); ?>
-<?php include('layout/header.php'); ?>
+<?php $login = "enterprise";
+include('layout/header.php'); 
+?>
 
 <article class="d-sm-block d-md-none">
     <div class="menu-arrow position-fixed">

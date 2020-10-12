@@ -44,24 +44,24 @@
                 </div>
 
                 <label class="dashboard__profile__label mt-2">Rango salarial Líquido<span class="end">*</span></label></br>
-                    <div class="position-relative">
-                        <select class="w-100 mt-2" required>
-                            <option>[min-max]</option>
-                            <option>0-$350.000</option>
-                            <option>$350.000 - $500.000</option>
-                            <option>$500.000 - $700.000</option>
-                            <option>$700.000 - $1.000.000</option>
-                            <option>$1.000.000 - $1.500.000</option>
-                            <option>$1.200.000 - $2.000.000</option>
-                            <option>$2.000.000 - $3.000.000</option>
-                            <option>$3.000.000 - $5.000.000</option>
-                            <option>Más de $5.000.000</option>
-                        </select>
-                        <span class="material-icons chevron">
-                            expand_more
-                        </span>
-                    </div>
-                    <h6>Recuerde que los usuarios Premium tienen acceso a saber si se encuentran dentro del rango salarial, pero no a saber la renta ofrecida.</h6>
+                <div class="position-relative">
+                    <select class="w-100 mt-2" required>
+                        <option>[min-max]</option>
+                        <option>0-$350.000</option>
+                        <option>$350.000 - $500.000</option>
+                        <option>$500.000 - $700.000</option>
+                        <option>$700.000 - $1.000.000</option>
+                        <option>$1.000.000 - $1.500.000</option>
+                        <option>$1.200.000 - $2.000.000</option>
+                        <option>$2.000.000 - $3.000.000</option>
+                        <option>$3.000.000 - $5.000.000</option>
+                        <option>Más de $5.000.000</option>
+                    </select>
+                    <span class="material-icons chevron">
+                        expand_more
+                    </span>
+                </div>
+                <h6>Recuerde que los usuarios Premium tienen acceso a saber si se encuentran dentro del rango salarial, pero no a saber la renta ofrecida.</h6>
 
 
             </div>
@@ -410,6 +410,22 @@
                     </span>
                 </div>
                 <p>Día de cumpleaños libre</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons">
+                        event
+                    </span>
+                </div>
+                <p>Día administrativo</p>
+            </div>
+            <div class="col-md-4">
+                <div class="btn btn--benefits mb-2">
+                    <span class="material-icons">
+                        school
+                    </span>
+                </div>
+                <p>Capacitaciones</p>
             </div>
         </div>
 

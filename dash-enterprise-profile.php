@@ -14,10 +14,10 @@ include('layout/header.php');
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-md-3 dashboard__menu move">
-            <?php include('components/dashboard-menu.php'); ?>
+            <?php include('components/dashboard-menu-enterprise.php'); ?>
             </div>
             <div class="col-lg-10 col-md-9">
-            <?php include('components/dashboard-profile.php'); ?>
+            <?php include('components/dashboard-enterprise-profile.php'); ?>
             </div>
         </div>
     </div>

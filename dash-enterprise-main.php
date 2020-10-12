@@ -1,5 +1,7 @@
 <?php include('layout/head.php'); ?>
-<?php include('layout/header.php'); ?>
+<?php $login = "enterprise";
+include('layout/header.php'); 
+?>
 
 <article class="d-sm-block d-md-none">
     <div class="menu-arrow position-fixed">
@@ -12,10 +14,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-md-3 dashboard__menu move">
-            <?php include('components/dashboard-menu.php'); ?>
+            <?php include('components/dashboard-menu-enterprise.php'); ?>
             </div>
             <div class="col-lg-10 col-md-9">
-            <?php include('components/dashboard-profile.php'); ?>
+            <?php include('components/dashboard-enterprise-home.php'); ?>
             </div>
         </div>
     </div>
