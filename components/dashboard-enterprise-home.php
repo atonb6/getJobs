@@ -10,7 +10,7 @@
                         <h3 class="white">0</h3>
                     </div>
                 </div>
-                <div class="card dashboard__enterprise__home__card__footer">
+                <div class="dashboard__enterprise__home__card__footer">
                     <a class="d-flex align-items-center justify-content-center" href="dash-enterprise-published.php">Ver detalles<span class="ml-3 material-icons">
                             forward
                         </span></a>
