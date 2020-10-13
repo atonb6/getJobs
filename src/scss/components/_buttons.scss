@@ -37,6 +37,10 @@
     color: $white;
     padding: 8px;
 
+    @include media-breakpoint-down(lg){
+      margin-top: 10px;
+    }
+
     @include media-breakpoint-down(md){
       width: 100%;
     }
@@ -126,6 +130,10 @@
       border: 1px solid $blue;
       border-radius: 7px;
       padding: 11px 20px;
+
+      @include media-breakpoint-down(lg){
+        margin-top: 10px;
+      }
 
       &:hover{
         border: 1px solid transparent;

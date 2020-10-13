@@ -1,6 +1,8 @@
 <?php include('layout/head.php'); ?>
 <?php include('layout/header.php'); ?>
-<?php $title="GetJobs Premium"; 
+<?php 
+$title="GetJobs Premium"; 
+$class="Class";
 include('components/results-single-title.php'); 
 ?>
 <?php //include('components/login-user.php'); ?>

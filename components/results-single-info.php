@@ -1,7 +1,7 @@
 <section class="results__info">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-lg-8">
 
                 <hr>
                 <?php for ($i = 1; $i <= 2; $i++) : ?>
@@ -35,7 +35,7 @@
 
 
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <?php for ($i = 1; $i <= 5; $i++) : ?>
                     <?php include('components/people-cards.php') ?>
                 <?php endfor ?>

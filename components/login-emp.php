@@ -5,7 +5,7 @@
                 <form action="dash-enterprise-home.php">
                     <div class="card login__card">
                         <h1 class="login__card__title">Inicia sesión</h1>
-                        <h5 class="login__card__subtitle">Ingresa tus datos para continuar.</h5>
+                        <h5 class="login__card__subtitle">Ingrese sus datos para continuar.</h5>
 
                         <fieldset class="login__card__fieldset d-flex flex-column text-center mx-auto mt-3">
 
@@ -20,15 +20,15 @@
 
                         <div class="row align-items-center justify-content-center mt-2">
                             <div class="col-md-5">
-                                <a href="#" class="btn btn--google mr-3 d-flex align-items-center"><img class="btn__logo mr-2" src="dist/img/logo-g.svg">Ingresa con Google</a>
+                                <a href="#" class="btn btn--google mr-3 d-flex align-items-center"><img class="btn__logo mr-2" src="dist/img/logo-g.svg">Ingrese con Google</a>
 
                             </div>
                             <div class="col-md-5">
-                                <a href="#" class="btn btn--linkedin d-flex align-items-center"><img class="btn__logo mr-2" src="dist/img/logo-l.svg">Ingresa con LinkedIn</a>
+                                <a href="#" class="btn btn--linkedin d-flex align-items-center"><img class="btn__logo mr-2" src="dist/img/logo-l.svg">Ingrese con LinkedIn</a>
 
                             </div>
                         </div>
-                        <span class="mt-4 text-center login__card__disclaimer-txt">¿Aún no tienes una cuenta? <a href="login-new-enterprise.php">Regístrate aquí</a></span>
+                        <span class="mt-4 text-center login__card__disclaimer-txt">¿Aún no tiene una cuenta? <a href="login-new-enterprise.php">Regístrate aquí</a></span>
                     </div>
                 </form>
             </div>

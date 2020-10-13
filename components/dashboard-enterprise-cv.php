@@ -41,11 +41,19 @@
                             <h2>Datos Generales</h2>
                             <ul class="w-80">
                                 <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Estado:</strong><span> Nombre Nombre Nombre</span></li>
-                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Nombre:</strong><span>wefqwefsdfdsfsfdwqfqwefeqwfqwefwqe</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Nombre:</strong><span>Albert</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Apellido:</strong><span>Camus</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Rut:</strong><span>10.456.251-8</span></li>
                                 <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Género:</strong><span>Nombre</span></li>
                                 <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Teléfono:</strong><span>Nombre</span></li>
                                 <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Fecha Nacimiento:</strong><span>Nombre</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Email:</strong><span>test@test.cl</span></li>
                                 <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Edad:</strong><span>Nombre</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>País:</strong><span>Nombre</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Ciudad:</strong><span>Nombre</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Comuna:</strong><span>Nombre</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Dirección:</strong><span>Nombre</span></li>
+                                <li class="d-flex justify-content-between dashboard__enterprise__cv__data__list__item"><strong>Linkedin:</strong><span>Nombre</span></li>
                             </ul>
                         </div>
                     </div>
