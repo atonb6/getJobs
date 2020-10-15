@@ -55,6 +55,9 @@
 						</a>
 					</div>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#contact">Contáctenos</a>
+				</li>
 
 		
 			<?php elseif ($login == "enterprise"): ?>

@@ -670,7 +670,7 @@ table.dataTable tr.selected td.select-checkbox:after {
     color: $white;
     background-color: transparent;
 
-    &.active{
+    &.active {
       color: $blue;
       background-color: $white;
     }
@@ -696,6 +696,17 @@ table.dataTable tr.selected td.select-checkbox:after {
     margin-bottom: 0 !important;
     margin-top: 5px !important;
     padding: 0;
+  }
+
+  .dashboard__profile {
+    &__label {
+      color: $white;
+      font-weight: normal;
+    }
+  }
+
+  .chevron {
+    color: #423e3e;
   }
 }
 
