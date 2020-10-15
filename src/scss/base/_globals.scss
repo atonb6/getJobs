@@ -7,7 +7,7 @@ html {
   overflow-x: hidden;
   margin: 0 auto;
 
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     font-size: 15px;
   }
 
@@ -47,8 +47,6 @@ ol {
     }
   }
 }
-
-
 
 a {
   transition: $trans;
@@ -291,14 +289,14 @@ textarea {
   top: 8%;
   z-index: 4;
 
-  .material-icons{
+  .material-icons {
     color: $green;
     font-size: 2.5rem;
     background-color: $white;
     border-radius: 50%;
     transition: $trans;
 
-    &.rotate{
+    &.rotate {
       transition: $trans;
       transform: rotate(180deg);
     }
@@ -486,8 +484,8 @@ input {
   width: 83%;
 }
 
-.w-md-100{
-  @include media-breakpoint-down(md){
+.w-md-100 {
+  @include media-breakpoint-down(md) {
     width: 100%;
   }
 }
@@ -641,17 +639,15 @@ table.dataTable tr.selected td.select-checkbox:after {
   padding: 1.5rem 20px !important;
 }
 
-.navbar-nav.logged{
+.navbar-nav.logged {
+  @include media-breakpoint-down(sm) {
+    flex-direction: row;
+    justify-content: flex-end;
 
-  @include media-breakpoint-down(sm){
-     flex-direction: row;
-     justify-content: flex-end;
-
-     .dropdown-menu{
-       position: absolute;
-     }
+    .dropdown-menu {
+      position: absolute;
+    }
   }
- 
 }
 
 /*--------------------------------------------------------------
@@ -669,6 +665,16 @@ table.dataTable tr.selected td.select-checkbox:after {
     background-color: $green;
     padding: 20px 50px;
   }
+
+  .nav-tabs .nav-link {
+    color: $white;
+    background-color: transparent;
+
+    &.active{
+      color: $blue;
+      background-color: $white;
+    }
+  }
 }
 
 #modal-recomend {
@@ -679,7 +685,17 @@ table.dataTable tr.selected td.select-checkbox:after {
       margin: 0;
       margin-bottom: 0 !important;
       margin-top: 15px !important;
+      padding: 0;
     }
+  }
+}
+
+.modal-body {
+  .people-cards {
+    margin: 0;
+    margin-bottom: 0 !important;
+    margin-top: 5px !important;
+    padding: 0;
   }
 }
 
