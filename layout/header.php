@@ -14,6 +14,7 @@
 	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		
 	<?php if(isset($login)) : ?>
+		
 			<?php if($login == "user"): ?>
 				<ul class="navbar-nav ml-auto logged">
 				<li class="nav-item">
