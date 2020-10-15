@@ -16,9 +16,9 @@
           <ul class="d-flex flex-row flex-sm-column flex-md-row justify-content-md-end social-links mt-3 mt-sm-0">
             <li class="ml-sm-3"><a href="#" target="_blank"><span class="icon-facebook2"></span></a></li>
             <li class="ml-3"><a href="#" target="_blank"><span class="icon-instagram"></span></a></li>
-            <li class="ml-3"><a href="#" target="_blank"><span class="icon-whatsapp"></span></a></li>
+<!--             <li class="ml-3"><a href="#" target="_blank"><span class="icon-whatsapp"></span></a></li> -->
             <li class="ml-3"><a href="#" target="_blank"><span class="icon-twitter"></span></a></li>
-            <li class="ml-3"><a href="#" target="_blank"><span class="icon-youtube"></span></a></li>
+   <!--          <li class="ml-3"><a href="#" target="_blank"><span class="icon-youtube"></span></a></li> -->
           </ul>
         </div>
       </div>
