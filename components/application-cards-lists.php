@@ -12,7 +12,7 @@
 </a>
 
 <div class="list-modal modal fade text-center" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header mx-auto">
                 <h2>Listado N°123 </h2><br />

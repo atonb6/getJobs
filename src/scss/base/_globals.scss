@@ -713,6 +713,10 @@ table.dataTable tr.selected td.select-checkbox:after {
 .list-modal {
   .modal-dialog {
     max-width: 80%;
+
+    @include media-breakpoint-down(sm){
+      max-width: 100%;
+    }
   }
   .modal-content {
     background-color: #ffffff;
