@@ -18,7 +18,7 @@
                 <h3>Foto de Fondo</h3>
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-8">
-                        <input type="file" class="d-flex custom-file-input profilepicture mb-3">
+                        <input type="file" class="d-flex custom-file-input bgpicture mb-3">
                     </div>
                     <div class="col-md-4">
                         <h6 class="dashboard__profile__help">La foto de fondo de tu perfil</h6>

@@ -27,7 +27,7 @@
 					<a class="nav-link mr-2" href="lists-user.php">Listados</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mr-2 maleta d-flex align-items-center" href="dash-user-profile.php"><span class="mr-2 material-icons">
+					<a class="nav-link mr-2 maleta d-flex justify-content-center align-items-center" href="dash-user-profile.php"><span class="mr-2 material-icons">
 							account_circle
 						</span>Usuario</a>
 				</li>
@@ -68,7 +68,7 @@
 					<a class="nav-link mr-2" href="index.php">Inicio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mr-2 maleta d-flex align-items-center" href="dash-user-profile.php"><span class="mr-2 material-icons">
+					<a class="nav-link mr-2 maleta d-flex justify-content-center align-items-center" href="dash-user-profile.php"><span class="mr-2 material-icons">
 							account_circle
 						</span>Empresa</a>
 				</li>

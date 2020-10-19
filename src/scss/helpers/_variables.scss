@@ -58,9 +58,11 @@ $yellow: #eedf57;
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    position: absolute;
-    right: 8px;
-    border: 1px solid $white;
+    vertical-align: top;
+    /* position: absolute; */
+    /* left: 8px; */
+    margin-right: 10px;
+    border: 1px solid #fff;
   }
 }
 

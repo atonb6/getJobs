@@ -320,6 +320,13 @@ textarea {
     }
   }
 
+  &.bgpicture {
+    &::before {
+      content: "Cambia tu foto de fondo";
+    }
+  }
+
+
   &::-webkit-file-upload-button {
     visibility: hidden;
   }

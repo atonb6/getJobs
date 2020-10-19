@@ -2,7 +2,7 @@
     <?php include('components/breadcrumb.php') ?>
     <h1 class="dashboard__profile__title black">Título</h1>
     <div class="row">
-        <div class="col-lg-3 col-md-6 col-6">
+        <div class="col-lg-3 col-md-6 col-6 dashboard__enterprise__home__card__wrap">
             <div class="mt-4 mb-4 card dashboard__enterprise__home__card bg-green sameheight dashboard__enterprise__home__card--ofer">
                 <div class="d-flex align-items-center dashboard__enterprise__home__card__body">
                     <div>
@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-6">
+        <div class="col-lg-3 col-md-6 col-6 dashboard__enterprise__home__card__wrap">
             <div class="mt-4 mb-4 card dashboard__enterprise__home__card bg-blue sameheight dashboard__enterprise__home__card--post">
                 <div class="d-flex align-items-center dashboard__enterprise__home__card__body">
                     <div>
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-6">
+        <div class="col-lg-3 col-md-6 col-6 dashboard__enterprise__home__card__wrap">
             <div class="mt-4 mb-4 card dashboard__enterprise__home__card bg-darkgray sameheight dashboard__enterprise__home__card--vis">
                 <div class="d-flex align-items-center dashboard__enterprise__home__card__body">
                     <div>
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-6">
+        <div class="col-lg-3 col-md-6 col-6 dashboard__enterprise__home__card__wrap">
             <div class="mt-4 mb-4 card dashboard__enterprise__home__card bg-red sameheight dashboard__enterprise__home__card--conex">
                 <div class="d-flex align-items-center dashboard__enterprise__home__card__body">
                     <div>

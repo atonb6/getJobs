@@ -132,6 +132,11 @@
     &__title {
       font-size: 2.5rem;
       @include media-breakpoint-down(sm){
+       
+      }
+
+      @media only screen and (device-width : 896px) and (device-height : 414px) and (-webkit-device-pixel-ratio : 2)
+      {
         font-size: 2rem;
       }
     }
@@ -156,6 +161,19 @@
           height: 130px;
         }
 
+        &__wrap{
+          &:nth-child(2){
+            @include media-breakpoint-down(sm){
+              order: 3;
+            }
+          }
+          &:nth-child(4){
+            @include media-breakpoint-down(sm){
+              order: 4;
+            }
+          }
+        }
+
 
         &--ofer {
           &:after {
@@ -169,7 +187,7 @@
             background-repeat: no-repeat;
             transform: translateY(-50%);
             width: 50px;
-            opacity: 0.5;
+            opacity: 0.2;
             height: 50px;
           }
         }
@@ -186,7 +204,7 @@
             background-repeat: no-repeat;
             transform: translateY(-50%);
             width: 50px;
-            opacity: 0.5;
+            opacity: 0.2;
             height: 50px;
           }
         }
@@ -203,7 +221,7 @@
             background-repeat: no-repeat;
             transform: translateY(-50%);
             width: 50px;
-            opacity: 0.5;
+            opacity: 0.2;
             height: 50px;
           }
         }
@@ -220,7 +238,7 @@
             background-repeat: no-repeat;
             transform: translateY(-50%);
             width: 50px;
-            opacity: 0.5;
+            opacity: 0.2;
             height: 50px;
           }
         }
@@ -317,6 +335,11 @@
     &__applicants {
       &__info {
         &__box {
+
+          @include media-breakpoint-down(sm){
+            margin-top: 15px;
+          }
+
           h2 {
             font-size: 1.5rem;
             font-weight: 600;
@@ -331,6 +354,17 @@
           a {
             font-size: 0.8rem;
             font-weight: 600;
+          }
+        }
+
+        .btn--blue{
+          @include media-breakpoint-down(sm){
+            margin-right: 15px;
+          }
+          
+          @media only screen and (device-width : 896px) and (device-height : 414px) and (-webkit-device-pixel-ratio : 2)
+          {
+            margin-right: 15px;
           }
         }
       }
@@ -396,6 +430,9 @@
           padding: 5px;
           transform: translateX(15%);
           width: 200px;
+          @include media-breakpoint-down(md){
+            width: 180px;
+          }
         }
 
         .dashboard__enterprise__detail__data {
@@ -500,3 +537,8 @@
     }
   }
 }
+
+
+input[type='file'] { 
+  color: transparent; 
+} 

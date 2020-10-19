@@ -28,7 +28,7 @@
                     <textarea name="" id="" cols="100%" rows="5" maxlength="1000"></textarea>
                     <h6 class="dashboard__profile__help text-right mb-3">Hasta 1000 caracteres.</h6>
                     
-                    <h3 class="mt-4 mb-2">¿Cual piensas seria tu aporte que generaría valor a la empresa?</h3>
+                    <h3 class="mt-4 mb-2">¿Cuál piensas seria tu aporte que generaría valor a la empresa?</h3>
                     <h6 class="dashboard__profile__help mt-3 mb-3">Cuentanos que podrías aportar dentro de tus capacidades, forma de trabajo o experiencia.</h6>
 
 

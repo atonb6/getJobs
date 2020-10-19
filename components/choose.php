@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <?php for ($i = 1; $i <= 4; $i++) : ?>
-                <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 text-center">
                     <img class="w-25 mb-4" src="./dist/img/favicon/android-icon-192x192.png" alt="Get Jobs">
                     <p class="text-center">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.

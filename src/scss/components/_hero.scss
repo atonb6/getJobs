@@ -82,6 +82,11 @@
 
   &__forms {
     top: 40%;
+
+    @media only screen and (device-width : 896px) and (device-height : 414px) and (-webkit-device-pixel-ratio : 2)
+    {
+      top: 58%;
+    }
   }
 
   &__logo {

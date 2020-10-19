@@ -4,10 +4,17 @@
     <div class="row">
         <div class="col-md-12">
             <div class="dashboard__enterprise__cv__btns d-flex justify-content-between mb-5 mt-3">
-                <a class="btn btn--blue" href="#">No cumple requisitos. Descartar</a>
-                <a class="btn btn--blue" href="#">Enviar Mensaje al candidato</a>
-                <a class="btn btn--blue" href="#">Comentarios (0)</a>
-                <a class="btn btn--blue" href="dash-enterprise-detail-offer.php">Ver Perfil</a>
+                <div class="row">
+                    <div class="col">
+                        <a class="btn btn--blue sameheight" href="#">No cumple requisitos. Descartar</a>
+                    </div>
+                    <div class="col"><a class="btn btn--blue sameheight" href="#">Enviar Mensaje al candidato</a>
+                    </div>
+                    <div class="col"><a class="btn btn--blue sameheight" href="#">Comentarios (0)</a>
+                    </div>
+                    <div class="col"><a class="btn btn--blue sameheight" href="dash-enterprise-detail-offer.php">Ver Perfil</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -15,12 +22,12 @@
         <div class="col-md-12">
             <div class="dashboard__enterprise__cv__data">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class="d-flex justify-content-between">
                             <img src="https://placeimg.com/600/600" alt="Foto de perfil">
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <ul>
-                                    <li class="nav-item dropdown">
+                                    <li class="ml-1 nav-item dropdown">
                                         <a class="nav-link dropdown-toggle btn btn--green btn--skinny" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acción</a>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="#">Preseleccionar</a>
@@ -31,7 +38,7 @@
                                     </li>
                                 </ul>
                                 <div>
-                                    <a class="ml-3 btn btn--green btn--skinny" href="#">Volver</a>
+                                    <a class="ml-1 ml-md-3 btn btn--green btn--skinny" href="#">Volver</a>
                                 </div>
 
                             </div>
@@ -57,14 +64,14 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <div class="d-flex justify-content-between">
-                            <a href="#" class="btn btn--green d-flex align-items-center btn--skinny">
+                            <a href="#" class="mr-2 btn btn--green d-flex align-items-center btn--skinny">
                                 <span class="material-icons mr-2">
                                     chevron_left
                                 </span>Anterior
                             </a>
-                            <a href="#" class="btn btn--green d-flex align-items-center btn--skinny">
+                            <a href="#" class="ml-2 btn btn--green d-flex align-items-center btn--skinny">
                                 Siguiente<span class="ml-2 material-icons">
                                     chevron_right
                                 </span>
