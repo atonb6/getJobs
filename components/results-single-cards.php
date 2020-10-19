@@ -35,7 +35,7 @@
                     <a href="#" data-toggle="modal" data-target="#modal-recomend" class="btn w-100 btn--green mt-4 w-50 d-flex align-items-center"><span class="material-icons mr-2">
                             send
                         </span>Recomendar</a>
-                    <a href="#" class="btn w-100 btn--green mt-2 w-50 d-flex align-items-center"><span class="material-icons mr-2">
+                    <a href="#" data-toggle="modal" data-target="#modal-share" class="btn w-100 btn--green mt-2 w-50 d-flex align-items-center"><span class="material-icons mr-2">
                             reply
                         </span>Compartir a</a>
                     <div class="share__branch">
@@ -112,7 +112,26 @@
                 </div>
                 <div class="modal-body">
                     <?php for ($i = 0; $i <= 10; $i++) : ?>
-                        <a href="#"><?php include('components/people-cards.php') ?></a>
+                        <a href="#"><?php include('components/people-cards-simple.php') ?></a>
+                    <?php endfor; ?>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn--skinny btn--green border-white" data-dismiss="modal">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gj-modal modal fade text-center" id="modal-share" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="mt-2">
+                    <h2 class="white">Compartir a </h2><br />
+                    <input class="search__input mr-3 w-100" type="text" placeholder="Buscar contactos...">
+                </div>
+                <div class="modal-body">
+                    <?php for ($i = 0; $i <= 10; $i++) : ?>
+                        <a href="#"><?php include('components/people-cards-simple.php') ?></a>
                     <?php endfor; ?>
                 </div>
                 <div class="modal-footer mx-auto">

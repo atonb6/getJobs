@@ -46,8 +46,8 @@
                                     </span></a>
                     </div>
                     <div class="d-flex align-items-center groups__card__footer__btns">
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Recomendar</a>
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Compartir a:</a>
+                        <a href="#" data-toggle="modal" data-target="#modal-recomend" class="btn btn--skinny btn--green mr-lg-2">Recomendar</a>
+                        <a href="#" data-toggle="modal" data-target="#modal-share" class="btn btn--skinny btn--green mr-lg-2">Compartir a:</a>
                         <a href="postulate.php" class="btn btn--skinny btn--green">Postular</a>
                     </div>
                 </div>
@@ -86,8 +86,8 @@
                                     </span></a>
                     </div>
                     <div class="d-flex align-items-center groups__card__footer__btns">
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Recomendar</a>
-                        <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green mr-lg-2">Compartir a:</a>
+                    <a href="#" data-toggle="modal" data-target="#modal-recomend" class="btn btn--skinny btn--green mr-lg-2">Recomendar</a>
+                        <a href="#" data-toggle="modal" data-target="#modal-share" class="btn btn--skinny btn--green mr-lg-2">Compartir a:</a>
                         <a href="postulate.php" class="btn btn--skinny btn--green">Postular</a>
                     </div>
                 </div>
@@ -98,5 +98,43 @@
                 <?php include('components/people-cards.php') ?>
             <?php endfor ?>
         </div>
+
+        <div class="gj-modal modal fade text-center" id="modal-recomend" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="mt-2">
+                    <h2 class="white">Recomendar a </h2><br />
+                    <input class="search__input mr-3 w-100" type="text" placeholder="Buscar contactos...">
+                </div>
+                <div class="modal-body">
+                    <?php for ($i = 0; $i <= 10; $i++) : ?>
+                        <a href="#"><?php include('components/people-cards-simple.php') ?></a>
+                    <?php endfor; ?>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn--skinny btn--green border-white" data-dismiss="modal">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gj-modal modal fade text-center" id="modal-share" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="mt-2">
+                    <h2 class="white">Compartir a </h2><br />
+                    <input class="search__input mr-3 w-100" type="text" placeholder="Buscar contactos...">
+                </div>
+                <div class="modal-body">
+                    <?php for ($i = 0; $i <= 10; $i++) : ?>
+                        <a href="#"><?php include('components/people-cards-simple.php') ?></a>
+                    <?php endfor; ?>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn--skinny btn--green border-white" data-dismiss="modal">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </section>

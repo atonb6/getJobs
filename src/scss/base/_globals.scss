@@ -690,6 +690,19 @@ table.dataTable tr.selected td.select-checkbox:after {
   }
 }
 
+#modal-share {
+  .modal-body {
+    max-height: 50vh;
+    overflow: auto;
+    .people-cards {
+      margin: 0;
+      margin-bottom: 0 !important;
+      margin-top: 15px !important;
+      padding: 0;
+    }
+  }
+}
+
 .modal-body {
   .people-cards {
     margin: 0;
