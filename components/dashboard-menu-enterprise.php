@@ -10,7 +10,7 @@
         <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-search.php">Buscador de Talentos</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-plan.php">Contratar Plan Online</a></li>
         <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-inbox.php">Inbox</a></li>
-
+        <li class="dashboard__menu__list__item py-3"><a href="dash-enterprise-contacts.php">Contactos</a></li>
         <li class="dashboard__menu__list__item py-3 dashboard__menu__list__item--enterprise"><a href="index.php">Cerrar sesión</a></li>
     </ul>
 </div>
