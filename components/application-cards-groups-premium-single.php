@@ -51,6 +51,8 @@
                         <a href="postulate.php" class="btn btn--skinny btn--green">Postular</a>
                     </div>
                 </div>
+
+                <a class="mt-2 d-flex justify-content-end denunciar" href="#"><span>Denunciar Publicación</span></a>
             </div>
         </div>
         <div class="col-lg-5">
@@ -91,6 +93,7 @@
                         <a href="postulate.php" class="btn btn--skinny btn--green">Postular</a>
                     </div>
                 </div>
+                <a class="mt-2 d-flex justify-content-end denunciar" href="#"><span>Denunciar Publicación</span></a>
             </div>
         </div>
         <div class="col-lg-5">

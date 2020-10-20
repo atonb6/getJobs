@@ -30,7 +30,11 @@
     </div>
     <div class="d-flex justify-content-end mt-2">
         <div class="search-cards__date text-right">
+            <?php if($user!="enterprise"): ?>
             <a href="dash-user-interest-single.php" class="btn btn--skinny btn--green">Unirte</a>
+            <?php else: ?>
+            <a href="dash-enterprise-interest-single.php" class="btn btn--skinny btn--green">Ingresar</a>
+            <?php endif ?>
         </div>
     </div>
 </div>
