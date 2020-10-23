@@ -1,7 +1,7 @@
 <article class="dashboard__profile mt-5">
     <div class="row">
         <div class="col-md-10">
-            <h1 class="black dashboard__profile__title">Perifl Empresa</h1>
+            <h1 class="black dashboard__profile__title">Perfil Empresa</h1>
 
             <form>
 
